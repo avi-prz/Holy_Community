@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="">
+<html lang="en" ng-app="holyCommunityApp">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,10 +27,15 @@
     <link rel="stylesheet" href="style.css">
     <!-- adding AngularJS project files -->
     <script src="app/app.js"></script>
+    <script src="app/navbar/navbarDir.js"></script>
+    <script src="app/navbar/navbarCtrl.js"></script>
     <!-- adding local script -->
     <script src="script.js"></script>
 </head>
 <body>
-    
+    <div class="header">
+        <hc-navbar></hc-navbar>
+    </div>
+    <ng-view></ng-view>
 </body>
 </html>
