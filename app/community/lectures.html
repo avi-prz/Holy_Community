@@ -1,0 +1,20 @@
+<table class="table table-striped text-right">
+    <thead class="bg-info">
+        <tr>                                
+            <th scope="col">יום</th>
+            <th scope="col">שעה</th>
+            <th scope="col">נושא</th>
+            <th scope="col">מועבר ע"י</th>
+            <th scope="col">מיקום</th>
+        </tr>                            
+    </thead>
+    <tbody>
+        <tr ng-repeat="lecture in lectures">
+            <td><span>{{lecture.dayOfWeek}}</span></td>
+            <td><span>{{lecture.time}}</span></td>
+            <td><span>{{lecture.title}}</span></td>
+            <td><span>{{lecture.by}}</span></td>
+            <td><span>{{lecture.place}}</span></td>
+        </tr>                   
+    </tbody>                        
+</table>

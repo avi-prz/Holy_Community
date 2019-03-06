@@ -1,3 +1,47 @@
 body {
     direction: rtl;
 }
+
+.navbar-brand>span {
+    color: white;
+    background-color: blue;
+}
+
+.navbar-brand>span>i {
+    padding: 0 5px;
+}
+
+.collapse.navbar-collapse {
+    justify-content: start; 
+}
+
+.marquee {
+    direction: ltr;
+    /* width: 100%; */
+    background-color: blue;
+    /* height: 45px !important; */
+    overflow: hidden;
+}
+
+.list-inline {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.list-inline-item {
+    margin-right: 20px;
+}
+
+.list-inline-item > a {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+tbody>tr>td {
+    border: solid 1px black;
+}
+
+.col-12.no-padding {
+    padding: 0;
+}
