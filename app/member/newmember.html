@@ -1,0 +1,87 @@
+<div class="container"><!-- ng-controller="loginCtrl"> -->
+    <form action="">
+        <div class="form-group row mt-5">
+            <label for="txComId">קוד קהילה:</label>
+            <div class="col-sm-10 mr-auto">
+                <input type="text" name="txComId" id="txComId" class="form-control" placeholder="קוד קהילה" ng-model="community" maxlength="11" requierd>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="txFName">שם פרטי:</label>
+            <div class="col-sm-10 mr-auto">
+                <input type="text" name="txFName" id="txFName" class="form-control" placeholder="פלוני" ng-model="fName" maxlength="20" requierd>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="txLName">שם משפחה:</label>
+            <div class="col-sm-10 mr-auto">
+                <input type="text" name="txLName" id="txLName" class="form-control" placeholder="אלמוני" ng-model="lName" maxlength="20" requierd>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="">מין:</label>
+            <div class="form-check form-check-inline col-sm-10 mr-auto">
+                <label class="form-check-label">
+                    <input class="form-check-input ml-2" type="radio" ng-model="gender" name="rbGender" id="rbMale" ng-value="HHYTbMLfFV" checked>זכר
+                </label>
+                <label class="form-check-label">
+                    <input class="form-check-input ml-2" type="radio" ng-model="gender" name="rbGender" id="rbFemale" ng-value="odldj1YNkC">נקבה
+                </label>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="txPhone">סלולרי:</label>
+            <div class="col-sm-10 mr-auto">
+                <input type="text" name="txPhone" id="txPhone" class="form-control" placeholder="מספר נייד" ng-model="phone" maxlength="11" pattern="^[0]([2-4,8-9]|([5,7][0,2-9]))([\-]{0,1})([0-9]{7})" requierd>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="txPhone2">מספר נוסף</label>
+            <div class="col-sm-10 mr-auto">
+                <input type="text" name="txPhone2" id="txPhone2" class="form-control" placeholder="טלפון נוסף" ng-model="home_phone" maxlength="11" pattern="^[0]([2-4,8-9]|([5,7][0,2-9]))([\-]{0,1})([0-9]{7})">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="txUser">שם משתמש:</label>
+            <div class="col-sm-10 mr-auto">
+                <input type="text" name="txUser" id="txUser" class="form-control" placeholder="שם משתמש" ng-model="userName" minlength="6" maxlength="12" pattern="^[a-zA-z]+[a-zA-Z0-9_\-\.]{5,11}$" requierd>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="txPass">סיסמה:</label>
+            <div class="col-sm-10 mr-auto">
+                <input type="password" name="txPass" id="txPass" class="form-control" placeholder="סיסמה" ng-model="userPass" minlength="6" maxlength="12" pattern="^(?=[^\d_].*?\d)\w{8,12}" requierd>
+            </div>        
+        </div>
+        <div class="form-group row">
+            <label for="txMail">אימייל:</label>
+            <div class="col-sm-10 mr-auto">
+                <input type="email" name="txMail" id="txMail" class="form-control" placeholder="someone@somewere.com" ng-model="userMail" maxlength="20" requierd>
+            </div>        
+        </div>
+        <div class="form-group row">
+            <label for="txAddress">כתובת:</label>
+            <div class="col-sm-10 mr-auto">
+                <input type="text" name="txAddress" id="txAddress" class="form-control" placeholder="כתובת מגורים" ng-model="address" requierd>
+            </div>        
+        </div>
+        <div class="form-group row">
+            <label for="txFloor">קומה:</label>
+            <div class="col-sm-10 mr-auto">
+                <input type="number" name="txFloor" id="txFloor" class="form-control" placeholder="קומה" ng-model="floor" min="0" max="30">
+            </div>        
+        </div>
+        <div class="form-group row">
+            <label for="txFlatNum">מספר דירה:</label>
+            <div class="col-sm-10 mr-auto">
+                <input type="number" name="txFlatNum" id="txFlatNum" class="form-control" placeholder="מספר דירה" ng-model="flat_number" min="0" max="99">
+            </div>        
+        </div>
+        <div class="form-group row">
+        <div class="col-sm-10 mr-auto">
+            <button type="submit" class="btn btn-primary">הרשם</button>
+            <button type="reset" class="btn btn-primary">אפס טופס</button>
+            <a class="btn btn-danger" href="javascript:void(0)" ng-click="cancel()">בטל</a>
+        </div>
+    </form>    
+</div>

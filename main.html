@@ -1,31 +1,28 @@
-<div>
-    <div class="row">
-        <h1 class="mx-auto">זמני תפילות</h1>
-        <div class="col-sm-12">
-            <div class="marquee">
-                <ul class="list-inline">
-                    <prey ng-repeat="data in prayers"></prey>                
-                </ul>
+<div class="container">
+    <form action="">
+        <div class="form-group row">
+            <label for="txFName">שם פרטי:</label>
+            <div class="col-sm-10 mr-auto">
+                <input type="text" name="txFName" id="txFName" class="form-control" placeholder="פלוני" ng-model="fName" maxlength="20" requierd>
+            </div>
+        </div>
+        <div class="form-group row mt-5">
+            <label for="txCity">עיר:</label>
+            <div class="col-sm-10 mr-auto">
+                <input type="text" name="txCity" id="txCity" class="form-control" placeholder="קוד קהילה" ng-model="community" maxlength="11" requierd>
+            </div>
+        </div>
+        
+        <div class="form-group row">
+            <label for="txLName">שם משפחה:</label>
+            <div class="col-sm-10 mr-auto">
+                <input type="text" name="txLName" id="txLName" class="form-control" placeholder="אלמוני" ng-model="lName" maxlength="20" requierd>
             </div>
         </div>        
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-12 no-padding">
-                <h1 class="mx-auto text-center">שיעורים קבועים</h1>
-                <lectures-data></lectures-data>
-            </div>                
+        <div class="col-sm-10 mr-auto">
+            <button type="submit" class="btn btn-primary">הרשם</button>
+            <button type="reset" class="btn btn-primary">אפס טופס</button>
+            <a class="btn btn-danger" href="javascript:void(0)" ng-click="cancel()">בטל</a>
         </div>
-    </div>    
-    <script>
-        $(function () {
-            $(".marquee").marquee({
-                duration: 10000,
-                duplicated: false,
-                pauseOnHover: true,
-                direction: 'left',
-                startVisible: true
-            });
-        });
-    </script>
+    </form>    
 </div>
