@@ -1,0 +1,31 @@
+<div>
+    <div class="row">
+        <h1 class="mx-auto">זמני תפילות</h1>
+        <div class="col-sm-12">
+            <div class="marquee">
+                <ul class="list-inline">
+                    <prey ng-repeat="data in prayers"></prey>                
+                </ul>
+            </div>
+        </div>        
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 no-padding">
+                <h1 class="mx-auto text-center">שיעורים קבועים</h1>
+                <lectures-data></lectures-data>
+            </div>                
+        </div>
+    </div>    
+    <script>
+        $(function () {
+            $(".marquee").marquee({
+                duration: 10000,
+                duplicated: false,
+                pauseOnHover: true,
+                direction: 'left',
+                startVisible: true
+            });
+        });
+    </script>
+</div>

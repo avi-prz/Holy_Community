@@ -1,12 +1,12 @@
-app.controller('communityCtrl', function ($scope, communitySvc) {
+app.controller('communityCtrl', function ($scope,$routeParams, communitySvc) {
     $scope.prayers = [];
     $scope.lectures = [];
     
-    communitySvc.getPreyaers("1").then(function (result) {
+    communitySvc.getPreyaers($routeParams.id).then(function (result) {
         $scope.prayers = result;
     });
     
-    communitySvc.getLectures("1").then(function (result) {
+    communitySvc.getLectures($routeParams.id).then(function (result) {
         $scope.lectures = result;
     });
 
