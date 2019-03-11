@@ -6,6 +6,9 @@ var app = angular.module('holyCommunityApp', ['ngRoute']).config(function ($rout
     }).when('/communities/:id', {
         templateUrl: "app/community/community.html",
         controller: "communityCtrl"
+    }).when('/members/new', {
+        templateUrl: "app/member/newmember.html",
+        controller: "newMemberCtrl"
     }).otherwise({
         redirectTo: "/"
     });

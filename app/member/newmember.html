@@ -1,25 +1,25 @@
-<div class="container"><!-- ng-controller="loginCtrl"> -->
-    <form action="">
+<div class="container">
+    <form action="javascript:void(0)" name="myForm">
         <div class="form-group row mt-5">
-            <label for="txComId">קוד קהילה:</label>
+            <label ng-class="{'text-danger': myForm.txComId.$untouched || (myForm.txComId.$dirty && myForm.txComId.$invalid)}" for="txComId">*קוד קהילה:</label>
             <div class="col-sm-10 mr-auto">
-                <input type="text" name="txComId" id="txComId" class="form-control" placeholder="קוד קהילה" ng-model="community" maxlength="11" requierd>
+                <input type="text" name="txComId" id="txComId" class="form-control" placeholder="קוד קהילה" ng-model="community" maxlength="11" required="true">
             </div>
         </div>
         <div class="form-group row">
-            <label for="txFName">שם פרטי:</label>
+            <label for="txFName" ng-class="{'text-danger': myForm.txFName.$untouched || (myForm.txFName.$dirty && myForm.txFName.$invalid)}">*שם פרטי:</label>
             <div class="col-sm-10 mr-auto">
-                <input type="text" name="txFName" id="txFName" class="form-control" placeholder="פלוני" ng-model="fName" maxlength="20" requierd>
+                <input type="text" name="txFName" id="txFName" class="form-control" placeholder="פלוני" ng-model="fName" maxlength="20" required>
             </div>
         </div>
         <div class="form-group row">
-            <label for="txLName">שם משפחה:</label>
+            <label for="txLName" ng-class="{'text-danger': myForm.txLName.$untouched || (myForm.txLName.$dirty && myForm.txLName.$invalid)}">*שם משפחה:</label>
             <div class="col-sm-10 mr-auto">
-                <input type="text" name="txLName" id="txLName" class="form-control" placeholder="אלמוני" ng-model="lName" maxlength="20" requierd>
+                <input type="text" name="txLName" id="txLName" class="form-control" placeholder="אלמוני" ng-model="lName" maxlength="20" required>
             </div>
         </div>
         <div class="form-group row">
-            <label for="">מין:</label>
+            <label for="">*מין:</label>
             <div class="form-check form-check-inline col-sm-10 mr-auto">
                 <label class="form-check-label">
                     <input class="form-check-input ml-2" type="radio" ng-model="gender" name="rbGender" id="rbMale" ng-value="HHYTbMLfFV" checked>זכר
@@ -30,9 +30,9 @@
             </div>
         </div>
         <div class="form-group row">
-            <label for="txPhone">סלולרי:</label>
+            <label for="txPhone" ng-class="{'text-danger': myForm.txPhone.$untouched || (myForm.txPhone.$dirty && myForm.txPhone.$invalid)}">*סלולרי:</label>
             <div class="col-sm-10 mr-auto">
-                <input type="text" name="txPhone" id="txPhone" class="form-control" placeholder="מספר נייד" ng-model="phone" maxlength="11" pattern="^[0]([2-4,8-9]|([5,7][0,2-9]))([\-]{0,1})([0-9]{7})" requierd>
+                <input type="text" name="txPhone" id="txPhone" class="form-control" placeholder="מספר נייד" ng-model="phone" maxlength="11" pattern="^[0]([2-4,8-9]|([5,7][0,2-9]))([\-]{0,1})([0-9]{7})" required>
             </div>
         </div>
         <div class="form-group row">
@@ -42,27 +42,27 @@
             </div>
         </div>
         <div class="form-group row">
-            <label for="txUser">שם משתמש:</label>
+            <label for="txUser" ng-class="{'text-danger': myForm.txUser.$untouched || (myForm.txUser.$dirty && myForm.txUser.$invalid)}">*שם משתמש:</label>
             <div class="col-sm-10 mr-auto">
-                <input type="text" name="txUser" id="txUser" class="form-control" placeholder="שם משתמש" ng-model="userName" minlength="6" maxlength="12" pattern="^[a-zA-z]+[a-zA-Z0-9_\-\.]{5,11}$" requierd>
+                <input type="text" name="txUser" id="txUser" class="form-control" placeholder="שם משתמש" ng-model="userName" minlength="6" maxlength="12" pattern="^[a-zA-z]+[a-zA-Z0-9_\-\.]{5,11}$" required>
             </div>
         </div>
         <div class="form-group row">
-            <label for="txPass">סיסמה:</label>
+            <label for="txPass" ng-class="{'text-danger': myForm.txPass.$untouched || (myForm.txPass.$dirty && myForm.txPass.$invalid)}">*סיסמה:</label>
             <div class="col-sm-10 mr-auto">
-                <input type="password" name="txPass" id="txPass" class="form-control" placeholder="סיסמה" ng-model="userPass" minlength="6" maxlength="12" pattern="^(?=[^\d_].*?\d)\w{8,12}" requierd>
+                <input type="password" name="txPass" id="txPass" class="form-control" placeholder="סיסמה" ng-model="userPass" minlength="6" maxlength="12" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,12}" required>
             </div>        
         </div>
         <div class="form-group row">
-            <label for="txMail">אימייל:</label>
+            <label for="txMail" ng-class="{'text-danger': myForm.txMail.$untouched || (myForm.txMail.$dirty && myForm.txMail.$invalid)}">*אימייל:</label>
             <div class="col-sm-10 mr-auto">
-                <input type="email" name="txMail" id="txMail" class="form-control" placeholder="someone@somewere.com" ng-model="userMail" maxlength="20" requierd>
+                <input type="email" name="txMail" id="txMail" class="form-control" placeholder="someone@somewere.com" ng-model="userMail" maxlength="20" required>
             </div>        
         </div>
         <div class="form-group row">
-            <label for="txAddress">כתובת:</label>
+            <label for="txAddress" ng-class="{'text-danger': myForm.txAddress.$untouched || (myForm.txAddress.$dirty && myForm.txAddress.$invalid)}">*כתובת:</label>
             <div class="col-sm-10 mr-auto">
-                <input type="text" name="txAddress" id="txAddress" class="form-control" placeholder="כתובת מגורים" ng-model="address" requierd>
+                <input type="text" name="txAddress" id="txAddress" class="form-control" placeholder="כתובת מגורים" ng-model="address" required>
             </div>        
         </div>
         <div class="form-group row">
@@ -78,10 +78,16 @@
             </div>        
         </div>
         <div class="form-group row">
-        <div class="col-sm-10 mr-auto">
-            <button type="submit" class="btn btn-primary">הרשם</button>
-            <button type="reset" class="btn btn-primary">אפס טופס</button>
-            <a class="btn btn-danger" href="javascript:void(0)" ng-click="cancel()">בטל</a>
+            <div class="col-sm-10 mr-auto">
+                <button type="button" class="btn btn-primary" ng-click="createMember()" ng-hide="myForm.$pristine || myForm.$invalid">הרשם</button>
+                <button type="reset" class="btn btn-primary">אפס טופס</button>
+                <a class="btn btn-danger" href="javascript:void(0)" ng-click="cancel()">בטל</a>
+            </div>
+        </div>
+        <div class="form-group row" ng-show="hasFailed">
+            <div class="col-sm-10 mr-auto">
+                <span class="text-left danger">{{error}}</span>
+            </div>
         </div>
     </form>    
 </div>
