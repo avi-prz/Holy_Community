@@ -1,3 +1,7 @@
+/* font-family: 'Secular One', sans-serif;*/
+/* font-family: 'Suez One', serif; */
+/* font-family: 'Tinos', serif; */
+
 body {
     direction: rtl;
 }
@@ -17,9 +21,7 @@ body {
 
 .marquee {
     direction: ltr;
-    /* width: 100%; */
     background-color: blue;
-    /* height: 45px !important; */
     overflow: hidden;
 }
 
@@ -44,4 +46,27 @@ tbody>tr>td {
 
 .col-12.no-padding {
     padding: 0;
+}
+
+.jumbotron-fluid {
+    position: relative;
+    background-image: url(http://www.acheinu.co.il/wp-content/uploads/2018/12/%D7%91%D7%99%D7%AA-%D7%9B%D7%A0%D7%A1%D7%AA.jpg);
+    color:#ceff96;
+    font-weight: bold;
+    /* font-family: 'Secular One', sans-serif; */
+    font-family: 'Suez One', serif;
+    padding: 6rem 2rem;
+}
+
+.jumbotron-fluid>.container>.lead {
+    position: absolute;
+    top: calc(90% - 16px);
+    left: calc(50% - 113px);
+    font-size: 22px;
+    color: #fef99e;
+}
+
+.btn.dropdown-toggle {
+    position: absolute;
+    right: 0;
 }

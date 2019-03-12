@@ -1,28 +1,36 @@
+
 <div class="container">
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-3 text-center">קהילות קודש</h1>
+            <p class="lead text-center">הדרך הקלה לניהול הקהילה</p>           
+        </div>
+        
+    </div>   
     <form action="">
         <div class="form-group row">
-            <label for="txFName">שם פרטי:</label>
-            <div class="col-sm-10 mr-auto">
-                <input type="text" name="txFName" id="txFName" class="form-control" placeholder="פלוני" ng-model="fName" maxlength="20" requierd>
+            <label for="txCity">עיר:</label>
+            <div class="col-sm-10">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="triggerId">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item disabled" href="#">Disabled action</a>
+                        <h6 class="dropdown-header">Section header</h6>
+                        <a class="dropdown-item" href="#">Action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">After divider action</a>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="form-group row mt-5">
+        </div>           
+        <div class="form-group row">
             <label for="txCity">עיר:</label>
             <div class="col-sm-10 mr-auto">
                 <input type="text" name="txCity" id="txCity" class="form-control" placeholder="קוד קהילה" ng-model="community" maxlength="11" requierd>
             </div>
-        </div>
-        
-        <div class="form-group row">
-            <label for="txLName">שם משפחה:</label>
-            <div class="col-sm-10 mr-auto">
-                <input type="text" name="txLName" id="txLName" class="form-control" placeholder="אלמוני" ng-model="lName" maxlength="20" requierd>
-            </div>
-        </div>        
-        <div class="col-sm-10 mr-auto">
-            <button type="submit" class="btn btn-primary">הרשם</button>
-            <button type="reset" class="btn btn-primary">אפס טופס</button>
-            <a class="btn btn-danger" href="javascript:void(0)" ng-click="cancel()">בטל</a>
         </div>
     </form>    
 </div>
