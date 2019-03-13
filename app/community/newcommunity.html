@@ -1,38 +1,64 @@
 <div class="container">
-    <h1 class="text-center">הקמת קהילה חדשה</h1>
-    <div class="form-group row mt-5">
-        <label for="txName">שם הקהילה</label>
-        <div class="col-sm-10 mr-auto">
-            <input type="text" class="form-control" name="txName" id="txName" placeholder="שם הקהילה">
-        </div>      
-    </div>
-    <div class="form-group row mt-5">
-        <label for="txDesc">תאור הקהילה</label>
-        <div class="col-sm-10 mr-auto">
-            <textarea class="form-control" name="txDesc" id="txDesc" placeholder="ספר קצת על הקהילה" row="3"></textarea>
-        </div>      
-    </div>
-    <div class="form-group row mt-5">
-        <label for="ddlCountry">ארץ</label>
-        <div class="col-sm-10 mr-auto">            
-            <select class="form-control dropdown" name="ddlCountry" id="ddlCountry" ng-options="cntry for cntry in countries" ng-model="country" ng-change="getCities()">
-                <option value=""></option>                
-            </select>
+    <form action="" name="newComForm" id="newComForm">
+        <h1 class="text-center">הקמת קהילה חדשה</h1>
+        <div class="form-group row mt-5">
+            <label for="txName">שם הקהילה</label>
+            <div class="col-sm-10 mr-auto">
+                <input type="text" class="form-control" name="txName" id="txName" placeholder="שם הקהילה" ng-required ng-model="name">
+            </div>      
         </div>
-    </div>
-    <div class="form-group row mt-5">
-        <label for="ddlCity">עיר</label>
-        <div class="col-sm-10 mr-auto">            
-            <select class="form-control dropdown" name="ddlCity" id="ddlCity" ng-options="cty.name for cty in cities track by cty.id" ng-model="city">
-                <option value=""></option>                
-            </select>
+        <div class="form-group row">
+            <label for="txDesc">תאור הקהילה</label>
+            <div class="col-sm-10 mr-auto">
+                <textarea class="form-control" name="txDesc" id="txDesc" placeholder="ספר קצת על הקהילה" row="3" ng-required></textarea>
+            </div>      
         </div>
-    </div>
-    <div class="form-group row mt-5">
-        <label for="txAdrs">כתובת</label>
-        <div class="col-sm-10 mr-auto">
-            <input type="text" class="form-control" name="txAdrs" id="txAdrs" placeholder="שם רחוב ומספר" ng-model="address">
-        </div>      
-    </div>
-    <div uib-datepicker class="card"></div> 
+        <div class="form-group row">
+            <label for="ddlCountry">ארץ</label>
+            <div class="col-sm-10 mr-auto">            
+                <select class="form-control dropdown" name="ddlCountry" id="ddlCountry" ng-options="cntry for cntry in countries" ng-model="country" ng-change="getCities()" ng-required>
+                    <option value=""></option>                
+                </select>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="ddlCity">עיר</label>
+            <div class="col-sm-10 mr-auto">            
+                <select class="form-control dropdown" name="ddlCity" id="ddlCity" ng-options="cty.name for cty in cities track by cty.id" ng-model="city" ng-required>
+                    <option value=""></option>                
+                </select>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="txAdrs">כתובת</label>
+            <div class="col-sm-10 mr-auto">
+                <input type="text" class="form-control" name="txAdrs" id="txAdrs" placeholder="שם רחוב ומספר" ng-model="address" ng-required>
+            </div>      
+        </div>
+        
+        <div class="form-group row">
+            <label for="dpFoundDate">תאריך יסוד הקהילה</label>
+            <div class="col-sm-10 mr-auto">
+                <p class="input-group">
+                    <input type="text" class="form-control" uib-datepicker-popup ng-model="foundation_date" is-open="popup2.opened" datepicker-options="dateOptions" ng-required="false" close-text="Close" id="dpFoundDate" name="dpFoundDate"/>
+                    <span class="input-group-btn">
+                        <button type="button" class="btn btn-secondary" ng-click="open2()">
+                        <i class="fa-svg-icon">
+                            <svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M192 1664h288v-288h-288v288zm352 0h320v-288h-320v288zm-352-352h288v-320h-288v320zm352 0h320v-320h-320v320zm-352-384h288v-288h-288v288zm736 736h320v-288h-320v288zm-384-736h320v-288h-320v288zm768 736h288v-288h-288v288zm-384-352h320v-320h-320v320zm-352-864v-288q0-13-9.5-22.5t-22.5-9.5h-64q-13 0-22.5 9.5t-9.5 22.5v288q0 13 9.5 22.5t22.5 9.5h64q13 0 22.5-9.5t9.5-22.5zm736 864h288v-320h-288v320zm-384-384h320v-288h-320v288zm384 0h288v-288h-288v288zm32-480v-288q0-13-9.5-22.5t-22.5-9.5h-64q-13 0-22.5 9.5t-9.5 22.5v288q0 13 9.5 22.5t22.5 9.5h64q13 0 22.5-9.5t9.5-22.5zm384-64v1280q0 52-38 90t-90 38h-1408q-52 0-90-38t-38-90v-1280q0-52 38-90t90-38h128v-96q0-66 47-113t113-47h64q66 0 113 47t47 113v96h384v-96q0-66 47-113t113-47h64q66 0 113 47t47 113v96h128q52 0 90 38t38 90z"/></svg>
+                        </i>
+                        </button>
+                    </span>
+                </p>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-sm-12 ml-auto">
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a class="btn btn-success" ng-click="add()" href="javascript:void(0)">הוסף</a></li>
+                    <li class="list-inline-item"><button type="reset" class="btn btn-warning">אפס טופס</button></li>
+                    <li class="list-inline-item"><a class="btn btn-danger" href="#!/">בטל</a></li>
+                </ul>
+            </div>
+        </div>
+    </form>        
 </div>

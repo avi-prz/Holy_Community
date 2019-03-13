@@ -37,4 +37,8 @@ app.controller('mainCtrl', function ($scope, $log, $location,placesSvc,community
             $location.path("/communities/" + $scope.community.id);
         }        
     }
+
+    $scope.addCommunity = function () {
+        $location.path("/communities/new");
+    }
 });

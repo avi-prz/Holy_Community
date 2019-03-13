@@ -114,11 +114,45 @@ app.factory("communitySvc", function ($http, $q) {
         return async.promise;
     }
 
+    function getMaxComID() {
+        if (communities && communities.length > 0) {
+            var max = -1;
+            for (idx in communities) {
+                if (parseInt(communities[idx].id) > max) {
+                    max = parseInt(communities[idx].id);
+                }
+            }
+            return max;
+        } else {
+            return 0;
+        } 
+    }
+
+    function addCommunity(name,description,country,city,address,foundation_date) { 
+        var async = $q.defer();
+        if (wasInit) {
+            var newId = getMaxComID();
+            communities.push(new Community({ id: (newId++).toString(), name: name, description: description, country: country, city: city, address: address, foundation_date: foundation_date }));
+            async.resolve(communities);
+        } else {
+            init().then(function (data) {
+                newId = getMaxComID();
+                communities.push(new Community({ id: (newId++).toString(), name: name, description: description, country: country, city: city.name, address: address, foundation_date: foundation_date }));
+                async.resolve(communities);
+            },
+                function (err) {
+                    async.reject(err);
+                 });
+        }
+        return async.promise;
+    }
+
     return {
         getCommunities:init,
         setCuurentCommunity:setCurrentCommunity,
         getPreyaers: getPreyaers,
         getLectures: getLectures,
-        getCommunitiesByLocation:getCommunitiesByLocation
+        getCommunitiesByLocation: getCommunitiesByLocation,
+        addCommunity:addCommunity
     }
  });
