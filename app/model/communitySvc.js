@@ -29,7 +29,6 @@ app.factory("communitySvc", function ($http, $q) {
                 contentType: "application/json"
             };
             $http(req).then(function (results) {
-                // communities = results.data;
                 for (var i = 0; i < results.data.length; i++) {
                     communities.push(new Community(results.data[i]));
                 }

@@ -17,7 +17,6 @@ app.factory('placesSvc', function ($http, $q) {
     function Country(name, cities) {
         this.name = name;
         this.cities = new Array();
-        //this.cities.push(new City(-1,"","",""))
         for (var i = 0; i < cities.length; i++) {
             this.cities.push(new City(cities[i]));
         }
@@ -42,9 +41,7 @@ app.factory('placesSvc', function ($http, $q) {
                 countries = Object.keys(results.data);                
                 for (var i = 0; i < countries.length; i++) {
                     countriesData.push(new Country(countries[i], results.data[countries[i]]));
-                }
-                // countries.unshift("");    
-                // countriesData.unshift(new Country("", [{id:"",name:"",region:"",moaatza:""}]));
+                }                
                 async.resolve(countries);
                 wasInit = true;
             }, 
@@ -62,11 +59,9 @@ app.factory('placesSvc', function ($http, $q) {
             if (i >= 0) {
                 return countriesData[i].cities;
             } else {
-                // return [new City(-1,"","","")]
                 return [];
             }
         } else {
-            // return [new City(-1,"","","")];
             return [];
         }
     }
