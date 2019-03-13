@@ -32,7 +32,9 @@ app.controller('mainCtrl', function ($scope, $log, $location,placesSvc,community
         }
     };
 
-    $scope.showCommunity = function (comItem) {
-        $location.path("/communities/" + comItem.id);
+    $scope.showCommunity = function () {
+        if ($scope.community && $scope.community.id > 0) {
+            $location.path("/communities/" + $scope.community.id);
+        }        
     }
 });

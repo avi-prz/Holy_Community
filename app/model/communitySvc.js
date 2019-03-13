@@ -101,11 +101,11 @@ app.factory("communitySvc", function ($http, $q) {
     function getCommunitiesByLocation(country, city) {
         var async = $q.defer();
         if (wasInit) {
-            var comms = communities.find(com => com.country === country && com.city === city);
+            var comms = communities.filter(com => com.country === country && com.city === city);
             async.resolve(comms);
         } else {
             init().then(function (results) {
-                var comms = communities.find(com => com.country === country && com.city === city);
+                var comms = communities.filter(com => com.country === country && com.city === city);
                 async.resolve(comms);
             },
                 function (err) {

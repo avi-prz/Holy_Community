@@ -43,8 +43,8 @@ app.factory('placesSvc', function ($http, $q) {
                 for (var i = 0; i < countries.length; i++) {
                     countriesData.push(new Country(countries[i], results.data[countries[i]]));
                 }
-                countries.unshift("");    
-                countriesData.unshift(new Country("", [{id:"",name:"",region:"",moaatza:""}]));
+                // countries.unshift("");    
+                // countriesData.unshift(new Country("", [{id:"",name:"",region:"",moaatza:""}]));
                 async.resolve(countries);
                 wasInit = true;
             }, 
@@ -62,10 +62,12 @@ app.factory('placesSvc', function ($http, $q) {
             if (i >= 0) {
                 return countriesData[i].cities;
             } else {
-                return [new City(-1,"","","")]
+                // return [new City(-1,"","","")]
+                return [];
             }
         } else {
-            return [new City(-1,"","","")];
+            // return [new City(-1,"","","")];
+            return [];
         }
     }
 
