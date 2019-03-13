@@ -1,0 +1,38 @@
+<div class="container">
+    <h1 class="text-center">הקמת קהילה חדשה</h1>
+    <div class="form-group row mt-5">
+        <label for="txName">שם הקהילה</label>
+        <div class="col-sm-10 mr-auto">
+            <input type="text" class="form-control" name="txName" id="txName" placeholder="שם הקהילה">
+        </div>      
+    </div>
+    <div class="form-group row mt-5">
+        <label for="txDesc">תאור הקהילה</label>
+        <div class="col-sm-10 mr-auto">
+            <textarea class="form-control" name="txDesc" id="txDesc" placeholder="ספר קצת על הקהילה" row="3"></textarea>
+        </div>      
+    </div>
+    <div class="form-group row mt-5">
+        <label for="ddlCountry">ארץ</label>
+        <div class="col-sm-10 mr-auto">            
+            <select class="form-control dropdown" name="ddlCountry" id="ddlCountry" ng-options="cntry for cntry in countries" ng-model="country" ng-change="getCities()">
+                <option value=""></option>                
+            </select>
+        </div>
+    </div>
+    <div class="form-group row mt-5">
+        <label for="ddlCity">עיר</label>
+        <div class="col-sm-10 mr-auto">            
+            <select class="form-control dropdown" name="ddlCity" id="ddlCity" ng-options="cty.name for cty in cities track by cty.id" ng-model="city">
+                <option value=""></option>                
+            </select>
+        </div>
+    </div>
+    <div class="form-group row mt-5">
+        <label for="txAdrs">כתובת</label>
+        <div class="col-sm-10 mr-auto">
+            <input type="text" class="form-control" name="txAdrs" id="txAdrs" placeholder="שם רחוב ומספר" ng-model="address">
+        </div>      
+    </div>
+    <div uib-datepicker class="card"></div> 
+</div>

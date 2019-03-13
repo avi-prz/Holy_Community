@@ -1,8 +1,8 @@
-var app = angular.module('holyCommunityApp', ['ngRoute']).config(function ($routeProvider) {
+var app = angular.module('holyCommunityApp', ['ngRoute','ui.bootstrap']).config(function ($routeProvider) {
     $routeProvider.when("/", {
-        templateUrl: "app/main/main.html",
-        controller: "mainCtrl"
-        /*redirectTo: "/communities/1"*/
+        templateUrl: "app/community/newcommunity.html", //"app/main/main.html",
+        controller: "newCommunityCtrl"
+        // redirectTo: "/communities/1"
     }).when('/communities/:id', {
         templateUrl: "app/community/community.html",
         controller: "communityCtrl"
