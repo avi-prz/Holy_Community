@@ -1,10 +1,10 @@
 app.factory('placesSvc', function ($http, $q) {
     function City(id, name, region, moaatza) {
         if (arguments.length === 1 && typeof id === "object") {
-            this.id = id.id;
-            this.name = id.name;
-            this.region = id.region;
-            this.moaatza = id.moaatza;
+            this.id = id.id.trim();
+            this.name = id.name.trim();
+            this.region = id.region.trim();
+            this.moaatza = id.moaatza.trim();
         } else {
             this.id = id;
             this.name = name;
