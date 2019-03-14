@@ -6,9 +6,9 @@
         "loginName": "Admin",
         "password": "123456",
         "email": "avi.prz@gmail.com",
-        "isAdmin": false,
+        "isAdmin": true,
         "adminDescription": "חבר ועד",
-        "isSuperAdmin": false,
+        "isSuperAdmin": true,
         "community":"1"
     }
 ]

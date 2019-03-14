@@ -22,7 +22,7 @@
                 <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="ddUser" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user"></i></a>
                 <div class="dropdown-menu" aria-labelledby="ddUser">
                     <a class="dropdown-item" href="javascript:void(0)" ng-click="messages()">הודעות</a>  
-                    <div ng-show="isCommunityAdmin">
+                    <div ng-show="isCommunityAdmin()">
                         <hr>
                          <a class="dropdown-item" href="javascript:void(0)" ng-click="addMember()">הוסף חבר קהילה</a>
                         <a class="dropdown-item" href="javascript:void(0)" ng-click="newMessage()">הודעה חדשה</a>
@@ -30,7 +30,7 @@
                         <a class="dropdown-item" href="javascript:void(0)" ng-click="addLesson()">הוסף שיעור</a>
                         <a class="dropdown-item" href="javascript:void(0)" ng-click="addEvents()">הוסף ארוע</a>                                                
                     </div>
-                    <div ng-show="canAddCommunity">
+                    <div ng-show="canAddCommunity()">
                         <hr>
                         <a class="dropdown-item" href="javascript:void(0)" ng-click="addCommunity()">צור קהילה חדשה</a>
                     </div>

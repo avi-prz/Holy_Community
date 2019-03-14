@@ -14,13 +14,19 @@ app.controller('navbarCtrl', function ($scope,$log,$location,loginSvc) {
     $scope.userName = "";
     $scope.userPass = "";
     $scope.errorMsg = "";
-    $scope.current = loginSvc.current ? new User(loginSvc.current) : null;
-    $scope.canAddCommunity = $scope.current ? $scope.current.isSuperAdmin : false;
-    $scope.isCommunityAdmin = $scope.current ? $scope.current.communityId && $scope.current.isAdmin : false;
+    $scope.current = loginSvc.current ? new User(loginSvc.current) : null;    
 
     $scope.isLoggedOn = function () {
         return $scope.current ? true : false;
     };
+
+    $scope.canAddCommunity = function () { 
+        return $scope.current ? $scope.current.isSuperAdmin : false;
+    }; 
+
+    $scope.isCommunityAdmin = function () { 
+        return $scope.current ? $scope.current.communityId && $scope.current.isAdmin : false;
+    }; 
 
     $scope.login = function () { 
         if ($scope.userName.length > 0 && $scope.userPass.length > 0) {
