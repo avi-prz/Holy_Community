@@ -1,0 +1,14 @@
+[
+    {
+        "id": "Wi0cfFF9L5",
+        "firstName": "אברהם",
+        "lastName": "פרץ",
+        "loginName": "Admin",
+        "password": "123456",
+        "email": "avi.prz@gmail.com",
+        "isAdmin": false,
+        "adminDescription": "חבר ועד",
+        "isSuperAdmin": false,
+        "community":"1"
+    }
+]

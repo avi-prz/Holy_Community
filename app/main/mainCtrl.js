@@ -1,4 +1,4 @@
-app.controller('mainCtrl', function ($scope, $log, $location,placesSvc,communitySvc) {
+app.controller('mainCtrl', function ($scope, $log, $location, placesSvc, communitySvc, loginSvc) {
     $scope.countries = [];
     $scope.cities = [];
     $scope.communities = [];
@@ -8,17 +8,17 @@ app.controller('mainCtrl', function ($scope, $log, $location,placesSvc,community
     placesSvc.getCountriesList().then(function (data) {
         $scope.countries = data;
     },
-        function(err) {
+        function (err) {
             $log.error(err);
         }
     );
 
     $scope.loadCities = function () {
         if ($scope.country.length > 0) {
-            $scope.cities=placesSvc.getCitiesList($scope.country);
+            $scope.cities = placesSvc.getCitiesList($scope.country);
         } else {
             $scope.cities = [];
-        } 
+        }
     };
 
     $scope.getCommunities = function () {
@@ -35,10 +35,14 @@ app.controller('mainCtrl', function ($scope, $log, $location,placesSvc,community
     $scope.showCommunity = function () {
         if ($scope.community && $scope.community.id > 0) {
             $location.path("/communities/" + $scope.community.id);
-        }        
+        }
     }
 
     $scope.addCommunity = function () {
         $location.path("/communities/new");
     }
+
+    $scope.canCreateCommunity = function () {
+        return loginSvc.current ? loginSvc.current.canCreateCommunity : false;
+    };
 });

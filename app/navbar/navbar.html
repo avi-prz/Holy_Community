@@ -1,21 +1,72 @@
-<nav class="navbar navbar-expand-sm navbar-dark bg-primary" ng-controller="navbarCtrl">
+<nav class="navbar navbar-expand-sm navbar-dark bg-primary">
     <a class="navbar-brand" href="#"><span><i class="fas fa-synagogue"></i></span></a>
     <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
         aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="collapsibleNavId">
-        <ul class="navbar-nav mt-2 mt-lg-0"> 
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">כניסה</a>
-                <div class="dropdown-menu" aria-labelledby="dropdownId">
-                    <a class="dropdown-item" href="#!/members/new">משתמש חדש</a>
-                    <a class="dropdown-item" href="#">משתמש קיים</a>
+        <ul class="navbar-nav mt-2 mt-lg-0 ml-auto"> 
+            <li class="nav-item dropdown" ng-hide="isLoggedOn()">
+                <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="ddLogin" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">כניסה</a>
+                <div class="dropdown-menu" aria-labelledby="ddLogin">
+                    <a class="dropdown-item" href="javascript:void(0)" data-toggle="modal" data-target="#loginModal">משתמש קיים</a>
+                    <a class="dropdown-item" href="javascript:void(0)" ng-click="newMember()">משתמש חדש</a>
                 </div>
             </li>           
             <li class="nav-item">
                 <a id="about" class="nav-link" href="#">אודות</a>
             </li>            
         </ul>
+        <ul class="navbar-nav mt-2 mt-lg-0 mr-auto" ng-show="isLoggedOn()">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="ddUser" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user"></i></a>
+                <div class="dropdown-menu" aria-labelledby="ddUser">
+                    <a class="dropdown-item" href="javascript:void(0)" ng-click="messages()">הודעות</a>  
+                    <div ng-show="isCommunityAdmin">
+                        <hr>
+                         <a class="dropdown-item" href="javascript:void(0)" ng-click="addMember()">הוסף חבר קהילה</a>
+                        <a class="dropdown-item" href="javascript:void(0)" ng-click="newMessage()">הודעה חדשה</a>
+                        <a class="dropdown-item" href="javascript:void(0)" ng-click="addPrayer()">הוסף תפילה</a>
+                        <a class="dropdown-item" href="javascript:void(0)" ng-click="addLesson()">הוסף שיעור</a>
+                        <a class="dropdown-item" href="javascript:void(0)" ng-click="addEvents()">הוסף ארוע</a>                                                
+                    </div>
+                    <div ng-show="canAddCommunity">
+                        <hr>
+                        <a class="dropdown-item" href="javascript:void(0)" ng-click="addCommunity()">צור קהילה חדשה</a>
+                    </div>
+                    <hr>
+                    <a id="logout" class="dropdown-item" href="javascript:void(0)" ng-click="logout()">יציאה</a>
+                </div>
+            </li>           
+        </ul>
+    </div>
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h5 class="modal-title ml-auto" id="loginModalLabel">כניסת משתמש קיים</h5>            
+            </div>
+            <div class="modal-body">
+                <div class="form-group row mr-3 ml-3">
+                    <label for="txUser">שם משתמש</label>
+                    <input type="text" class="form-control" name="txUser" id="txUser" placeholder="שם משתמש" ng-model="userName" ng-required>                       
+                </div>
+                <div class="form-group row mr-3 ml-3">
+                    <label for="txPass">סיסמה</label>
+                    <input type="password" class="form-control" name="txPass" id="txPass" placeholder="סיסמה" ng-model="userPass" ng-required>
+                </div>
+                <div class="form-group" ng-show="errorMsg.length>0">
+                    <span class="text-danger float-right">{{errorMsg}}</span>
+                </div>
+            </div>
+            <div class="modal-footer ml-auto">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">בטל</button>
+                <a class="btn btn-info" ng-click="login()" href="javascript:void(0)">כניסה</a>
+            </div>
+            </div>
+        </div>
     </div>
 </nav>
