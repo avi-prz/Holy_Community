@@ -1,7 +1,7 @@
 app.controller("newCommunityCtrl",function($scope,$log,$location,placesSvc,communitySvc ){
     $scope.counties=[];
     $scope.cities = [];
-
+  
     placesSvc.getCountriesList().then(function(result){
         $scope.countries=result;
     },

@@ -34,6 +34,9 @@ app.controller('navbarCtrl', function ($scope,$log,$location,loginSvc) {
                 $scope.current = new User(userData);
                 errorMsg = "";
                 angular.element("#loginModal").modal("hide");
+                if (userData.community.length > 0) {
+                    $location.path("/communities/" + userData.community);
+                }
             },
             function (err) {
                 $scope.errorMsg = err;
@@ -49,7 +52,7 @@ app.controller('navbarCtrl', function ($scope,$log,$location,loginSvc) {
         $location.path("/");
     };
 
-    $scope.newMember = function () { 
+    $scope.addMember = function () { 
         $location.path("/members/new");
     };
 

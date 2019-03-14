@@ -1,7 +1,8 @@
-app.controller('newMemberCtrl', function ($scope, $log, $location, membersSvc) {
+app.controller('newMemberCtrl', function ($scope, $log, $location, membersSvc,communitySvc) {
     $scope.hasFailed = false;
     $scope.error = "";
 
+    $scope.community = communitySvc.current ? communitySvc.current.id : "";
     
     
     $scope.createMember = function () {

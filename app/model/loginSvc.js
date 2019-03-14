@@ -1,4 +1,4 @@
-app.factory("loginSvc", function ($http, $q, $log, $location) {
+app.factory("loginSvc", function ($http, $q, $location, communitySvc) {
     function User(id, firstName, lastName, loginName, password, email, isAdmin, adminDescription, isSuperAdmin, community) {
         if (arguments.length === 1 && typeof id === "object") {
             this.id = id.id;
@@ -25,18 +25,7 @@ app.factory("loginSvc", function ($http, $q, $log, $location) {
         }                
     }
 
-    var activeUser = null;/*{
-        id: "Wi0cfFF9L5",
-        firstName: "אברהם",
-        lastName: "פרץ",
-        loginName: "Admin",
-        password: "123456",
-        email: "avi.prz@gmail.com",
-        isAdmin: false,
-        adminDescription: "חבר ועד",
-        isSuperAdmin: false,
-        community:"1"
-    }*/
+    var activeUser = null;
 
     var users = [];
     var wasInit = false;
@@ -113,7 +102,10 @@ app.factory("loginSvc", function ($http, $q, $log, $location) {
         activeUser = null;
         var async = $q.defer();
         if (wasInit) {
-            if (checkLogin(login, password)) {
+            if (checkLogin(login, password)) {                
+                if (activeUser.community.length > 0) {
+                    communitySvc.setActiveCommunity(activeUser.community);
+                }
                 async.resolve(activeUser);
             } else {
                 async.reject("שם משתמש או סיסמה לא חוקי");

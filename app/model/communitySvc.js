@@ -16,6 +16,7 @@ app.factory("communitySvc", function ($http, $q) {
     var wasPreyInit = false;
     var wasLectureInit = false;
     var wasInit = false;
+    var activeCommunity = null;
 
     function init() {
         var async = $q.defer();
@@ -147,12 +148,26 @@ app.factory("communitySvc", function ($http, $q) {
         return async.promise;
     }
 
+    function setActiveCommunity(communityId) {
+        activeCommunity = null;
+        currentComId = "";
+        if (communities && communities.length > 0) {
+            var i = communities.findIndex(com => com.id === communityId);
+            if (i >= 0) {
+                activeCommunity = communities[i];
+                currentComId = communityId;
+            } 
+        }
+    }
+
     return {
         getCommunities:init,
-        setCuurentCommunity:setCurrentCommunity,
+        setCurrentCommunity:setCurrentCommunity,
         getPreyaers: getPreyaers,
         getLectures: getLectures,
         getCommunitiesByLocation: getCommunitiesByLocation,
-        addCommunity:addCommunity
+        addCommunity: addCommunity,
+        setActiveCommunity: setActiveCommunity,
+        current:activeCommunity
     }
  });
