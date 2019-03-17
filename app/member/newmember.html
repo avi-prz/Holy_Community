@@ -3,19 +3,19 @@
         <div class="form-group row mt-5">
             <label ng-class="{'text-danger': myForm.txComId.$untouched || (myForm.txComId.$dirty && myForm.txComId.$invalid)}" for="txComId">*קוד קהילה:</label>
             <div class="col-sm-10 mr-auto">
-                <input type="text" name="txComId" id="txComId" class="form-control" placeholder="קוד קהילה" ng-model="community" maxlength="11" required="true">
+                <input type="text" name="txComId" id="txComId" class="form-control" placeholder="קוד קהילה" ng-model="community" maxlength="11" ng-required>
             </div>
         </div>
         <div class="form-group row">
             <label for="txFName" ng-class="{'text-danger': myForm.txFName.$untouched || (myForm.txFName.$dirty && myForm.txFName.$invalid)}">*שם פרטי:</label>
             <div class="col-sm-10 mr-auto">
-                <input type="text" name="txFName" id="txFName" class="form-control" placeholder="פלוני" ng-model="fName" maxlength="20" required>
+                <input type="text" name="txFName" id="txFName" class="form-control" placeholder="פלוני" ng-model="fName" maxlength="20" ng-required>
             </div>
         </div>
         <div class="form-group row">
             <label for="txLName" ng-class="{'text-danger': myForm.txLName.$untouched || (myForm.txLName.$dirty && myForm.txLName.$invalid)}">*שם משפחה:</label>
             <div class="col-sm-10 mr-auto">
-                <input type="text" name="txLName" id="txLName" class="form-control" placeholder="אלמוני" ng-model="lName" maxlength="20" required>
+                <input type="text" name="txLName" id="txLName" class="form-control" placeholder="אלמוני" ng-model="lName" maxlength="20" ng-required>
             </div>
         </div>
         <div class="form-group row">
@@ -32,7 +32,7 @@
         <div class="form-group row">
             <label for="txPhone" ng-class="{'text-danger': myForm.txPhone.$untouched || (myForm.txPhone.$dirty && myForm.txPhone.$invalid)}">*סלולרי:</label>
             <div class="col-sm-10 mr-auto">
-                <input type="text" name="txPhone" id="txPhone" class="form-control" placeholder="מספר נייד" ng-model="phone" maxlength="11" pattern="^[0]([2-4,8-9]|([5,7][0,2-9]))([\-]{0,1})([0-9]{7})" required>
+                <input type="text" name="txPhone" id="txPhone" class="form-control" placeholder="מספר נייד" ng-model="phone" maxlength="11" pattern="^[0]([2-4,8-9]|([5,7][0,2-9]))([\-]{0,1})([0-9]{7})" ng-required>
             </div>
         </div>
         <div class="form-group row">
@@ -44,25 +44,25 @@
         <div class="form-group row">
             <label for="txUser" ng-class="{'text-danger': myForm.txUser.$untouched || (myForm.txUser.$dirty && myForm.txUser.$invalid)}">*שם משתמש:</label>
             <div class="col-sm-10 mr-auto">
-                <input type="text" name="txUser" id="txUser" class="form-control" placeholder="שם משתמש" ng-model="userName" minlength="6" maxlength="12" pattern="^[a-zA-z]+[a-zA-Z0-9_\-\.]{5,11}$" required>
+                <input type="text" name="txUser" id="txUser" class="form-control" placeholder="שם משתמש" ng-model="userName" minlength="6" maxlength="12" pattern="^[a-zA-z]+[a-zA-Z0-9_\-\.]{5,11}$" ng-required>
             </div>
         </div>
         <div class="form-group row">
             <label for="txPass" ng-class="{'text-danger': myForm.txPass.$untouched || (myForm.txPass.$dirty && myForm.txPass.$invalid)}">*סיסמה:</label>
             <div class="col-sm-10 mr-auto">
-                <input type="password" name="txPass" id="txPass" class="form-control" placeholder="סיסמה" ng-model="userPass" minlength="6" maxlength="12" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,12}" required>
+                <input type="password" name="txPass" id="txPass" class="form-control" placeholder="סיסמה" ng-model="userPass" minlength="6" maxlength="12" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,12}" ng-required>
             </div>        
         </div>
         <div class="form-group row">
             <label for="txMail" ng-class="{'text-danger': myForm.txMail.$untouched || (myForm.txMail.$dirty && myForm.txMail.$invalid)}">*אימייל:</label>
             <div class="col-sm-10 mr-auto">
-                <input type="email" name="txMail" id="txMail" class="form-control" placeholder="someone@somewere.com" ng-model="userMail" maxlength="20" required>
+                <input type="email" name="txMail" id="txMail" class="form-control" placeholder="someone@somewere.com" ng-model="userMail" maxlength="20" ng-required>
             </div>        
         </div>
         <div class="form-group row">
             <label for="txAddress" ng-class="{'text-danger': myForm.txAddress.$untouched || (myForm.txAddress.$dirty && myForm.txAddress.$invalid)}">*כתובת:</label>
             <div class="col-sm-10 mr-auto">
-                <input type="text" name="txAddress" id="txAddress" class="form-control" placeholder="כתובת מגורים" ng-model="address" required>
+                <input type="text" name="txAddress" id="txAddress" class="form-control" placeholder="כתובת מגורים" ng-model="address" ng-required>
             </div>        
         </div>
         <div class="form-group row">

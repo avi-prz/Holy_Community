@@ -4,7 +4,7 @@
 
 body {
     direction: rtl;
-    background-image: linear-gradient(to left,#053d9a,#0a3e65,#001032,#001832);
+    /* background-image: linear-gradient(to left,#053d9a,#0a3e65,#001032,#001832); */
 }
 
 .navbar-brand>span {
@@ -76,15 +76,19 @@ tbody>tr>td {
     width:25%;
 }
 
+.main-page form h3 {
+    font-family:'Tinos', serif;
+}
+
 .navbar-dark .navbar-nav .nav-link {
     color:yellow;
 }
 
-ng-view .form-group label {
+/* ng-view .form-group label {
     color: greenyellow;
 }
 
 .h1-gold {
     font-family:'Tinos', serif;
     color:gold;
-}
+} */

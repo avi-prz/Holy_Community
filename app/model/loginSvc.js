@@ -131,8 +131,12 @@ app.factory("loginSvc", function ($http, $q, $location, communitySvc) {
         $location.path("/");
     }
 
+    function getActiveUser() {
+        return activeUser;
+    }
+
     return {
-        current: activeUser,
+        current: getActiveUser,
         isLoggedOn: isUserLoggedOn,
         isCommunityAdmin: isCommunityAdmin,
         canCreateCommunity: canCreateCommunity,

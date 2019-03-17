@@ -38,6 +38,15 @@
     <link rel="stylesheet" href="resources/ui-bootstrap4/ui-bootstrap-csp.css">
     <!-- adding local stylesheet -->
     <link rel="stylesheet" href="style.css">
+    <!-- adding parse library files -->
+    <script src="resources/parse/parse.min.js"></script>
+    <script>
+        Parse.serverURL = 'https://avip.back4app.io'; // This is your Server URL
+        Parse.initialize(
+        '1n3ckFVC02gWs0Zt5guL1aIGB0wVioUa8dmCUuhA', // This is your Application ID
+        'Eahf3XRGRIPYngn6XUmxnekktFuel8RoK71JimhW' // This is your Javascript key
+        );
+    </script>
     <!-- adding AngularJS project files -->    
     <script src="app/app.js"></script>
     <script src="app/model/loginSvc.js"></script>

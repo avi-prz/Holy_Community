@@ -21,6 +21,7 @@
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="ddUser" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user"></i></a>
                 <div class="dropdown-menu" aria-labelledby="ddUser">
+                    <a class="dropdown-item" href="javascript:void(0)" ng-click="showCommunity()">קהילה</a>
                     <a class="dropdown-item" href="javascript:void(0)" ng-click="messages()">הודעות</a>  
                     <div ng-show="isCommunityAdmin()">
                         <hr>
@@ -51,12 +52,12 @@
             </div>
             <div class="modal-body">
                 <div class="form-group row mr-3 ml-3">
-                    <label for="txUser">שם משתמש</label>
-                    <input type="text" class="form-control" name="txUser" id="txUser" placeholder="שם משתמש" ng-model="userName" ng-required>                       
+                    <label for="txUsername">שם משתמש</label>
+                    <input type="text" class="form-control" name="txUsername" id="txUsername" placeholder="שם משתמש" ng-model="username" ng-required>                       
                 </div>
                 <div class="form-group row mr-3 ml-3">
-                    <label for="txPass">סיסמה</label>
-                    <input type="password" class="form-control" name="txPass" id="txPass" placeholder="סיסמה" ng-model="userPass" ng-required>
+                    <label for="txUserPass">סיסמה</label>
+                    <input type="password" class="form-control" name="txUserPass" id="txUserPass" placeholder="סיסמה" ng-model="password" ng-required>
                 </div>
                 <div class="form-group" ng-show="errorMsg.length>0">
                     <span class="text-danger float-right">{{errorMsg}}</span>

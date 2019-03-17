@@ -11,6 +11,9 @@ var app = angular.module('holyCommunityApp', ['ngRoute','ngAnimate', 'ngTouch','
     }).when('/members/new', {
         templateUrl: "app/member/newmember.html",
         controller: "newMemberCtrl"
+    }).when('/members/new/:id', {
+        templateUrl: "app/member/newmember.html",
+        controller: "newMemberCtrl"
     }).otherwise({
         redirectTo: "/"
     });
