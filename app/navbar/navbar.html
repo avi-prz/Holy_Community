@@ -21,10 +21,13 @@
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="ddUser" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user"></i></a>
                 <div class="dropdown-menu" aria-labelledby="ddUser">
-                    <a class="dropdown-item" href="javascript:void(0)" ng-click="showCommunity()">קהילה</a>
-                    <a class="dropdown-item" href="javascript:void(0)" ng-click="messages()">הודעות</a>  
+                    <div ng-show="{{current.communityId.length>0}}">
+                        <a class="dropdown-item" href="javascript:void(0)" ng-click="showCommunity()">קהילה</a>
+                        <a class="dropdown-item" href="javascript:void(0)" ng-click="messages()">הודעות</a>
+                        <hr> 
+                    </div>                    
                     <div ng-show="isCommunityAdmin()">
-                        <hr>
+                        
                          <a class="dropdown-item" href="javascript:void(0)" ng-click="addMember()">הוסף חבר קהילה</a>
                         <a class="dropdown-item" href="javascript:void(0)" ng-click="newMessage()">הודעה חדשה</a>
                         <a class="dropdown-item" href="javascript:void(0)" ng-click="addPrayer()">הוסף תפילה</a>
