@@ -1,12 +1,12 @@
 app.factory("communitySvc", function ($http, $q) {
     function Community(data) {
         this.id = data.id;
-        this.name = data.name;
-        this.country = data.country;
-        this.city = data.city;
-        this.address = data.address;
-        this.description = data.description;
-        this.foundation_date = data.foundation_date;
+        this.name = data.get("name");
+        this.country = data.get("country");
+        this.city = data.get("city");
+        this.address = data.get("address");
+        this.description = data.get("description");
+        this.foundation_date = data.get("foundation_date");
     }
 
     var communities = [];
@@ -23,16 +23,17 @@ app.factory("communitySvc", function ($http, $q) {
         if (wasInit) {
             async.resolve(communities);
         } else {
-            var req = {
-                method: "get",
-                url: "./app/data/communities.json",
-                dataType: "json",
-                contentType: "application/json"
-            };
-            $http(req).then(function (results) {
-                for (var i = 0; i < results.data.length; i++) {
-                    communities.push(new Community(results.data[i]));
-                }
+            // var req = {
+            //     method: "get",
+            //     url: "./app/data/communities.json",
+            //     dataType: "json",
+            //     contentType: "application/json"
+            // };
+            // $http(req)
+            loadCommunities().then(function (results) {
+                // for (var i = 0; i < results.data.length; i++) {
+                //     communities.push(new Community(results.data[i]));
+                // }
                 async.resolve(communities);
                 wasInit = true;
             },
@@ -40,6 +41,26 @@ app.factory("communitySvc", function ($http, $q) {
                     async.reject(err);
                 });
         }
+        return async.promise;
+    }
+
+    function loadCommunities() {
+        var async = $q.defer();
+        const community = Parse.Object.extend("Community");
+        const query = new Parse.Query(community);
+        query.find().then(function (results) {
+            if (results.length > 0) {
+                for (var i = 0; i < results.length; i++) {
+                    communities.push(new Community(results[i]));
+                }
+                async.resolve(communities);
+                wasInit = true;
+            } else {
+                async.resolve([]);
+            }
+        }, function (err) {
+                async.reject(err);
+        });
         return async.promise;
     }
 

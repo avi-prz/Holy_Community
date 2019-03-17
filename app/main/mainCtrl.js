@@ -33,7 +33,7 @@ app.controller('mainCtrl', function ($scope, $log, $location, placesSvc, communi
     };
 
     $scope.showCommunity = function () {
-        if ($scope.community && $scope.community.id > 0) {
+        if ($scope.community && $scope.community.id.length > 0) {
             $location.path("/communities/" + $scope.community.id);
         }
     }
