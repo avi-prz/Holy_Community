@@ -93,23 +93,23 @@ app.factory("communitySvc", function ($http, $q) {
 
     function getLectures(comId) {
         var async = $q.defer();
-        if (wasLectureInit) {
-            async.resolve(lectures[comId]);
-        } else {
-            var req = {
-                method: "get",
-                url: "./app/data/lectures.json",
-                dataType: "json",
-                contentType: "application/json"
-            };
-            $http(req).then(function (results) {
-                lectures = results.data;
-                async.resolve(lectures[comId]);
-            },
-                function (err) {
-                    async.reject(err);
-                });
-        }
+        lectures = [];
+        const lesson = Parse.Object.extend("Lessons");
+        const qry = new Parse.Query(lesson);
+        const com = Parse.Object.extend("Community");
+        var comQry = new com();
+        comQry.id = comId;
+        qry.equalTo("community", comQry);
+        qry.find().then(function (data) { 
+            if (data.length > 0) {
+                for (var i = 0; i < data.length; i++) {
+                    lectures.push(new Lesson(data[i]));
+                }
+            }
+            async.resolve(lectures);
+        }, function (error) {
+                async.reject(error);
+          });
         return async.promise;
     }
 
@@ -140,36 +140,59 @@ app.factory("communitySvc", function ($http, $q) {
         return async.promise;
     }
 
-    function getMaxComID() {
-        if (communities && communities.length > 0) {
-            var max = -1;
-            for (idx in communities) {
-                if (parseInt(communities[idx].id) > max) {
-                    max = parseInt(communities[idx].id);
-                }
-            }
-            return max;
-        } else {
-            return 0;
-        } 
-    }
-
     function addCommunity(name,description,country,city,address,foundation_date) { 
         var async = $q.defer();
-        if (wasInit) {
-            var newId = getMaxComID();
-            communities.push(new Community({ id: (newId++).toString(), name: name, description: description, country: country, city: city, address: address, foundation_date: foundation_date }));
-            async.resolve(communities);
-        } else {
-            init().then(function (data) {
-                newId = getMaxComID();
-                communities.push(new Community({ id: (newId++).toString(), name: name, description: description, country: country, city: city.name, address: address, foundation_date: foundation_date }));
-                async.resolve(communities);
-            },
-                function (err) {
-                    async.reject(err);
-                 });
-        }
+        // if (wasInit) {
+        //     var newId = "";
+        //     communities.push(new Community({ id: newId, name: name, description: description, country: country, city: city, address: address, foundation_date: foundation_date }));
+        //     async.resolve(communities);
+        // } else {
+        //     init().then(function (data) {
+        //         newId = getMaxComID();
+        //         communities.push(new Community({ id: newId, name: name, description: description, country: country, city: city.name, address: address, foundation_date: foundation_date }));
+        //         async.resolve(communities);
+        //     },
+        //         function (err) {
+        //             async.reject(err);
+        //          });
+        // }
+        createCommunity(name, description, country, city, address, foundation_date).then(function (data) {
+            async.resolve(data);
+        },
+            function (error) {
+                async.reject(error);
+            });
+        return async.promise;
+    }
+
+    function createCommunity(name,description,country,city,address,foundation_date) {
+        var async = $q.defer();
+
+        const pCommunity = Parse.Object.extend('Community');
+        const myNewObject = new pCommunity();
+
+        myNewObject.set('name', name);
+        myNewObject.set('country', country);
+        myNewObject.set('city', city);
+        myNewObject.set('address', address);
+        myNewObject.set('description', description);
+        myNewObject.set('foundation_date', foundation_date);
+        myNewObject.set('association_number', '');
+        myNewObject.set('bank_name', '');
+        myNewObject.set('bank_number', 0);
+        myNewObject.set('bank_branch', 0);
+        myNewObject.set('bank_account', '');
+        myNewObject.set('community_image', null); //new Parse.File("resume.txt", { base64: btoa("My file content") }));
+        myNewObject.set('coordinates', '');
+
+        myNewObject.save().then(function (data) { 
+            communities.push(new Community(data));
+            async.resolve(communities[communities.length - 1]);
+            $location.path("/communities/" + data.id);
+        }, function (error) {
+            async.reject(error);
+            });
+        
         return async.promise;
     }
 
