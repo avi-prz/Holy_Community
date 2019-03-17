@@ -1,28 +1,38 @@
 app.factory("loginSvc", function ($http, $q, $location, communitySvc) {
-    function User(id, firstName, lastName, loginName, password, email, isAdmin, adminDescription, isSuperAdmin, community) {
-        if (arguments.length === 1 && typeof id === "object") {
-            this.id = id.id;
-            this.firstName = id.firstName;
-            this.lastName = id.lastName;
-            this.loginName = id.loginName;
-            this.password = id.password;
-            this.email = id.email;
-            this.isAdmin = id.isAdmin;
-            this.adminDescription = id.adminDescription;
-            this.isSuperAdmin = id.isSuperAdmin;
-            this.community = id.community;
-        } else {
-            this.id = id;
-            this.firstName = firstName;
-            this.lastName = lastName;
-            this.loginName = loginName;
-            this.password = password;
-            this.email = email;
-            this.isAdmin = isAdmin;
-            this.adminDescription = adminDescription;
-            this.isSuperAdmin = isSuperAdmin;
-            this.community = community;
-        }                
+    function User(user) {//, firstName, lastName, loginName, password, email, isAdmin, adminDescription, isSuperAdmin, community) {
+        // if (arguments.length === 1 && typeof id === "object") {
+        //     this.id = id.id;
+        //     this.firstName = id.firstName;
+        //     this.lastName = id.lastName;
+        //     this.loginName = id.loginName;
+        //     this.password = id.password;
+        //     this.email = id.email;
+        //     this.isAdmin = id.isAdmin;
+        //     this.adminDescription = id.adminDescription;
+        //     this.isSuperAdmin = id.isSuperAdmin;
+        //     this.community = id.community;
+        // } else {
+        //     this.id = id;
+        //     this.firstName = firstName;
+        //     this.lastName = lastName;
+        //     this.loginName = loginName;
+        //     this.password = password;
+        //     this.email = email;
+        //     this.isAdmin = isAdmin;
+        //     this.adminDescription = adminDescription;
+        //     this.isSuperAdmin = isSuperAdmin;
+        //     this.community = community;
+        // }
+        this.id = user.id;
+        this.firstName = "";//user.attributes.firstName;
+        this.lastName = "";//user.attributes.lastName;
+        this.loginName = user.attributes.username;
+        this.password = user.attributes.password;
+        this.email = user.attributes.email;
+        this.isAdmin = user.attributes.isAdmin;
+        this.adminDescription = user.attributes.admin_description;
+        this.isSuperAdmin = user.attributes.isSuperAdmin;
+        this.community = "";
     }
 
     var activeUser = null;
@@ -101,28 +111,28 @@ app.factory("loginSvc", function ($http, $q, $location, communitySvc) {
     function login(login, password) {
         activeUser = null;
         var async = $q.defer();
-        if (wasInit) {
-            if (checkLogin(login, password)) {                
-                if (activeUser.community.length > 0) {
-                    communitySvc.setActiveCommunity(activeUser.community);
-                }
-                async.resolve(activeUser);
-            } else {
-                async.reject("שם משתמש או סיסמה לא חוקי");
-            }   
-        } else {
-            init().then(function (result) {
-                if (checkLogin(login, password)) {
+        Parse.User.logIn(login, password).then(function (user) {           
+            activeUser = new User(user);
+            const member = Parse.Object.extend("members");
+            const m_type = Parse.Object.extend("Member_Type");
+            const query = new Parse.Query(m_type);
+            const query2 = new Parse.Query(member);
+            query.equalTo("description", "ראשי");
+            query.find().then(function (results) {
+                query2.equalTo("member_type", results[0]);
+                query2.equalTo("member_user", Parse.User.current());
+                query2.find().then(function (results) {
+                    if (results.length > 0) {
+                        activeUser.firstName = results[0].attributes.first_name;
+                        activeUser.lastName = results[0].attributes.last_name;
+                    }                    
                     async.resolve(activeUser);
-                } else {
-                    async.reject("שם משתמש או סיסמה לא חוקי");
-                } 
-            },
-            function (err) {
-                async.reject(err);
-            });
-        }
-
+                });
+            });                        
+        },
+        function (error) {            
+            async.reject(error);
+        });
         return async.promise;
     }
 
