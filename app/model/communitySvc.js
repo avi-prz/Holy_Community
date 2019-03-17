@@ -9,6 +9,21 @@ app.factory("communitySvc", function ($http, $q) {
         this.foundation_date = data.get("foundation_date");
     }
 
+    function Prayer(data) {
+        this.id = data.id;
+        this.title = data.get("title");
+        this.time = data.get("time");
+    }
+
+    function Lesson(data) { 
+        this.id = data.id;
+        this.title = data.get("name");
+        this.dayOfWeek = data.get("dayOfWeek");
+        this.time = data.get("time");
+        this.by = data.get("teacher");
+        this.place = data.get("place");
+    }
+
     var communities = [];
     var currentComId = 0;
     var prayers = [];
@@ -22,18 +37,8 @@ app.factory("communitySvc", function ($http, $q) {
         var async = $q.defer();
         if (wasInit) {
             async.resolve(communities);
-        } else {
-            // var req = {
-            //     method: "get",
-            //     url: "./app/data/communities.json",
-            //     dataType: "json",
-            //     contentType: "application/json"
-            // };
-            // $http(req)
-            loadCommunities().then(function (results) {
-                // for (var i = 0; i < results.data.length; i++) {
-                //     communities.push(new Community(results.data[i]));
-                // }
+        } else {            
+            loadCommunities().then(function (results) {                
                 async.resolve(communities);
                 wasInit = true;
             },
@@ -66,24 +71,23 @@ app.factory("communitySvc", function ($http, $q) {
 
     function getPreyaers(comId) {
         var async = $q.defer();
-        if (wasPreyInit) {
-            async.resolve(prayers[comId]);
-        } else {
-            var req = {
-                method: "get",
-                url: "./app/data/Praytimes.json",
-                dataType: "json",
-                contentType: "application/json"
-            };
-            $http(req).then(function (results) {
-                prayers = results.data;
-                async.resolve(prayers[comId]);
-                wasPreyInit = true;
-            },
-                function (err) {
-                    async.reject(err);
-                });
-        }
+        prayers = [];
+        const prayer = Parse.Object.extend("Prayers");
+        const query = new Parse.Query(prayer);
+        const com = Parse.Object.extend("Community");
+        var comQry = new com();
+        comQry.id = comId;
+        query.equalTo("community", comQry);
+        query.find().then(function (data) {
+            if (data.length > 0) {
+                for (var i = 0; i < data.length; i++) {
+                    prayers.push(new Prayer(data[i]));
+                }
+            }
+            async.resolve(prayers);
+        }, function (error) {
+                async.reject(error);
+          });
         return async.promise;
     }
 
