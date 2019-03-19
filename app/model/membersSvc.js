@@ -50,7 +50,7 @@ app.factory('membersSvc', function ($q) {
 
         user.signUp().then(function (usrData) {
             addMember(usrData, fName, lName, userMail, gender, phone, home_phone, address, floor, flat_number, comObj).then(function (data) {
-                var usr = new User(community, userName, userPass, userEmail, usrData.get("isAdmin"), adminDesc);
+                var usr = new User(community, userName, userPass, userMail, usrData.get("isAdmin"), adminDesc);
                 usr.id = usrData.id;
                 async.resolve(usr);
             }, function (err) {
@@ -58,7 +58,7 @@ app.factory('membersSvc', function ($q) {
                     ///TODO: delete the new user as the member data failed to be created!
             });
         }, function (error) {
-            async.reject("יצירת משתמש חדש נכשלה : " + err.message);
+            async.reject("יצירת משתמש חדש נכשלה : " + error.message);
         });
         return async.promise;
     }
@@ -74,7 +74,7 @@ app.factory('membersSvc', function ($q) {
         myNewObject.set('last_name', lName);
         myNewObject.set('address', address);
         myNewObject.set('phone', phone);
-        myNewObject.set('email', userEmail);
+        myNewObject.set('email', userMail);
         // myNewObject.set('birth_date', new Date());
         // myNewObject.set('bar_mitzva', new Date());
         // myNewObject.set('bar_mitzva_parasha', 'A string');
