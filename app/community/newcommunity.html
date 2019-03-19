@@ -2,15 +2,15 @@
     <form name="newComForm" id="newComForm">
         <h1 class="text-center mt-5 h1-gold">הקמת קהילה חדשה</h1>
         <div class="form-group row mt-5">
-            <label for="txName" ng-class="{'text-danger': newComForm.txName.$untouched || (newComForm.txName.$dirty && newComForm.txName.$invalid)}">*שם הקהילה</label>
+            <label for="txComName" ng-class="{'text-danger': newComForm.txComName.$untouched || ((newComForm.txComName.$touched || newComForm.txComName.$dirty) && newComForm.txComName.$invalid)}">*שם הקהילה</label>
             <div class="col-sm-10 mr-auto">
-                <input type="text" class="form-control" name="txName" id="txName" placeholder="שם הקהילה" ng-required ng-model="name" title="נא להקליד שם קהילה!">
+                <input type="text" class="form-control" name="txComName" id="txComName" placeholder="שם הקהילה" required ng-model="name" title="נא להקליד שם קהילה!">
             </div>      
         </div>
         <div class="form-group row">
-            <label for="txDesc" ng-class="{'text-danger': newComForm.txDesc.$untouched || (newComForm.txDesc.$dirty && newComForm.txDesc.$invalid)}">*תאור הקהילה</label>
+            <label for="txComDesc" ng-class="{'text-danger': newComForm.txComDesc.$untouched || ((newComForm.txComDesc.$touched || newComForm.txComDesc.$dirty) && newComForm.txComDesc.$invalid)}">*תאור הקהילה</label>
             <div class="col-sm-10 mr-auto">
-                <textarea class="form-control" name="txDesc" id="txDesc" placeholder="ספר קצת על הקהילה" row="3" ng-required ng-model="description" title="נא להקליד תאור של הקהילה!"></textarea>
+                <textarea class="form-control" name="txComDesc" id="txComDesc" placeholder="ספר קצת על הקהילה" row="3" required ng-model="description" title="נא להקליד תאור של הקהילה!"></textarea>
             </div>      
         </div>
         <div class="form-group row">
@@ -30,7 +30,7 @@
             </div>
         </div>
         <div class="form-group row">
-            <label for="txAdrs" ng-class="{'text-danger': newComForm.txAdrs.$untouched || (newComForm.txAdrs.$dirty && newComForm.Adrs.$invalid)}">*כתובת</label>
+            <label for="txAdrs" ng-class="{'text-danger': newComForm.txAdrs.$untouched || ((newComForm.txAdrs.$touched || newComForm.txAdrs.$dirty) && newComForm.txAdrs.$invalid)}">*כתובת</label>
             <div class="col-sm-10 mr-auto">
                 <input type="text" class="form-control" name="txAdrs" id="txAdrs" placeholder="שם רחוב ומספר" ng-model="address" required title="נא להוסיף כתובת!">
             </div>      
@@ -40,7 +40,7 @@
             <label for="dpFoundDate">תאריך יסוד הקהילה</label>
             <div class="col-sm-10 mr-auto">
                 <p class="input-group">
-                    <input type="text" class="form-control" uib-datepicker-popup ng-model="foundation_date" is-open="popup2.opened" datepicker-options="dateOptions" ng-required="false" close-text="Close" id="dpFoundDate" name="dpFoundDate"/>
+                    <input type="text" class="form-control" uib-datepicker-popup ng-model="foundation_date" is-open="popup2.opened" datepicker-options="dateOptions" close-text="Close" id="dpFoundDate" name="dpFoundDate"/>
                     <span class="input-group-btn">
                         <button type="button" class="btn btn-secondary" ng-click="open2()">
                         <i class="fa-svg-icon">
@@ -59,8 +59,8 @@
         <div class="form-group row">
             <div class="col-sm-12 ml-auto">
                 <ul class="list-inline">
-                    <li class="list-inline-item"><button class="btn btn-success" ng-click="add()" 
-                        ng-disabled="newComForm.txName.$untouched || (newComForm.txName.$dirty && newComForm.txName.$invalid) || newComForm.txDesc.$untouched || (newComForm.txDesc.$dirty && newComForm.txDesc.$invalid) || newComForm.ddlCountry.$error.required || newComForm.ddlCity.$error.required || newComForm.txAdrs.$untouched || (newComForm.txAdrs.$dirty && newComForm.Adrs.$invalid)">הוסף</button></li>
+                    <li class="list-inline-item"><button class="btn btn-success" ng-click="add()" ng-disabled="newComForm.$pristine || newComForm.$invalid">הוסף</button></li>
+                    <!--ng-disabled="newComForm.txName.$untouched || (newComForm.txName.$dirty && newComForm.txName.$invalid) || newComForm.txDesc.$untouched || (newComForm.txDesc.$dirty && newComForm.txDesc.$invalid) || newComForm.ddlCountry.$error.required || newComForm.ddlCity.$error.required || newComForm.txAdrs.$untouched || (newComForm.txAdrs.$dirty && newComForm.Adrs.$invalid)"-->
                     <li class="list-inline-item"><button type="reset" class="btn btn-warning">אפס טופס</button></li>
                     <li class="list-inline-item"><a class="btn btn-danger" href="#!/">בטל</a></li>
                 </ul>
