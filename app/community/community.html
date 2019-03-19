@@ -2,11 +2,13 @@
     <div class="row">
         <h1 class="mx-auto">זמני תפילות</h1>
         <div class="col-sm-12">
-            <div class="marquee">
-                <ul class="list-inline">
-                    <prey ng-repeat="data in prayers"></prey>                
-                </ul>
-            </div>
+            <marquee id="prayersScroll" class="marquee" behavior="scroll" direction="left" scrolldelay="30" scrollamount="5">
+                <div id="marquee" onmouseover="javascript:document.getElementById('prayersScroll').stop();" onmouseout="javascript:document.getElementById('prayersScroll').start();"><!--class="marquee"> -->            
+                    <ul class="list-inline">
+                        <prey ng-repeat="data in prayers"></prey>                
+                    </ul>            
+                </div>
+            </marquee>
         </div>        
     </div>
     <div class="container">
@@ -19,13 +21,13 @@
     </div>    
     <script>
         $(function () {
-            $(".marquee").marquee({
-                duration: 10000,
-                duplicated: false,
-                pauseOnHover: true,
-                direction: 'left',
-                startVisible: true
-            });
+            // $(".marquee").marquee({
+            //     duration: 10000,
+            //     duplicated: false,
+            //     pauseOnHover: true,
+            //     direction: 'left',
+            //     startVisible: true
+            // });
         });
     </script>
 </div>

@@ -28,8 +28,6 @@ app.factory("communitySvc", function ($http, $q) {
     var currentComId = 0;
     var prayers = [];
     var lectures = [];
-    var wasPreyInit = false;
-    var wasLectureInit = false;
     var wasInit = false;
     var activeCommunity = null;
 
@@ -112,17 +110,7 @@ app.factory("communitySvc", function ($http, $q) {
           });
         return async.promise;
     }
-
-    function setCurrentCommunity(comId) {
-        if (currentComId != comId) {
-            currentComId = comId;
-            prayers = [];
-            wasPreyInit = false;
-            lectures = [];
-            wasLectureInit = false;
-        }
-    }
-
+    
     function getCommunitiesByLocation(country, city) {
         var async = $q.defer();
         if (wasInit) {
@@ -137,6 +125,32 @@ app.factory("communitySvc", function ($http, $q) {
                     async.reject(err);
                 });
         }
+        return async.promise;
+    }
+
+    function getCommunityById(comId) {
+        var async = $q.defer();
+        var res = null;
+        var idx = -1;
+        if (wasInit) {            
+            idx = communities.findIndex(com => com.id === comId);
+            if (idx >= 0) {
+                res = communities[idx];
+            }
+            async.resolve(res);
+        } else {
+            init().then(function (results) {                
+                idx = results.findIndex(com => com.id === comId);
+                if (idx >= 0) {
+                    res = results[idx];
+                }
+                async.resolve(res);
+            },
+            function(error) {
+                async.reject(error);
+            });
+        }
+        
         return async.promise;
     }
 
@@ -193,15 +207,89 @@ app.factory("communitySvc", function ($http, $q) {
             } 
         }
     }
+    
+    function setCurrentCommunity(comId) {
+        if (currentComId != comId) {
+            currentComId = comId;
+            prayers = [];
+            wasPreyInit = false;
+            lectures = [];
+            wasLectureInit = false;
+        }
+    }
+
+    function addPrayer(title,time,community) {
+        var async = $q.defer();
+        const prayMdl = Parse.Object.extend("Prayers");
+        var newPrayer = new prayMdl();
+        const comMdl = Parse.Object.extend("Community");
+        var comObj = new comMdl();
+        comObj.id = community.id;
+
+        newPrayer.set('title', title);
+        newPrayer.set('time', time);
+        newPrayer.set('community', comObj);
+
+        newPrayer.save().then(function(results){
+            async.resolve(results);
+        },
+        function(error) {
+            async.reject(error);
+        });
+        return async.promise;
+    }
+
+    function editPrayer(id,title,time) {
+        var async = $q.defer();
+        const prayMdl = Parse.Object.extend("Prayers");
+        const qry = new Parse.Query(prayMdl);
+        qry.get(id).then(function (prayObj) {
+            prayObj.set('title', title);
+            prayObj.set('time', time);
+            prayObj.save().then(function (data) {
+                async.resolve(data);
+            },
+            function (err) {
+                async.reject(err);
+            });
+        },
+        function (error) { 
+            async.reject(error);
+        });
+        return async.promise;
+    }
+
+    function delPrayer(id) {
+        var async = $q.defer();
+
+        const prayMdl = Parse.Object.extend("Prayers");
+        const qry = new Parse.Query(prayMdl);
+        qry.get(id).then(function (prayObj) {
+            prayObj.destroy().then(function (results) {
+                async.resolve(results);
+            },
+            function (err) {
+                async.reject(err);
+            });
+        },
+        function(error) {
+            async.reject(error);
+        });
+        return async.promise;
+    }
 
     return {
         getCommunities:init,
-        setCurrentCommunity:setCurrentCommunity,
         getPreyaers: getPreyaers,
         getLectures: getLectures,
         getCommunitiesByLocation: getCommunitiesByLocation,
+        getCommunityById:getCommunityById,
         addCommunity: addCommunity,
         setActiveCommunity: setActiveCommunity,
-        current:activeCommunity
+        setCurrentCommunity:setCurrentCommunity,
+        current: activeCommunity,
+        addPrayer: addPrayer,
+        editPrayer: editPrayer,
+        delPrayer:delPrayer
     }
  });

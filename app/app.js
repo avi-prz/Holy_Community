@@ -8,6 +8,9 @@ var app = angular.module('holyCommunityApp', ['ngRoute','ngAnimate', 'ngTouch','
     }).when('/communities/:id', {
         templateUrl: "app/community/community.html",
         controller: "communityCtrl"
+    }).when('/community/manage/:id', {
+        templateUrl: "app/community/manageCommunity.html",
+        controller: "communityCtrl"
     }).when('/members/new', {
         templateUrl: "app/member/newmember.html",
         controller: "newMemberCtrl"
