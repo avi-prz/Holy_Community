@@ -1,4 +1,4 @@
-app.controller('navbarCtrl', function ($scope,$location,loginSvc,) {
+app.controller('navbarCtrl', function ($scope,$location,loginSvc,$routeParams) {
     function User(user) {
         this.id = user.id;
         this.firstName = user.firstName;
@@ -63,7 +63,7 @@ app.controller('navbarCtrl', function ($scope,$location,loginSvc,) {
 
     //add a member to a community by community admin
     $scope.addMember = function () { 
-        $location.path("/members/new/" + $scope.current.communityId);
+        $location.path("/members/new/" + $scope.getCurrentCommunityId());
     };
 
     $scope.messages = function () { };
@@ -73,11 +73,16 @@ app.controller('navbarCtrl', function ($scope,$location,loginSvc,) {
 
     $scope.showCommunity = function () {
         if ($scope.current.communityId.length > 0) {
-            $location.path("/communities/" + $scope.current.communityId);
+            $location.path("/communities/" + $scope.getCurrentCommunityId());
         }
     };
 
     $scope.getName = function () {
         return ($scope.current ? $scope.current.firstName : '');
+    };
+
+    $scope.getCurrentCommunityId = function () { 
+        var id = ($scope.current ? ($scope.current.communityId.length>0 ? $scope.current.communityId : ($routeParams.id ? $routeParams.id : "")) : ($routeParams.id ? $routeParams.id : ""));
+        return id;
     };
 });

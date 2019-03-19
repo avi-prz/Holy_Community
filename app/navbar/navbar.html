@@ -23,17 +23,19 @@
                 <div class="dropdown-menu" aria-labelledby="ddUser">
                     <span class="dropdown-item" ng-value="">{{'שלום ' + getName()}}</span>
                     <hr>
-                    <div ng-show="{{current.communityId.length>0}} || canAddCommunity()">
+                    <div ng-show="getCurrentCommunityId().length>0">
                         <a class="dropdown-item" href="javascript:void(0)" ng-click="showCommunity()">קהילה</a>
                         <a class="dropdown-item" href="javascript:void(0)" ng-click="messages()">הודעות</a>
                         <hr> 
                     </div>                    
                     <div ng-show="isCommunityAdmin() || canAddCommunity()">                        
                         <a class="dropdown-item" href="javascript:void(0)" ng-click="addMember()">הוסף חבר קהילה</a>
-                        <a class="dropdown-item" href="javascript:void(0)" ng-click="newMessage()">הודעה חדשה</a>
-                        <a class="dropdown-item" href="javascript:void(0)" ng-click="addPrayer()">הוסף תפילה</a>
-                        <a class="dropdown-item" href="javascript:void(0)" ng-click="addLesson()">הוסף שיעור</a>
-                        <a class="dropdown-item" href="javascript:void(0)" ng-click="addEvents()">הוסף ארוע</a>
+                        <div ng-show="getCurrentCommunityId().length>0">
+                            <a class="dropdown-item" href="javascript:void(0)" ng-click="newMessage()">הודעה חדשה</a>
+                            <a class="dropdown-item" href="javascript:void(0)" ng-click="addPrayer()">הוסף תפילה</a>
+                            <a class="dropdown-item" href="javascript:void(0)" ng-click="addLesson()">הוסף שיעור</a>
+                            <a class="dropdown-item" href="javascript:void(0)" ng-click="addEvents()">הוסף ארוע</a>
+                        </div>                        
                         <hr>                                                
                     </div>
                     <div ng-show="canAddCommunity()">                        
