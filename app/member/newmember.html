@@ -44,13 +44,13 @@
         <div class="form-group row">
             <label for="txUser" ng-class="{'text-danger': myForm.txUser.$untouched || (myForm.txUser.$dirty && myForm.txUser.$invalid)}">*שם משתמש:</label>
             <div class="col-sm-10 mr-auto">
-                <input type="text" name="txUser" id="txUser" class="form-control" placeholder="שם משתמש" ng-model="userName" minlength="6" maxlength="12" pattern="^[a-zA-z]+[a-zA-Z0-9_\-\.]{5,11}$" ng-required>
+                <input type="text" name="txUser" id="txUser" class="form-control" placeholder="שם משתמש" ng-model="userName" minlength="6" maxlength="12" pattern="^[a-zA-z]+[a-zA-Z0-9_\-\.]{5,11}$" ng-required title="שם המשתמש צריך להיות בין 6 ל 12 אותיות לועזיות בלבד (ניתן להשתמש גם ב . _ -)">
             </div>
         </div>
         <div class="form-group row">
             <label for="txPass" ng-class="{'text-danger': myForm.txPass.$untouched || (myForm.txPass.$dirty && myForm.txPass.$invalid)}">*סיסמה:</label>
             <div class="col-sm-10 mr-auto">
-                <input type="password" name="txPass" id="txPass" class="form-control" placeholder="סיסמה" ng-model="userPass" minlength="6" maxlength="12" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,12}" ng-required>
+                <input type="password" name="txPass" id="txPass" class="form-control" placeholder="סיסמה" ng-model="userPass" minlength="6" maxlength="12" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,12}" ng-required title="הסיסמה צריכה להיות בין 8 ל 12 תווים לועזיים או מספרים וחייבת להכיל לפחות אות גדולה אחת אות קטנה אחת ומספר אחד!">
             </div>        
         </div>
         <div class="form-group row">
