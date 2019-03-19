@@ -84,11 +84,6 @@ tbody>tr>td {
     color:yellow;
 }
 
-/* ng-view .form-group label {
-    color: greenyellow;
-}
-
-.h1-gold {
-    font-family:'Tinos', serif;
-    color:gold;
+/* select:not(:placeholder-shown) {
+    border:solid 1px red;
 } */

@@ -1,6 +1,7 @@
 app.controller("newCommunityCtrl",function($scope,$log,$location,placesSvc,communitySvc ){
     $scope.counties=[];
-    $scope.cities = [];
+  $scope.cities = [];
+  $scope.errMsg = "";
   
     placesSvc.getCountriesList().then(function(result){
         $scope.countries=result;
@@ -18,13 +19,23 @@ app.controller("newCommunityCtrl",function($scope,$log,$location,placesSvc,commu
     };
 
   $scope.add = function () {
-    communitySvc.addCommunity($scope.name, $scope.description, $scope.country, $scope.city, $scope.address, $scope.foundation_date).then(function (result) {
-      $location.path("/");
+    if (!$scope.name || $scope.name.length===0 || !$scope.description || $scope.description.length===0 || !$scope.country || $scope.country.length===0 || !$scope.city || !$scope.address || $scope.address.length===0) {
+      $scope.errMsg = "חובה למלא את כל השדות!";
+      return;
+    }
+    communitySvc.addCommunity($scope.name, $scope.description, $scope.country, $scope.city.name, $scope.address, $scope.foundation_date).then(function (result) {
+      $scope.errMsg = "";
+      $location.path("communities/"+result.id);
     },
       function (err) {
+        $scope.errMsg = err;
         $log.error(err);
       });
-  };  
+  };
+
+  $scope.hasError = function () {
+    return $scope.errMsg.length > 0;
+  };
   
     //all code from here is related to the operation of the datepicker control
     $scope.today = function() {

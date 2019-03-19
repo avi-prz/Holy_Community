@@ -1,38 +1,38 @@
 <div class="container">
-    <form action="" name="newComForm" id="newComForm">
+    <form name="newComForm" id="newComForm">
         <h1 class="text-center mt-5 h1-gold">הקמת קהילה חדשה</h1>
         <div class="form-group row mt-5">
-            <label for="txName">שם הקהילה</label>
+            <label for="txName" ng-class="{'text-danger': newComForm.txName.$untouched || (newComForm.txName.$dirty && newComForm.txName.$invalid)}">*שם הקהילה</label>
             <div class="col-sm-10 mr-auto">
-                <input type="text" class="form-control" name="txName" id="txName" placeholder="שם הקהילה" ng-required ng-model="name">
+                <input type="text" class="form-control" name="txName" id="txName" placeholder="שם הקהילה" ng-required ng-model="name" title="נא להקליד שם קהילה!">
             </div>      
         </div>
         <div class="form-group row">
-            <label for="txDesc">תאור הקהילה</label>
+            <label for="txDesc" ng-class="{'text-danger': newComForm.txDesc.$untouched || (newComForm.txDesc.$dirty && newComForm.txDesc.$invalid)}">*תאור הקהילה</label>
             <div class="col-sm-10 mr-auto">
-                <textarea class="form-control" name="txDesc" id="txDesc" placeholder="ספר קצת על הקהילה" row="3" ng-required></textarea>
+                <textarea class="form-control" name="txDesc" id="txDesc" placeholder="ספר קצת על הקהילה" row="3" ng-required ng-model="description" title="נא להקליד תאור של הקהילה!"></textarea>
             </div>      
         </div>
         <div class="form-group row">
-            <label for="ddlCountry">ארץ</label>
+            <label for="ddlCountry" ng-class="{'text-danger': newComForm.ddlCountry.$error.required}">*ארץ</label>
             <div class="col-sm-10 mr-auto">            
-                <select class="form-control dropdown" name="ddlCountry" id="ddlCountry" ng-options="cntry for cntry in countries" ng-model="country" ng-change="getCities()" ng-required>
-                    <option value=""></option>                
+                <select class="form-control dropdown" name="ddlCountry" id="ddlCountry" ng-options="cntry for cntry in countries" ng-model="country" ng-change="getCities()" placeholder="בחר ארץ" required title="נא לבחור ארץ!">
+                    <!-- <option value=""></option>                 -->
                 </select>
             </div>
         </div>
         <div class="form-group row">
-            <label for="ddlCity">עיר</label>
+            <label for="ddlCity" ng-class="{'text-danger': newComForm.ddlCity.$error.required}">*עיר</label>
             <div class="col-sm-10 mr-auto">            
-                <select class="form-control dropdown" name="ddlCity" id="ddlCity" ng-options="cty.name for cty in cities track by cty.id" ng-model="city" ng-required>
-                    <option value=""></option>                
+                <select class="form-control dropdown" name="ddlCity" id="ddlCity" ng-options="cty.name for cty in cities track by cty.id" ng-model="city" required title="נא לבחור עיר!">
+                    <!-- <option value=""></option>                 -->
                 </select>
             </div>
         </div>
         <div class="form-group row">
-            <label for="txAdrs">כתובת</label>
+            <label for="txAdrs" ng-class="{'text-danger': newComForm.txAdrs.$untouched || (newComForm.txAdrs.$dirty && newComForm.Adrs.$invalid)}">*כתובת</label>
             <div class="col-sm-10 mr-auto">
-                <input type="text" class="form-control" name="txAdrs" id="txAdrs" placeholder="שם רחוב ומספר" ng-model="address" ng-required>
+                <input type="text" class="form-control" name="txAdrs" id="txAdrs" placeholder="שם רחוב ומספר" ng-model="address" required title="נא להוסיף כתובת!">
             </div>      
         </div>
         
@@ -51,10 +51,16 @@
                 </p>
             </div>
         </div>
+        <div class="form-group row" ng-show="hasError()">
+            <div class="col-sm-12 mr-auto">
+                <span class="text-danger font-weight-bolder ml-auto">{{errMsg}}</span>
+            </div>
+        </div>
         <div class="form-group row">
             <div class="col-sm-12 ml-auto">
                 <ul class="list-inline">
-                    <li class="list-inline-item"><a class="btn btn-success" ng-click="add()" href="javascript:void(0)">הוסף</a></li>
+                    <li class="list-inline-item"><button class="btn btn-success" ng-click="add()" 
+                        ng-disabled="newComForm.txName.$untouched || (newComForm.txName.$dirty && newComForm.txName.$invalid) || newComForm.txDesc.$untouched || (newComForm.txDesc.$dirty && newComForm.txDesc.$invalid) || newComForm.ddlCountry.$error.required || newComForm.ddlCity.$error.required || newComForm.txAdrs.$untouched || (newComForm.txAdrs.$dirty && newComForm.Adrs.$invalid)">הוסף</button></li>
                     <li class="list-inline-item"><button type="reset" class="btn btn-warning">אפס טופס</button></li>
                     <li class="list-inline-item"><a class="btn btn-danger" href="#!/">בטל</a></li>
                 </ul>

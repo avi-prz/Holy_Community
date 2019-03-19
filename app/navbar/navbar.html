@@ -21,24 +21,25 @@
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="ddUser" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user"></i></a>
                 <div class="dropdown-menu" aria-labelledby="ddUser">
+                    <span class="dropdown-item" ng-value="">{{'שלום ' + getName()}}</span>
+                    <hr>
                     <div ng-show="{{current.communityId.length>0}}">
                         <a class="dropdown-item" href="javascript:void(0)" ng-click="showCommunity()">קהילה</a>
                         <a class="dropdown-item" href="javascript:void(0)" ng-click="messages()">הודעות</a>
                         <hr> 
                     </div>                    
-                    <div ng-show="isCommunityAdmin()">
-                        
-                         <a class="dropdown-item" href="javascript:void(0)" ng-click="addMember()">הוסף חבר קהילה</a>
+                    <div ng-show="isCommunityAdmin()">                        
+                        <a class="dropdown-item" href="javascript:void(0)" ng-click="addMember()">הוסף חבר קהילה</a>
                         <a class="dropdown-item" href="javascript:void(0)" ng-click="newMessage()">הודעה חדשה</a>
                         <a class="dropdown-item" href="javascript:void(0)" ng-click="addPrayer()">הוסף תפילה</a>
                         <a class="dropdown-item" href="javascript:void(0)" ng-click="addLesson()">הוסף שיעור</a>
-                        <a class="dropdown-item" href="javascript:void(0)" ng-click="addEvents()">הוסף ארוע</a>                                                
+                        <a class="dropdown-item" href="javascript:void(0)" ng-click="addEvents()">הוסף ארוע</a>
+                        <hr>                                                
                     </div>
-                    <div ng-show="canAddCommunity()">
-                        <hr>
+                    <div ng-show="canAddCommunity()">                        
                         <a class="dropdown-item" href="javascript:void(0)" ng-click="addCommunity()">צור קהילה חדשה</a>
-                    </div>
-                    <hr>
+                        <hr>
+                    </div>                    
                     <a id="logout" class="dropdown-item" href="javascript:void(0)" ng-click="logout()">יציאה</a>
                 </div>
             </li>           

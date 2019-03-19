@@ -142,20 +142,7 @@ app.factory("communitySvc", function ($http, $q) {
 
     function addCommunity(name,description,country,city,address,foundation_date) { 
         var async = $q.defer();
-        // if (wasInit) {
-        //     var newId = "";
-        //     communities.push(new Community({ id: newId, name: name, description: description, country: country, city: city, address: address, foundation_date: foundation_date }));
-        //     async.resolve(communities);
-        // } else {
-        //     init().then(function (data) {
-        //         newId = getMaxComID();
-        //         communities.push(new Community({ id: newId, name: name, description: description, country: country, city: city.name, address: address, foundation_date: foundation_date }));
-        //         async.resolve(communities);
-        //     },
-        //         function (err) {
-        //             async.reject(err);
-        //          });
-        // }
+        
         createCommunity(name, description, country, city, address, foundation_date).then(function (data) {
             async.resolve(data);
         },
@@ -177,18 +164,17 @@ app.factory("communitySvc", function ($http, $q) {
         myNewObject.set('address', address);
         myNewObject.set('description', description);
         myNewObject.set('foundation_date', foundation_date);
-        myNewObject.set('association_number', '');
-        myNewObject.set('bank_name', '');
-        myNewObject.set('bank_number', 0);
-        myNewObject.set('bank_branch', 0);
-        myNewObject.set('bank_account', '');
-        myNewObject.set('community_image', null); //new Parse.File("resume.txt", { base64: btoa("My file content") }));
-        myNewObject.set('coordinates', '');
+        // myNewObject.set('association_number', '');
+        // myNewObject.set('bank_name', '');
+        // myNewObject.set('bank_number', 0);
+        // myNewObject.set('bank_branch', 0);
+        // myNewObject.set('bank_account', '');
+        //myNewObject.set('community_image', null); //new Parse.File("resume.txt", { base64: btoa("My file content") }));
+        // myNewObject.set('coordinates', '');
 
         myNewObject.save().then(function (data) { 
             communities.push(new Community(data));
             async.resolve(communities[communities.length - 1]);
-            $location.path("/communities/" + data.id);
         }, function (error) {
             async.reject(error);
             });

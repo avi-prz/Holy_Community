@@ -38,8 +38,12 @@ app.controller('navbarCtrl', function ($scope,$location,loginSvc,) {
                     $location.path("/communities/" + userData.community);
                 }
             },
-            function (err) {
-                $scope.errorMsg = err;
+                function (err) {
+                    if (err.code === 101) {
+                        $scope.errorMsg = "שם משתמש או סיסמה לא נכונים!";
+                    } else {
+                        $scope.errorMsg = err.message;
+                }                
             });
         } else {
             $scope.errorMsg = "נא להקליד שם משתמש וסיסמה!";
@@ -71,5 +75,9 @@ app.controller('navbarCtrl', function ($scope,$location,loginSvc,) {
         if ($scope.current.communityId.length > 0) {
             $location.path("/communities/" + $scope.current.communityId);
         }
-    }
+    };
+
+    $scope.getName = function () {
+        return ($scope.current ? $scope.current.firstName : '');
+    };
 });
