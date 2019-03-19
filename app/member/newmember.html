@@ -22,10 +22,10 @@
             <label for="">*מין:</label>
             <div class="form-check form-check-inline col-sm-10 mr-auto">
                 <label class="form-check-label">
-                    <input class="form-check-input ml-2" type="radio" ng-model="gender" name="rbGender" id="rbMale" ng-value="HHYTbMLfFV" checked>זכר
+                    <input class="form-check-input ml-2" type="radio" ng-model="gender" name="rbGender" id="rbMale" value="HHYTbMLfFV">זכר
                 </label>
                 <label class="form-check-label">
-                    <input class="form-check-input ml-2" type="radio" ng-model="gender" name="rbGender" id="rbFemale" ng-value="odldj1YNkC">נקבה
+                    <input class="form-check-input ml-2" type="radio" ng-model="gender" name="rbGender" id="rbFemale" value="odldj1YNkC">נקבה
                 </label>
             </div>
         </div>
@@ -44,13 +44,13 @@
         <div class="form-group row">
             <label for="txUser" ng-class="{'text-danger': myForm.txUser.$untouched || (myForm.txUser.$dirty && myForm.txUser.$invalid)}">*שם משתמש:</label>
             <div class="col-sm-10 mr-auto">
-                <input type="text" name="txUser" id="txUser" class="form-control" placeholder="שם משתמש" ng-model="userName" minlength="6" maxlength="12" pattern="^[a-zA-z]+[a-zA-Z0-9_\-\.]{5,11}$" ng-required title="שם המשתמש צריך להיות בין 6 ל 12 אותיות לועזיות בלבד (ניתן להשתמש גם ב . _ -)">
+                <input type="text" name="txUser" id="txUser" class="form-control" placeholder="שם משתמש" ng-model="userName" minlength="8" maxlength="12" pattern="^[a-zA-z]+[a-zA-Z0-9_\-\.]{5,11}$" ng-required title="שם המשתמש צריך להיות בין 6 ל 12 אותיות לועזיות בלבד (ניתן להשתמש גם ב . _ -)">
             </div>
         </div>
         <div class="form-group row">
             <label for="txPass" ng-class="{'text-danger': myForm.txPass.$untouched || (myForm.txPass.$dirty && myForm.txPass.$invalid)}">*סיסמה:</label>
             <div class="col-sm-10 mr-auto">
-                <input type="password" name="txPass" id="txPass" class="form-control" placeholder="סיסמה" ng-model="userPass" minlength="6" maxlength="12" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,12}" ng-required title="הסיסמה צריכה להיות בין 8 ל 12 תווים לועזיים או מספרים וחייבת להכיל לפחות אות גדולה אחת אות קטנה אחת ומספר אחד!">
+                <input type="password" name="txPass" id="txPass" class="form-control" placeholder="סיסמה" ng-model="userPass" minlength="8" maxlength="12" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,12}" ng-required title="הסיסמה צריכה להיות בין 8 ל 12 תווים לועזיים או מספרים וחייבת להכיל לפחות אות גדולה אחת אות קטנה אחת ומספר אחד!">
             </div>        
         </div>
         <div class="form-group row">
@@ -76,6 +76,23 @@
             <div class="col-sm-10 mr-auto">
                 <input type="number" name="txFlatNum" id="txFlatNum" class="form-control" placeholder="מספר דירה" ng-model="flat_number" min="0" max="99">
             </div>        
+        </div>
+        <div class="form-group row">
+            <label for="">חבר ועד/הנהלה?</label>
+            <div class="form-check form-check-inline col-sm-10 mr-auto">
+                <label class="form-check-label">
+                    <input class="form-check-input ml-2" type="radio" ng-model="isUserAdmin" name="rbAdmin" id="rbNo" value="no">לא
+                </label>
+                <label class="form-check-label">
+                    <input class="form-check-input ml-2" type="radio" ng-model="isUserAdmin" name="rdAdmin" id="rbYes" value="yes">כן
+                </label>                    
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="txAdminDesc">תפקיד בועד/הנהלה</label>
+            <div class="col-sm-10 mr-auto">
+                <input type="text" name="txAdminDesc" id="txAdminDesc" class="form-control" placeholder="תפקיד" ng-model="adminDesc" ng-required="{isUserAdmin==='yes'}">
+            </div>            
         </div>
         <div class="form-group row">
             <div class="col-sm-10 mr-auto">
