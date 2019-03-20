@@ -1,8 +1,18 @@
-app.controller('communityCtrl', function ($scope,$routeParams,$log, communitySvc) {
+app.controller('communityCtrl', function ($scope,$routeParams,$log,$location,loginSvc, communitySvc) {
     $scope.prayers = [];
     $scope.lectures = [];
     $scope.modalHeader = "";
     $scope.modalButton = "";
+
+    $scope.current = loginSvc.current() ? loginSvc.current() : null;    
+
+    $scope.isLoggedOn = function () {
+        return $scope.current ? true : false;
+    };
+
+    if (!$scope.isLoggedOn()) {
+        $location.path("/");
+    };
 
     communitySvc.getCommunityById($routeParams.id).then(function (data) {
         $scope.community = data;
