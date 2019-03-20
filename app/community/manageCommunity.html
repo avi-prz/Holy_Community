@@ -8,7 +8,25 @@
             </ul> 
         </div>
         <div uib-accordion-group class="mt-1 text-center" heading="שיעורי תורה">
-            כאן יוצגו השיעורים
+            <ul class="list-group">
+                <li class="list-group-item" ng-repeat="lsn in lectures">
+                    <p>
+                        <button class="btn text-danger mr-2 float-left" ng-click="delLesson(lsn.id)"><i class="fas fa-trash-alt"></i></button>
+                        <button class="btn text-info float-left" ng-click="clickEditLesson(lsn.id)"><i class="fas fa-edit"></i></button>
+                        <span class="text-center font-weight-bold lsn-title">{{lsn.title}}</span> 
+                    </p>
+                    <p>
+                        <span class="text-center">{{'יום ' + lsn.dayOfWeek + ' בשעה ' + lsn.time}}</span>
+                    </p>
+                    <p>
+                        <span class="text-center">{{'מועבר ע"י ' + lsn.by}}</span>
+                    </p>
+                    <p>
+                        <span class="text-center">{{'השיעור מתקיים ב' + lsn.place}}</span>
+                    </p>
+                </li>
+                <li class="list-group-item text-center"><button class="btn btn-primary" ng-click="clickAddLesson()">הוסף שיעור</button></li>
+            </ul>
         </div>
         <div uib-accordion-group class="mt-1 text-center" heading="אירועי קהילה">
             כאן יוצגו אירועי הקהילה
@@ -38,7 +56,46 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-danger mx-1" data-dismiss="modal">בטל</button>
-                    <button class="btn btn-info mx-1" ng-click="modalClick(mode,prayerId)">{{modalButton}}</button>
+                    <button class="btn btn-info mx-1" ng-click="modalPrayClick(mode,prayerId)">{{modalButton}}</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="lessonModal" tabindex="-1" role="dialog" aria-labelledby="lessonModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h5 class="modal-title ml-auto" id="lessonModalLabel">{{modalHeader}}</h5>            
+                </div>
+                <div class="modal-body">
+                    <div class="form-group row mr-3 ml-3">
+                        <label for="txLsnTitle">נושא</label>
+                        <input type="text" class="form-control" name="txLsnTitle" id="txLsnTitle" placeholder="נושא השיעור" ng-model="lessonTitle" required>                       
+                    </div>
+                    <div class="form-group row mr-3 ml-3">
+                        <label for="txLsnDay">זמן</label>
+                        <input type="text" class="form-control" name="txLsnDay" id="txLsnDay" placeholder="יום בשבוע" ng-model="lessonDOW" required><!-- should be lookup -->
+                        <label for="txLsnTime">זמן</label>
+                        <input type="text" class="form-control" name="txLsnTime" id="txLsnTime" placeholder="שעה" ng-model="lessonTime" required>
+                    </div>
+                    <div class="form-group row mr-3 ml-3">
+                        <label for="txLsnBy">מועבר ע"י</label>
+                        <input type="text" class="form-control" name="txLsnBy" id="txLsnBy" placeholder="מעביר השיעור" ng-model="lessonBy" required>                       
+                    </div>
+                    <div class="form-group row mr-3 ml-3">
+                        <label for="txLsnPlace">מיקום</label>
+                        <input type="text" class="form-control" name="txLsnPlace" id="txLsnPlace" placeholder="נושא השיעור" ng-model="lessonPlace" required>                       
+                    </div>
+                    <div class="form-group" ng-show="errorMsg.length>0">
+                        <span class="text-danger float-right">{{errorMsg}}</span>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger mx-1" data-dismiss="modal">בטל</button>
+                    <button class="btn btn-info mx-1" ng-click="modalLsnClick(mode,lessonId)">{{modalButton}}</button>
                 </div>
             </div>
         </div>

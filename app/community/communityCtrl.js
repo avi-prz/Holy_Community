@@ -97,7 +97,7 @@ app.controller('communityCtrl', function ($scope,$routeParams,$log,$location,log
          });
     };
 
-    $scope.modalClick = function (mode, prayerId) {
+    $scope.modalPrayClick = function (mode, prayerId) {
         switch (mode) {
             case "add":
                 return $scope.addPrayer();
@@ -109,5 +109,85 @@ app.controller('communityCtrl', function ($scope,$routeParams,$log,$location,log
                 return $scope.delPrayer(prayerId);
                 break;
         }
+    };
+
+    $scope.modalLsnClick = function (mode, lessonId) {
+        switch (mode) {
+            case "add":
+                return $scope.addLesson();
+                break;
+            case "edit":
+                return $scope.editLesson(lessonId);
+                break;
+            case "del":
+                return $scope.delLesson(lessonId);
+                break;
+        }
+    };
+
+    $scope.addLesson = function () {
+        communitySvc.addLesson($scope.lessonTitle,$scope.lessonDOW, $scope.lessonTime,$scope.lessonBy,$scope.lessonPlace, $scope.community).then(function (data) {            
+            $scope.errorMsg = "";
+            angular.element("#lessonModal").modal('hide');
+            communitySvc.getLectures($routeParams.id).then(function (result) {
+                $scope.lectures = result;
+            });
+        },
+        function (error) {
+            $log.error(error.message);
+            $scope.errorMsg = error.message;
+        });
+    };
+
+    $scope.delLesson = function (lessonId) {
+        communitySvc.delLesson(lessonId).then(function (data) {
+            communitySvc.getLectures($routeParams.id).then(function (result) {
+                $scope.lectures = result;
+            });
+        },
+            function (error) {
+                $log.error(error);
+                alert(error.message);
+            });
+    };
+
+    $scope.editLesson = function (lessonId) {
+        communitySvc.editLesson(lessonId, $scope.lessonTitle,$scope.lessonDOW, $scope.lessonTime,$scope.lessonBy,$scope.lessonPlace).then(function (data) {
+            $scope.errorMsg = "";
+            angular.element("#lessonModal").modal('hide');
+            communitySvc.getLectures($routeParams.id).then(function (result) {
+                $scope.lectures = result;
+            });
+        },
+            function (error) { 
+                $scope.errorMsg = error.message;
+         });
+    };
+
+    $scope.clickAddLesson = function () {
+        $scope.modalHeader = "הוספת שיעור";
+        $scope.modalButton = "הוסף";
+        $scope.mode = "add";
+        $scope.lessonId = "";
+        $scope.lessonTitle = "";
+        $scope.lessonDOW = "";
+        $scope.lessonTime = "";
+        $scope.lessonBy = "";
+        $scope.lessonPlace = "";
+        angular.element("#lessonModal").modal('show');
+    };
+
+    $scope.clickEditLesson = function (id) {
+        $scope.modalHeader = "עדכן שיעור";
+        $scope.modalButton = "עדכן";
+        $scope.mode = "edit";
+        var lsn = $scope.lectures[$scope.lectures.findIndex(l => l.id === id)];
+        $scope.lessonTitle = lsn.title;
+        $scope.lessonDOW = lsn.dayOfWeek;
+        $scope.lessonTime = lsn.time;
+        $scope.lessonBy = lsn.by;
+        $scope.lessonPlace = lsn.place;
+        $scope.lessonId = id;
+        angular.element("#lessonModal").modal('show');
     };
  });

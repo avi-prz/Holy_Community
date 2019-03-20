@@ -72,7 +72,7 @@ app.controller('navbarCtrl', function ($scope,$location,loginSvc,$routeParams) {
     };
 
     $scope.showCommunity = function () {
-        if ($scope.current.communityId.length > 0) {
+        if ($scope.getCurrentCommunityId().length > 0) {
             $location.path("/communities/" + $scope.getCurrentCommunityId());
         }
     };

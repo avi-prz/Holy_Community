@@ -278,6 +278,72 @@ app.factory("communitySvc", function ($http, $q) {
         return async.promise;
     }
 
+    function addLesson(title,dayOfWeek,time,by,place,community) {
+        var async = $q.defer();
+        const lsnMdl = Parse.Object.extend("Lessons");
+        var newLesson = new lsnMdl();
+        const comMdl = Parse.Object.extend("Community");
+        var comObj = new comMdl();
+        comObj.id = community.id;
+
+        newLesson.set('name', title);
+        newLesson.set('dayOfWeek', dayOfWeek);
+        newLesson.set('time', time);
+        newLesson.set('teacher', by);
+        newLesson.set('place', place);
+        newLesson.set('community', comObj);
+
+        newLesson.save().then(function(results){
+            async.resolve(results);
+        },
+        function(error) {
+            async.reject(error);
+        });
+        return async.promise;
+    }
+
+    function editLesson(id,title,dayOfWeek,time,by,place) {
+        var async = $q.defer();
+        const lsnMdl = Parse.Object.extend("Lessons");
+        const qry = new Parse.Query(lsnMdl);
+        qry.get(id).then(function (lsnObj) {
+            lsnObj.set('name', title);
+            lsnObj.set('dayOfWeek', dayOfWeek);
+            lsnObj.set('time', time);
+            lsnObj.set('teacher', by);
+            lsnObj.set('place', place);
+            lsnObj.save().then(function (data) {
+                async.resolve(data);
+            },
+            function (err) {
+                async.reject(err);
+            });
+        },
+        function (error) { 
+            async.reject(error);
+        });
+        return async.promise;
+    }
+
+    function delLesson(id) {
+        var async = $q.defer();
+
+        const lsnMdl = Parse.Object.extend("Lessons");
+        const qry = new Parse.Query(lsnMdl);
+        qry.get(id).then(function (lsnObj) {
+            lsnObj.destroy().then(function (results) {
+                async.resolve(results);
+            },
+            function (err) {
+                async.reject(err);
+            });
+        },
+        function(error) {
+            async.reject(error);
+        });
+        return async.promise;
+    }
+
     return {
         getCommunities:init,
         getPreyaers: getPreyaers,
@@ -290,6 +356,9 @@ app.factory("communitySvc", function ($http, $q) {
         current: activeCommunity,
         addPrayer: addPrayer,
         editPrayer: editPrayer,
-        delPrayer:delPrayer
+        delPrayer: delPrayer,
+        addLesson: addLesson,
+        editLesson: editLesson,
+        delLesson: delLesson
     }
  });
