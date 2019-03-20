@@ -11,7 +11,7 @@ app.controller('communityCtrl', function ($scope,$routeParams,$log,$location,log
         return $scope.current ? true : false;
     };
 
-    if (!$scope.isLoggedOn()) {
+    if (!$scope.isLoggedOn() && $location.path().indexOf("/manage/")>=0) {
         $location.path("/");
     };
 
@@ -218,7 +218,7 @@ app.controller('communityCtrl', function ($scope,$routeParams,$log,$location,log
         $scope.mode = "edit";
         var evnt = $scope.events[$scope.events.findIndex(ev => ev.id === id)];
         $scope.eventTitle = evnt.title;
-        $scope.eventDate = envt.date;
+        $scope.eventDate = evnt.date;
         $scope.eventTime = evnt.time;
         $scope.eventDesc = evnt.description;
         $scope.eventId = id;

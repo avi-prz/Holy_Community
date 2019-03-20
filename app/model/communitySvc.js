@@ -122,7 +122,7 @@ app.factory("communitySvc", function ($http, $q) {
 
     function getEvents(comId) {
         var async = $q.defer();
-        lectures = [];
+        events = [];
         const event = Parse.Object.extend("Events");
         const qry = new Parse.Query(event);
         const com = Parse.Object.extend("Community");
@@ -385,7 +385,7 @@ app.factory("communitySvc", function ($http, $q) {
 
         newObj.set('title', title);
         newObj.set('description', description);
-        newObj.set('event_date', date);
+        newObj.set('event_date', new Date(date));
         newObj.set('event_time', time);
         newObj.set('community', comObj);
 
@@ -405,7 +405,7 @@ app.factory("communitySvc", function ($http, $q) {
         qry.get(id).then(function (updObj) {
             updObj.set('title', title);
             updObj.set('description', description);
-            updObj.set('event_date', date);
+            updObj.set('event_date', new Date(date));
             updObj.set('event_time', time);
             updObj.save().then(function (data) {
                 async.resolve(data);

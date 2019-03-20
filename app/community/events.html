@@ -1,0 +1,13 @@
+<ul class="list-group">
+    <li class="list-group-item" ng-repeat="event in events">
+        <p>
+            <span class="text-center font-weight-bold lsn-title">{{event.title}}</span>
+        </p>
+        <p>
+            <span>{{'האירוע יתקיים בתאריך ' + (event.date | date: "dd-MMM-yyyy") + ' בשעה ' + (event.time | date: "HH:mm")}}</span>
+        </p>
+        <p>
+            <span>{{event.description}}</span>
+        </p>
+    </li>
+</ul>
