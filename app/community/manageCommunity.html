@@ -29,7 +29,22 @@
             </ul>
         </div>
         <div uib-accordion-group class="mt-1 text-center" heading="אירועי קהילה">
-            כאן יוצגו אירועי הקהילה
+            <ul class="list-group">
+                <li class="list-group-item" ng-repeat="event in events">
+                    <p>
+                        <button class="btn text-danger mr-2 float-left" ng-click="delEvent(event.id)"><i class="fas fa-trash-alt"></i></button>
+                        <button class="btn text-info float-left" ng-click="clickEditEvent(event.id)"><i class="fas fa-edit"></i></button>
+                        <span class="text-center font-weight-bold lsn-title">{{event.title}}</span>
+                    </p>
+                    <p>
+                        <span>{{'האירוע יתקיים בתאריך ' + (event.date | date: "DD-MMM-yyyy") + ' בשעה ' + (event.date | date: "HH:mm" : "+0200")}}</span>
+                    </p>
+                    <p>
+                        <span>{{event.description}}</span>
+                    </p>
+                </li>
+                <li class="list-group-item text-center"><button class="btn btn-primary" ng-click="clickAddEvent()">הוסף אירוע</button></li>
+            </ul>
         </div>
     </uib-accordion>
     <div class="modal fade" id="prayerModal" tabindex="-1" role="dialog" aria-labelledby="prayerModalLabel" aria-hidden="true">
@@ -76,7 +91,7 @@
                         <input type="text" class="form-control" name="txLsnTitle" id="txLsnTitle" placeholder="נושא השיעור" ng-model="lessonTitle" required>                       
                     </div>
                     <div class="form-group row mr-3 ml-3">
-                        <label for="txLsnDay">זמן</label>
+                        <label for="txLsnDay">יום בשבוע</label>
                         <input type="text" class="form-control" name="txLsnDay" id="txLsnDay" placeholder="יום בשבוע" ng-model="lessonDOW" required><!-- should be lookup -->
                         <label for="txLsnTime">זמן</label>
                         <input type="text" class="form-control" name="txLsnTime" id="txLsnTime" placeholder="שעה" ng-model="lessonTime" required>
@@ -96,6 +111,41 @@
                 <div class="modal-footer">
                     <button type="button" class="btn btn-danger mx-1" data-dismiss="modal">בטל</button>
                     <button class="btn btn-info mx-1" ng-click="modalLsnClick(mode,lessonId)">{{modalButton}}</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="eventModal" tabindex="-1" role="dialog" aria-labelledby="eventModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h5 class="modal-title ml-auto" id="eventModalLabel">{{modalHeader}}</h5>            
+                </div>
+                <div class="modal-body">
+                    <div class="form-group row mr-3 ml-3">
+                        <label for="txEvntTitle">נושא</label>
+                        <input type="text" class="form-control" name="txEvntTitle" id="txEvntTitle" placeholder="כותרת" ng-model="eventTitle" required>                       
+                    </div>
+                    <div class="form-group row mr-3 ml-3">
+                        <label for="txEvntDate">תאריך</label>
+                        <input type="text" class="form-control" name="txEvntDate" id="txEvntDate" placeholder="תאריך" ng-model="eventDate" required><!-- should be lookup -->
+                        <label for="txEvntTime">שעה</label>
+                        <input type="text" class="form-control" name="txEvntTime" id="txEvntTime" placeholder="שעה" ng-model="eventTime" required>
+                    </div>                    
+                    <div class="form-group row mr-3 ml-3">
+                        <label for="txEvntDesc">תוכן האירוע</label>
+                        <input type="textarea" class="form-control" name="txEvntDesc" id="txEvntDesc" placeholder="תוכן" ng-model="eventDesc" required>                       
+                    </div>
+                    <div class="form-group" ng-show="errorMsg.length>0">
+                        <span class="text-danger float-right">{{errorMsg}}</span>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger mx-1" data-dismiss="modal">בטל</button>
+                    <button class="btn btn-info mx-1" ng-click="modalEvntClick(mode,eventId)">{{modalButton}}</button>
                 </div>
             </div>
         </div>

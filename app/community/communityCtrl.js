@@ -1,6 +1,7 @@
 app.controller('communityCtrl', function ($scope,$routeParams,$log,$location,loginSvc, communitySvc) {
     $scope.prayers = [];
     $scope.lectures = [];
+    $scope.events = [];
     $scope.modalHeader = "";
     $scope.modalButton = "";
 
@@ -29,12 +30,20 @@ app.controller('communityCtrl', function ($scope,$routeParams,$log,$location,log
         $scope.lectures = result;
     });
 
+    communitySvc.getEvents($routeParams.id).then(function (result) {
+        $scope.events = result;
+    });
+
     $scope.hasPreyers = function () {
         return ($scope.prayers.length > 0);
     };
     
     $scope.hasLectures = function () {
         return ($scope.lectures.length > 0);
+    };
+
+    $scope.hasEvents = function () {
+        return ($scope.events.length > 0);
     };
 
     $scope.clickAddPrayer = function () {
@@ -189,5 +198,83 @@ app.controller('communityCtrl', function ($scope,$routeParams,$log,$location,log
         $scope.lessonPlace = lsn.place;
         $scope.lessonId = id;
         angular.element("#lessonModal").modal('show');
+    };
+
+    $scope.clickAddEvent = function () {
+        $scope.modalHeader = "הוספת אירוע";
+        $scope.modalButton = "הוסף";
+        $scope.mode = "add";
+        $scope.eventId = "";
+        $scope.eventTitle = "";
+        $scope.eventDate = "";
+        $scope.eventTime = "";
+        $scope.eventDesc = "";
+        angular.element("#eventModal").modal('show');
+    };
+
+    $scope.clickEditEvent = function (id) {
+        $scope.modalHeader = "עדכן אירוע";
+        $scope.modalButton = "עדכן";
+        $scope.mode = "edit";
+        var evnt = $scope.events[$scope.events.findIndex(ev => ev.id === id)];
+        $scope.eventTitle = evnt.title;
+        $scope.eventDate = envt.date;
+        $scope.eventTime = evnt.time;
+        $scope.eventDesc = evnt.description;
+        $scope.eventId = id;
+        angular.element("#eventModal").modal('show');
+    };
+
+    $scope.addEvent = function () {
+        communitySvc.addEvent($scope.eventTitle,$scope.eventDate, $scope.eventTime,$scope.eventDesc, $scope.community).then(function (data) {            
+            $scope.errorMsg = "";
+            angular.element("#eventModal").modal('hide');
+            communitySvc.getEvents($routeParams.id).then(function (result) {
+                $scope.events = result;
+            });
+        },
+        function (error) {
+            $log.error(error.message);
+            $scope.errorMsg = error.message;
+        });
+    };
+
+    $scope.delEvent = function (eventId) {
+        communitySvc.delEvent(eventId).then(function (data) {
+            communitySvc.getEvents($routeParams.id).then(function (result) {
+                $scope.events = result;
+            });
+        },
+            function (error) {
+                $log.error(error);
+                alert(error.message);
+            });
+    };
+
+    $scope.editEvent = function (eventId) {
+        communitySvc.editEvent(eventId, $scope.eventTitle,$scope.eventDate, $scope.eventTime,$scope.eventDesc).then(function (data) {
+            $scope.errorMsg = "";
+            angular.element("#eventModal").modal('hide');
+            communitySvc.getEvents($routeParams.id).then(function (result) {
+                $scope.events = result;
+            });
+        },
+            function (error) { 
+                $scope.errorMsg = error.message;
+         });
+    };
+
+    $scope.modalEventClick = function (mode, eventId) {
+        switch (mode) {
+            case "add":
+                return $scope.addEvent();
+                break;
+            case "edit":
+                return $scope.editEvent(eventId);
+                break;
+            case "del":
+                return $scope.delEvent(eventId);
+                break;
+        }
     };
  });

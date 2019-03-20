@@ -24,10 +24,19 @@ app.factory("communitySvc", function ($http, $q) {
         this.place = data.get("place");
     }
 
+    function Event(data) {
+        this.id = data.id;
+        this.title = data.get("title");
+        this.date = data.get("event_date");
+        this.time = data.get("event_time");
+        this.description = data.get("description");
+    }
+
     var communities = [];
     var currentComId = 0;
     var prayers = [];
     var lectures = [];
+    var events = [];
     var wasInit = false;
     var activeCommunity = null;
 
@@ -105,6 +114,28 @@ app.factory("communitySvc", function ($http, $q) {
                 }
             }
             async.resolve(lectures);
+        }, function (error) {
+                async.reject(error);
+          });
+        return async.promise;
+    }
+
+    function getEvents(comId) {
+        var async = $q.defer();
+        lectures = [];
+        const event = Parse.Object.extend("Events");
+        const qry = new Parse.Query(event);
+        const com = Parse.Object.extend("Community");
+        var comQry = new com();
+        comQry.id = comId;
+        qry.equalTo("community", comQry);
+        qry.find().then(function (data) { 
+            if (data.length > 0) {
+                for (var i = 0; i < data.length; i++) {
+                    events.push(new Event(data[i]));
+                }
+            }
+            async.resolve(events);
         }, function (error) {
                 async.reject(error);
           });
@@ -344,10 +375,75 @@ app.factory("communitySvc", function ($http, $q) {
         return async.promise;
     }
 
+    function addEvent(title,date,time,description,community) {
+        var async = $q.defer();
+        const Mdl = Parse.Object.extend("Events");
+        var newObj = new Mdl();
+        const comMdl = Parse.Object.extend("Community");
+        var comObj = new comMdl();
+        comObj.id = community.id;
+
+        newObj.set('title', title);
+        newObj.set('description', description);
+        newObj.set('event_date', date);
+        newObj.set('event_time', time);
+        newObj.set('community', comObj);
+
+        newObj.save().then(function(results){
+            async.resolve(results);
+        },
+        function(error) {
+            async.reject(error);
+        });
+        return async.promise;
+    }
+
+    function editEvent(id,title,description,date,time) {
+        var async = $q.defer();
+        const Mdl = Parse.Object.extend("Events");
+        const qry = new Parse.Query(Mdl);
+        qry.get(id).then(function (updObj) {
+            updObj.set('title', title);
+            updObj.set('description', description);
+            updObj.set('event_date', date);
+            updObj.set('event_time', time);
+            updObj.save().then(function (data) {
+                async.resolve(data);
+            },
+            function (err) {
+                async.reject(err);
+            });
+        },
+        function (error) { 
+            async.reject(error);
+        });
+        return async.promise;
+    }
+
+    function delEvent(id) {
+        var async = $q.defer();
+
+        const Mdl = Parse.Object.extend("Events");
+        const qry = new Parse.Query(Mdl);
+        qry.get(id).then(function (objData) {
+            objData.destroy().then(function (results) {
+                async.resolve(results);
+            },
+            function (err) {
+                async.reject(err);
+            });
+        },
+        function(error) {
+            async.reject(error);
+        });
+        return async.promise;
+    }
+
     return {
         getCommunities:init,
         getPreyaers: getPreyaers,
         getLectures: getLectures,
+        getEvents:getEvents,
         getCommunitiesByLocation: getCommunitiesByLocation,
         getCommunityById:getCommunityById,
         addCommunity: addCommunity,
@@ -359,6 +455,9 @@ app.factory("communitySvc", function ($http, $q) {
         delPrayer: delPrayer,
         addLesson: addLesson,
         editLesson: editLesson,
-        delLesson: delLesson
+        delLesson: delLesson,
+        addEvent: addEvent,
+        editEvent: editEvent,
+        delEvent: delEvent
     }
  });
