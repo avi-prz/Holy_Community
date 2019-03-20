@@ -8,6 +8,7 @@ app.controller('communityCtrl', function ($scope,$routeParams,$log,$location,log
     $scope.current = loginSvc.current() ? loginSvc.current() : null;    
 
     $scope.isLoggedOn = function () {
+        $scope.current = loginSvc.current() ? loginSvc.current() : null;
         return $scope.current ? true : false;
     };
 
