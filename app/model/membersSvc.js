@@ -25,7 +25,6 @@ app.factory('membersSvc', function ($q) {
 
     function createMember(community, fName, lName, gender, phone, home_phone, userName, userPass, userMail, address, floor, flat_number,isAdmin,adminDesc) {
         var async = $q.defer();
-        //async.reject("DB is not connected yet!");
         addUser(community, fName, lName, gender, phone, home_phone, userName, userPass, userMail, address, floor, flat_number, isAdmin, adminDesc).then(function (newUser) {
             async.resolve(newUser); 
         }, function (error) {

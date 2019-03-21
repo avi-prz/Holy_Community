@@ -17,40 +17,6 @@ app.factory("loginSvc", function ($http, $q, $location, communitySvc) {
     var users = [];
     var wasInit = false;
 
-    // function init() {
-    //     var async = $q.defer();
-    //     if (wasInit) {
-    //         async.resolve(users);
-    //     } else {
-    //         var req = {
-    //             method: "GET",
-    //             url: "app/data/users.json",
-    //             dataType: "json",
-    //             contentType: "application/json"
-    //         };
-    //         $http(req).then(function (result) {
-    //             for (var i = 0; i < result.data.length; i++){
-    //                 var rawData = result.data[i];
-    //                 users.push(new User(result.data[i]));
-    //             }
-    //             async.resolve(users);
-    //             wasInit = true;
-    //         },
-    //         function (err) {
-    //             async.reject(err);
-    //         });
-    //     }
-    //     return async.promise;
-    // }
-    
-    // function isUserLoggedOn() {
-    //     if (activeUser) {
-    //         return true;
-    //     } else {
-    //         return false;
-    //     }
-    // }
-
     function isCommunityAdmin() {
         if (isUserLoggedOn()) {
             if (activeUser.community && activeUser.isAdmin) {
@@ -70,20 +36,6 @@ app.factory("loginSvc", function ($http, $q, $location, communitySvc) {
 
         return false;
     }
-
-    // function checkLogin(login, password) {
-    //     var i = users.findIndex(u => u.loginName === login);
-    //     if (i >= 0) {
-    //         if (users[i].password === password) {
-    //             activeUser = users[i];
-    //             return true;
-    //         } else {
-    //             return false;
-    //         }
-    //     } else {
-    //         return false;
-    //     }
-    // }
 
     function login(login, password) {
         activeUser = null;
@@ -119,7 +71,6 @@ app.factory("loginSvc", function ($http, $q, $location, communitySvc) {
 
     return {
         current: getActiveUser,
-        //isLoggedOn: isUserLoggedOn,
         isCommunityAdmin: isCommunityAdmin,
         canCreateCommunity: canCreateCommunity,
         login: login,
