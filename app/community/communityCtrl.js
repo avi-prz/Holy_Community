@@ -74,7 +74,7 @@ app.controller('communityCtrl', function ($scope,$routeParams,$log,$location,log
         communitySvc.addPrayer($scope.prayName, $scope.prayTime, $scope.community).then(function (data) {            
             $scope.errorMsg = "";
             angular.element("#prayerModal").modal('hide');
-            communitySvc.getPayers($routeParams.id).then(function (result) {
+            communitySvc.getPrayers($routeParams.id).then(function (result) {
                 $scope.prayers = result;
             });
         },
