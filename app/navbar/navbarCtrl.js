@@ -33,7 +33,9 @@ app.controller('navbarCtrl', function ($scope,$location,loginSvc,$routeParams) {
         if ($scope.username.length > 0 && $scope.password.length > 0) {
             loginSvc.login($scope.username, $scope.password).then(function (userData) {
                 $scope.current = new User(userData);
-                errorMsg = "";
+                $scope.errorMsg = "";
+                $scope.username = "";
+                $scope.password = "";
                 angular.element("#loginModal").modal("hide");
                 if (userData.community.length > 0) {
                     $location.path("/communities/" + userData.community);
@@ -54,11 +56,17 @@ app.controller('navbarCtrl', function ($scope,$location,loginSvc,$routeParams) {
     $scope.logout = function () { 
         loginSvc.logout();
         $scope.current = null;
+        $scope.errorMsg = "";
+        $scope.username = "";
+        $scope.password = "";
         $location.path("/");
     };
 
     //add new member without login
     $scope.newMember = function () { 
+        $scope.errorMsg = "";
+        $scope.username = "";
+        $scope.password = "";
         $location.path("/members/new");
     };
 
@@ -74,6 +82,9 @@ app.controller('navbarCtrl', function ($scope,$location,loginSvc,$routeParams) {
 
     $scope.showCommunity = function () {
         if ($scope.getCurrentCommunityId().length > 0) {
+            $scope.errorMsg = "";
+            $scope.username = "";
+            $scope.password = "";
             $location.path("/communities/" + $scope.getCurrentCommunityId());
         }
     };
