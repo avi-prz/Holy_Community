@@ -19,17 +19,21 @@ app.controller("newCommunityCtrl",function($scope,$log,$location,placesSvc,commu
     };
 
   $scope.add = function () {
+    angular.element("#btnAddCom").toggleClass("ng-hide");
     if (!$scope.name || $scope.name.length===0 || !$scope.description || $scope.description.length===0 || !$scope.country || $scope.country.length===0 || !$scope.city || !$scope.address || $scope.address.length===0) {
       $scope.errMsg = "חובה למלא את כל השדות!";
+      angular.element("#btnAddCom").toggleClass("ng-hide");
       return;
     }
     communitySvc.addCommunity($scope.name, $scope.description, $scope.country, $scope.city.name, $scope.address, $scope.foundation_date).then(function (result) {
       $scope.errMsg = "";
+      angular.element("#btnAddCom").toggleClass("ng-hide");
       $location.path("communities/"+result.id);
     },
       function (err) {
         $scope.errMsg = err;
         $log.error(err);
+        angular.element("#btnAddCom").toggleClass("ng-hide");
       });
   };
 

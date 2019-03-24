@@ -17,6 +17,7 @@ app.controller('navbarCtrl', function ($scope,$location,loginSvc,$routeParams) {
     $scope.current = loginSvc.current() ? new User(loginSvc.current()) : null;    
 
     $scope.isLoggedOn = function () {
+        $scope.current = loginSvc.current() ? new User(loginSvc.current()) : null;
         return $scope.current ? true : false;
     };
 

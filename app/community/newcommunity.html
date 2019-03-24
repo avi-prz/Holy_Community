@@ -34,8 +34,7 @@
             <div class="col-sm-10 mr-auto">
                 <input type="text" class="form-control" name="txAdrs" id="txAdrs" placeholder="שם רחוב ומספר" ng-model="address" required title="נא להוסיף כתובת!">
             </div>      
-        </div>
-        
+        </div>        
         <div class="form-group row">
             <label for="dpFoundDate">תאריך יסוד הקהילה</label>
             <div class="col-sm-10 mr-auto">
@@ -59,8 +58,7 @@
         <div class="form-group row">
             <div class="col-sm-12 ml-auto">
                 <ul class="list-inline">
-                    <li class="list-inline-item"><button class="btn btn-success" ng-click="add()" ng-disabled="newComForm.$pristine || newComForm.$invalid">הוסף</button></li>
-                    <!--ng-disabled="newComForm.txName.$untouched || (newComForm.txName.$dirty && newComForm.txName.$invalid) || newComForm.txDesc.$untouched || (newComForm.txDesc.$dirty && newComForm.txDesc.$invalid) || newComForm.ddlCountry.$error.required || newComForm.ddlCity.$error.required || newComForm.txAdrs.$untouched || (newComForm.txAdrs.$dirty && newComForm.Adrs.$invalid)"-->
+                    <li class="list-inline-item"><button id="btnAddCom" class="btn btn-success" ng-click="add()" ng-disabled="newComForm.$pristine || newComForm.$invalid">הוסף</button></li>
                     <li class="list-inline-item"><button type="reset" class="btn btn-warning">אפס טופס</button></li>
                     <li class="list-inline-item"><a class="btn btn-danger" href="#!/">בטל</a></li>
                 </ul>

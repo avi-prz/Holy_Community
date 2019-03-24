@@ -4,7 +4,6 @@
 
 body {
     direction: rtl;
-    /* background-image: linear-gradient(to left,#053d9a,#0a3e65,#001032,#001832); */
 }
 
 .navbar-brand>span {
@@ -51,20 +50,16 @@ tbody>tr>td {
 
 .jumbotron-fluid {
     position: relative;
-    background-image: url(http://www.acheinu.co.il/wp-content/uploads/2018/12/%D7%91%D7%99%D7%AA-%D7%9B%D7%A0%D7%A1%D7%AA.jpg);
-    color:#ceff96;
     font-weight: bold;
-    /* font-family: 'Secular One', sans-serif; */
     font-family: 'Suez One', serif;
     padding: 6rem 2rem;
+    background-color: transparent;
 }
 
 .jumbotron-fluid>.container>.lead {
-    position: absolute;
-    top: calc(90% - 16px);
-    left: calc(50% - 113px);
-    font-size: 22px;
-    color: #fef99e;
+    font-size: 30px;
+    font-weight: bold;
+    color: #f1ffe1;
 }
 
 .btn.dropdown-toggle {
@@ -73,12 +68,12 @@ tbody>tr>td {
 }
 
 .main-page .dropdown {
-    width:25%;
+    width:35%;
 }
 
-.main-page form h3 {
+/* .main-page form h3 {
     font-family:'Tinos', serif;
-}
+} */
 
 .navbar-dark .navbar-nav .nav-link {
     color:yellow;
@@ -87,3 +82,37 @@ tbody>tr>td {
 .lsn-title {
     margin-right: 5.5rem;
 }
+
+.main-page {
+    background-image: url(https://www.chasidinews.com/wp-content/uploads/2015/11/IMG_7920.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.container.search-form {    
+    background-color: #ffdead66;
+}
+
+.container.search-form label {
+    font-family: 'Suez One', serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.container.search-form h3 {
+    font-family: 'Suez One', serif;
+    font-weight: bold;
+}
+
+.full button span {
+    background-color: limegreen;
+    border-radius: 32px;
+    color: black;
+  }
+  .partially button span {
+    background-color: orange;
+    border-radius: 32px;
+    color: black;
+  }

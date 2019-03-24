@@ -1,7 +1,7 @@
 <div>
     <div class="row">
         <h1 class="mx-auto">זמני תפילות</h1>
-        <div class="col-sm-12">
+        <div class="col-sm-12" ng-show="hasPrayers()">
             <marquee id="prayersScroll" class="marquee" behavior="scroll" direction="left" scrolldelay="30" scrollamount="5">
                 <div id="marquee" onmouseover="javascript:document.getElementById('prayersScroll').stop();" onmouseout="javascript:document.getElementById('prayersScroll').start();"><!--class="marquee"> -->            
                     <ul class="list-inline">
@@ -9,23 +9,37 @@
                     </ul>            
                 </div>
             </marquee>
+        </div>
+        <div class="col-sm-12" ng-hide="hasPrayers()">
+            <h3 class="text-center text-info">לא הוזנו זמני תפילות</h3>
         </div>        
-    </div>
+    </div>    
     <div class="container">
         <div class="row">
             <div class="col-12 no-padding">
                 <h1 class="mx-auto text-center">שיעורים קבועים</h1>
-                <lectures-data></lectures-data>
+                <lectures-data ng-show="hasLectures()"></lectures-data>
+                <h3 class="text-center text-info" ng-hide="hasLectures()">לא הוזנו שיעורים</h3>
             </div>                
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 no-padding">
+                    <h2 class="mx-auto text-center">על הקהילה</h2>
+                    <p class="text-center">{{community.description}}</p>
+                    <p class="text-center"><span>כתובת בית הכנסת: </span><span class="font-weight-bold">{{''+community.address+' '+ community.city}}</span></p>
+                </div>                
+            </div>
         </div>
         <div class="row" ng-show="isLoggedOn()">
             <div class="col-12 no-padding">
                 <h1 class="mx-auto text-center">אירועי קהילה</h1>
-                <events-data></events-data>
+                <events-data ng-show="hasEvents()"></events-data>
+                <h3 class="text-center text-info" ng-hide="hasEvents()">אין אירועים קרובים</h3>
             </div>                
         </div>
     </div>    
-    <!-- <script>
+    <script>
         $(function () {
             // $(".marquee").marquee({
             //     duration: 10000,
@@ -34,6 +48,7 @@
             //     direction: 'left',
             //     startVisible: true
             // });
+            document.getElementById('prayersScroll').start();
         });
-    </script> -->
+    </script>
 </div>

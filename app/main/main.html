@@ -4,36 +4,37 @@
         <div class="container">
             <h1 class="display-3 text-center">קהילות קודש</h1>
             <p class="lead text-center">הדרך הקלה לניהול הקהילה</p>           
-        </div>
-        
-    </div>   
-    <form action="">
-        <h3 class="text-right mb-2 text-secondary">חפש קהילה</h3>
-        <div class="form-group row">
-            <label class="mr-3" for="ddlCountry">ארץ:</label>
-            <div class="col-sm-10 mr-auto">
-                <select class="float-right dropdown" id="ddlCountry" name="ddlCountry" ng-model="country" ng-change="loadCities()" ng-options="country for country in countries">
-                </select>
+        </div>        
+    </div>
+    <div class="container search-form">   
+        <form action="">
+            <h3 class="text-center mb-2">חפש קהילה</h3>
+            <div class="form-group row">
+                <label class="mr-3 col-sm-5" for="ddlCountry">ארץ:</label>
+                <div class="col-sm-6 mr-auto">
+                    <select class="float-right dropdown" id="ddlCountry" name="ddlCountry" ng-model="country" ng-change="loadCities()" ng-options="country for country in countries">
+                    </select>
+                </div>
             </div>
-        </div>
-        <div class="form-group row">
-            <label class="mr-3" for="ddlCity" ng-disabled="country===''">עיר:</label>
-            <div class="col-sm-10 mr-auto">
-                <select class="float-right dropdown" name="ddlCity" id="ddlCity" ng-model="city" ng-options="cty.name for cty in cities" ng-change="getCommunities()">
-                    <option value=""></option>
-                </select>
+            <div class="form-group row">
+                <label class="mr-3 col-sm-5" for="ddlCity" ng-disabled="country===''">עיר:</label>
+                <div class="col-sm-6 mr-auto">
+                    <select class="float-right dropdown" name="ddlCity" id="ddlCity" ng-model="city" ng-options="cty.name for cty in cities" ng-change="getCommunities()">
+                        <option value=""></option>
+                    </select>
+                </div>
+            </div>           
+            <div class="form-group row">
+                <label class="mr-3 col-sm-5" for="ddlComs" ng-disabled="country==='' || city===''">קהילה:</label>
+                <div class="col-sm-6 mr-auto">
+                    <select class="float-right dropdown" id="ddlComs" name="ddlComs" ng-model="community" ng-options="com.name for com in communities" ng-change="showCommunity(com.id)"> 
+                        <option value=""></option>
+                    </select>
+                </div>
             </div>
-        </div>           
-        <div class="form-group row">
-            <label class="mr-3" for="ddlComs" ng-disabled>קהילה:</label>
-            <div class="col-sm-10 mr-auto">
-                <select class="float-right dropdown" id="ddlComs" name="ddlComs" ng-model="community" ng-options="com.name for com in communities" ng-change="showCommunity(com.id)"> 
-                    <option value=""></option>
-                </select>
+            <div class="form-group row">
+                <button type="button" class="btn btn-primary" ng-click="addCommunity()" ng-show="canCreateCommunity()">צור קהילה חדשה</button>
             </div>
-        </div>
-        <div class="form-group row">
-            <button type="button" class="btn btn-primary" ng-click="addCommunity()" ng-show="canCreateCommunity()">צור קהילה חדשה</button>
-        </div>
-    </form>    
+        </form>
+    </div>    
 </div>

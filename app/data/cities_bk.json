@@ -1,0 +1,7984 @@
+﻿{
+	"ישראל":[
+	{
+		"id": "472 ",
+		"name": "אבו גוש ",
+		"name_en": "ABU GHOSH ",
+		"region": "ירושלים ",
+		"moaatza": ""
+	},
+	{
+		"id": "1275 ",
+		"name": "אבטליון ",
+		"name_en": "AVTALYON ",
+		"region": "עכו ",
+		"moaatza": "משגב"
+	},
+	{
+		"id": "679 ",
+		"name": "אביאל ",
+		"name_en": "AVI'EL ",
+		"region": "חדרה ",
+		"moaatza": "אלונה"
+	},
+	{
+		"id": "1115 ",
+		"name": "אביבים ",
+		"name_en": "AVIVIM ",
+		"region": "צפת ",
+		"moaatza": "מרום הגליל"
+	},
+	{
+		"id": "819 ",
+		"name": "אביגדור ",
+		"name_en": "AVIGEDOR ",
+		"region": "אשקלון ",
+		"moaatza": "באר טוביה"
+	},
+	{
+		"id": "175 ",
+		"name": "אביחיל ",
+		"name_en": "AVIHAYIL ",
+		"region": "השרון ",
+		"moaatza": "עמק חפר"
+	},
+	{
+		"id": "2052 ",
+		"name": "אביטל ",
+		"name_en": "AVITAL ",
+		"region": "עפולה ",
+		"moaatza": "הגלבוע"
+	},
+	{
+		"id": "1070 ",
+		"name": "אביעזר ",
+		"name_en": "AVI'EZER ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "1220 ",
+		"name": "אבירים ",
+		"name_en": "ABBIRIM ",
+		"region": "עכו ",
+		"moaatza": "מעלה יוסף"
+	},
+	{
+		"id": "182 ",
+		"name": "אבן יהודה ",
+		"name_en": "EVEN YEHUDA ",
+		"region": "השרון ",
+		"moaatza": ""
+	},
+	{
+		"id": "1081 ",
+		"name": "אבן מנחם ",
+		"name_en": "EVEN MENAHEM ",
+		"region": "עכו ",
+		"moaatza": "מעלה יוסף"
+	},
+	{
+		"id": "783 ",
+		"name": "אבן ספיר ",
+		"name_en": "EVEN SAPPIR ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "400 ",
+		"name": "אבן שמואל ",
+		"name_en": "EVEN SHEMU'EL ",
+		"region": "אשקלון ",
+		"moaatza": "שפיר"
+	},
+	{
+		"id": "4011 ",
+		"name": "אבני איתן ",
+		"name_en": "AVNE ETAN ",
+		"region": "גולן ",
+		"moaatza": "גולן"
+	},
+	{
+		"id": "3793 ",
+		"name": "אבני חפץ ",
+		"name_en": "AVNE HEFEZ ",
+		"region": "טול כרם ",
+		"moaatza": "שומרון"
+	},
+	{
+		"id": "3786 ",
+		"name": "אבנת ",
+		"name_en": "AVENAT ",
+		"region": "ירדן )יריחו( ",
+		"moaatza": "מגילות ים המלח"
+	},
+	{
+		"id": "1311 ",
+		"name": "אבשלום ",
+		"name_en": "AVSHALOM ",
+		"region": "באר שבע ",
+		"moaatza": "אשכול"
+	},
+	{
+		"id": "3759 ",
+		"name": "אדורה ",
+		"name_en": "ADORA ",
+		"region": "חברון ",
+		"moaatza": "הר חברון"
+	},
+	{
+		"id": "113 ",
+		"name": "אדירים ",
+		"name_en": "ADDIRIM ",
+		"region": "עפולה ",
+		"moaatza": "הגלבוע"
+	},
+	{
+		"id": "1068 ",
+		"name": "אדמית ",
+		"name_en": "ADAMIT ",
+		"region": "עכו ",
+		"moaatza": "מטה אשר"
+	},
+	{
+		"id": "1123 ",
+		"name": "אדרת ",
+		"name_en": "ADDERET ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "446 ",
+		"name": "אודים ",
+		"name_en": "UDIM ",
+		"region": "השרון ",
+		"moaatza": "חוף השרון"
+	},
+	{
+		"id": "4010 ",
+		"name": "אודם ",
+		"name_en": "ODEM ",
+		"region": "גולן ",
+		"moaatza": "גולן"
+	},
+	{
+		"id": "1046 ",
+		"name": "אוהד ",
+		"name_en": "OHAD ",
+		"region": "באר שבע ",
+		"moaatza": "אשכול"
+	},
+	{
+		"id": "1108 ",
+		"name": "אומן ",
+		"name_en": "OMEN ",
+		"region": "עפולה ",
+		"moaatza": "הגלבוע"
+	},
+	{
+		"id": "680 ",
+		"name": "אומץ ",
+		"name_en": "OMEZ ",
+		"region": "השרון ",
+		"moaatza": "עמק חפר"
+	},
+	{
+		"id": "31 ",
+		"name": "אופקים ",
+		"name_en": "OFAQIM ",
+		"region": "באר שבע ",
+		"moaatza": ""
+	},
+	{
+		"id": "1294 ",
+		"name": "אור הגנוז ",
+		"name_en": "OR HAGANUZ ",
+		"region": "צפת ",
+		"moaatza": "מרום הגליל"
+	},
+	{
+		"id": "67 ",
+		"name": "אור הנר ",
+		"name_en": "OR HANER ",
+		"region": "אשקלון ",
+		"moaatza": "שער הנגב"
+	},
+	{
+		"id": "2400 ",
+		"name": "אור יהודה ",
+		"name_en": "OR YEHUDA ",
+		"region": "רמת גן ",
+		"moaatza": ""
+	},
+	{
+		"id": "1020 ",
+		"name": "אור עקיבא ",
+		"name_en": "OR AQIVA ",
+		"region": "חדרה ",
+		"moaatza": ""
+	},
+	{
+		"id": "780 ",
+		"name": "אורה ",
+		"name_en": "ORA ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "2012 ",
+		"name": "אורות ",
+		"name_en": "OROT ",
+		"region": "אשקלון ",
+		"moaatza": "באר טוביה"
+	},
+	{
+		"id": "4013 ",
+		"name": "אורטל ",
+		"name_en": "ORTAL ",
+		"region": "גולן ",
+		"moaatza": "גולן"
+	},
+	{
+		"id": "403 ",
+		"name": "אורים ",
+		"name_en": "URIM ",
+		"region": "באר שבע ",
+		"moaatza": "אשכול"
+	},
+	{
+		"id": "882 ",
+		"name": "אורנים ",
+		"name_en": "ORANIM ",
+		"region": "חיפה ",
+		"moaatza": "זבולון"
+	},
+	{
+		"id": "3760 ",
+		"name": "אורנית ",
+		"name_en": "ORANIT ",
+		"region": "טול כרם ",
+		"moaatza": ""
+	},
+	{
+		"id": "278 ",
+		"name": "אושה ",
+		"name_en": "USHA ",
+		"region": "חיפה ",
+		"moaatza": "זבולון"
+	},
+	{
+		"id": "565 ",
+		"name": "אזור ",
+		"name_en": "AZOR ",
+		"region": "חולון ",
+		"moaatza": ""
+	},
+	{
+		"id": "1157 ",
+		"name": "אחווה ",
+		"name_en": "AHAWA ",
+		"region": "אשקלון ",
+		"moaatza": "באר טוביה"
+	},
+	{
+		"id": "821 ",
+		"name": "אחוזם ",
+		"name_en": "AHUZZAM ",
+		"region": "אשקלון ",
+		"moaatza": "לכיש"
+	},
+	{
+		"id": "1330 ",
+		"name": "אחוזת ברק ",
+		"name_en": "AHUZZAT BARAQ ",
+		"region": "עפולה ",
+		"moaatza": "עמק יזרעאל"
+	},
+	{
+		"id": "785 ",
+		"name": "אחיהוד ",
+		"name_en": "AHIHUD ",
+		"region": "עכו ",
+		"moaatza": "מטה אשר"
+	},
+	{
+		"id": "850 ",
+		"name": "אחיטוב ",
+		"name_en": "AHITUV ",
+		"region": "השרון ",
+		"moaatza": "עמק חפר"
+	},
+	{
+		"id": "804 ",
+		"name": "אחיסמך ",
+		"name_en": "AHISAMAKH ",
+		"region": "רמלה ",
+		"moaatza": "חבל מודיעין"
+	},
+	{
+		"id": "797 ",
+		"name": "אחיעזר ",
+		"name_en": "AHI'EZER ",
+		"region": "רמלה ",
+		"moaatza": "שדות דן"
+	},
+	{
+		"id": "338 ",
+		"name": "איבים ",
+		"name_en": "IBBIM ",
+		"region": "אשקלון ",
+		"moaatza": "שער הנגב"
+	},
+	{
+		"id": "716 ",
+		"name": "אייל ",
+		"name_en": "EYAL ",
+		"region": "פתח תקווה ",
+		"moaatza": "דרום השרון"
+	},
+	{
+		"id": "77 ",
+		"name": "איילת השחר ",
+		"name_en": "AYYELET HASHAHAR ",
+		"region": "צפת ",
+		"moaatza": "הגליל העליון"
+	},
+	{
+		"id": "294 ",
+		"name": "אילון ",
+		"name_en": "ELON ",
+		"region": "עכו ",
+		"moaatza": "מטה אשר"
+	},
+	{
+		"id": "1126 ",
+		"name": "אילות ",
+		"name_en": "ELOT ",
+		"region": "באר שבע ",
+		"moaatza": "חבל אילות"
+	},
+	{
+		"id": "49 ",
+		"name": "אילניה ",
+		"name_en": "ILANIYYA ",
+		"region": "כנרת ",
+		"moaatza": "הגליל התחתון"
+	},
+	{
+		"id": "2600 ",
+		"name": "אילת ",
+		"name_en": "ELAT ",
+		"region": "באר שבע ",
+		"moaatza": ""
+	},
+	{
+		"id": "1336 ",
+		"name": "אירוס ",
+		"name_en": "IRUS ",
+		"region": "רחובות ",
+		"moaatza": "גן רווה"
+	},
+	{
+		"id": "3762 ",
+		"name": "איתמר ",
+		"name_en": "ITAMAR ",
+		"region": "שכם ",
+		"moaatza": "שומרון"
+	},
+	{
+		"id": "37 ",
+		"name": "איתן ",
+		"name_en": "ETAN ",
+		"region": "אשקלון ",
+		"moaatza": "שפיר"
+	},
+	{
+		"id": "886 ",
+		"name": "איתנים ",
+		"name_en": "ETANIM ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "1339 ",
+		"name": "אל-עזי ",
+		"name_en": "AL-AZY ",
+		"region": "אשקלון ",
+		"moaatza": "יואב"
+	},
+	{
+		"id": "4003 ",
+		"name": "אל-רום ",
+		"name_en": "EL-ROM ",
+		"region": "גולן ",
+		"moaatza": "גולן"
+	},
+	{
+		"id": "1145 ",
+		"name": "אלומה ",
+		"name_en": "ALUMMA ",
+		"region": "אשקלון ",
+		"moaatza": "שפיר"
+	},
+	{
+		"id": "330 ",
+		"name": "אלומות ",
+		"name_en": "ALUMMOT ",
+		"region": "כנרת ",
+		"moaatza": "עמק הירדן"
+	},
+	{
+		"id": "1182 ",
+		"name": "אלון הגליל ",
+		"name_en": "ALLON HAGALIL ",
+		"region": "עפולה ",
+		"moaatza": "עמק יזרעאל"
+	},
+	{
+		"id": "3579 ",
+		"name": "אלון מורה ",
+		"name_en": "ELON MORE ",
+		"region": "שכם ",
+		"moaatza": "שומרון"
+	},
+	{
+		"id": "3604 ",
+		"name": "אלון שבות ",
+		"name_en": "ALLON SHEVUT ",
+		"region": "בית לחם ",
+		"moaatza": "גוש עציון"
+	},
+	{
+		"id": "429 ",
+		"name": "אלוני אבא ",
+		"name_en": "ALLONE ABBA ",
+		"region": "עפולה ",
+		"moaatza": "עמק יזרעאל"
+	},
+	{
+		"id": "4017 ",
+		"name": "אלוני הבשן ",
+		"name_en": "ALLONE HABASHAN ",
+		"region": "גולן ",
+		"moaatza": "גולן"
+	},
+	{
+		"id": "868 ",
+		"name": "אלוני יצחק ",
+		"name_en": "ALLONE YIZHAQ ",
+		"region": "חדרה ",
+		"moaatza": "מנשה"
+	},
+	{
+		"id": "285 ",
+		"name": "אלונים ",
+		"name_en": "ALLONIM ",
+		"region": "עפולה ",
+		"moaatza": "עמק יזרעאל"
+	},
+	{
+		"id": "4002 ",
+		"name": "אלי-עד ",
+		"name_en": "ELI AL ",
+		"region": "גולן ",
+		"moaatza": "גולן"
+	},
+	{
+		"id": "1365 ",
+		"name": "אליאב ",
+		"name_en": "ELIAV ",
+		"region": "אשקלון ",
+		"moaatza": "לכיש"
+	},
+	{
+		"id": "41 ",
+		"name": "אליכין ",
+		"name_en": "ELYAKHIN ",
+		"region": "השרון ",
+		"moaatza": ""
+	},
+	{
+		"id": "1248 ",
+		"name": "אליפז ",
+		"name_en": "ELIFAZ ",
+		"region": "באר שבע ",
+		"moaatza": "חבל אילות"
+	},
+	{
+		"id": "730 ",
+		"name": "אליפלט ",
+		"name_en": "ELIFELET ",
+		"region": "צפת ",
+		"moaatza": "מבואות החרמון"
+	},
+	{
+		"id": "682 ",
+		"name": "אליקים ",
+		"name_en": "ELYAQIM ",
+		"region": "עפולה ",
+		"moaatza": "מגידו"
+	},
+	{
+		"id": "204 ",
+		"name": "אלישיב ",
+		"name_en": "ELYASHIV ",
+		"region": "השרון ",
+		"moaatza": "עמק חפר"
+	},
+	{
+		"id": "841 ",
+		"name": "אלישמע ",
+		"name_en": "ELISHAMA ",
+		"region": "פתח תקווה ",
+		"moaatza": "דרום השרון"
+	},
+	{
+		"id": "1125 ",
+		"name": "אלמגור  ",
+		"name_en": "ALMAGOR ",
+		"region": "כנרת ",
+		"moaatza": "עמק הירדן"
+	},
+	{
+		"id": "3556 ",
+		"name": "אלמוג ",
+		"name_en": "ALMOG ",
+		"region": "ירדן )יריחו( ",
+		"moaatza": "מגילות ים המלח"
+	},
+	{
+		"id": "1309 ",
+		"name": "אלעד ",
+		"name_en": "EL'AD ",
+		"region": "פתח תקווה ",
+		"moaatza": ""
+	},
+	{
+		"id": "3618 ",
+		"name": "אלעזר ",
+		"name_en": "EL'AZAR ",
+		"region": "בית לחם ",
+		"moaatza": "גוש עציון"
+	},
+	{
+		"id": "3750 ",
+		"name": "אלפי מנשה ",
+		"name_en": "ALFE MENASHE ",
+		"region": "טול כרם ",
+		"moaatza": ""
+	},
+	{
+		"id": "603 ",
+		"name": "אלקוש ",
+		"name_en": "ELQOSH ",
+		"region": "עכו ",
+		"moaatza": "מעלה יוסף"
+	},
+	{
+		"id": "3560 ",
+		"name": "אלקנה ",
+		"name_en": "ELQANA ",
+		"region": "טול כרם ",
+		"moaatza": ""
+	},
+	{
+		"id": "772 ",
+		"name": "אמונים ",
+		"name_en": "EMUNIM ",
+		"region": "אשקלון ",
+		"moaatza": "באר טוביה"
+	},
+	{
+		"id": "1064 ",
+		"name": "אמירים ",
+		"name_en": "AMIRIM ",
+		"region": "צפת ",
+		"moaatza": "מרום הגליל"
+	},
+	{
+		"id": "1253 ",
+		"name": "אמנון ",
+		"name_en": "AMNUN ",
+		"region": "כנרת ",
+		"moaatza": "מבואות החרמון"
+	},
+	{
+		"id": "23 ",
+		"name": "אמציה ",
+		"name_en": "AMAZYA ",
+		"region": "אשקלון ",
+		"moaatza": "לכיש"
+	},
+	{
+		"id": "4012 ",
+		"name": "אניעם ",
+		"name_en": "ANI'AM ",
+		"region": "גולן ",
+		"moaatza": "גולן"
+	},
+	{
+		"id": "3754 ",
+		"name": "אספר ",
+		"name_en": "ASEFAR ",
+		"region": "חברון ",
+		"moaatza": "גוש עציון"
+	},
+	{
+		"id": "4301 ",
+		"name": "אפיק ",
+		"name_en": "AFIQ ",
+		"region": "גולן ",
+		"moaatza": "גולן"
+	},
+	{
+		"id": "176 ",
+		"name": "אפיקים ",
+		"name_en": "AFIQIM ",
+		"region": "כנרת ",
+		"moaatza": "עמק הירדן"
+	},
+	{
+		"id": "313 ",
+		"name": "אפק ",
+		"name_en": "AFEQ ",
+		"region": "עכו ",
+		"moaatza": "מטה אשר"
+	},
+	{
+		"id": "3650 ",
+		"name": "אפרת ",
+		"name_en": "EFRAT ",
+		"region": "בית לחם ",
+		"moaatza": ""
+	},
+	{
+		"id": "701 ",
+		"name": "ארבל ",
+		"name_en": "ARBEL ",
+		"region": "כנרת ",
+		"moaatza": "הגליל התחתון"
+	},
+	{
+		"id": "3598 ",
+		"name": "ארגמן ",
+		"name_en": "ARGAMAN ",
+		"region": "ירדן )יריחו( ",
+		"moaatza": "ערבות הירדן"
+	},
+	{
+		"id": "714 ",
+		"name": "ארז ",
+		"name_en": "EREZ ",
+		"region": "אשקלון ",
+		"moaatza": "שער הנגב"
+	},
+	{
+		"id": "3570 ",
+		"name": "אריאל ",
+		"name_en": "ARI'EL ",
+		"region": "טול כרם ",
+		"moaatza": ""
+	},
+	{
+		"id": "1324 ",
+		"name": "ארסוף ",
+		"name_en": "ARSUF ",
+		"region": "השרון ",
+		"moaatza": "חוף השרון"
+	},
+	{
+		"id": "71 ",
+		"name": "אשבול ",
+		"name_en": "ESHBOL ",
+		"region": "באר שבע ",
+		"moaatza": "מרחבים"
+	},
+	{
+		"id": "1276 ",
+		"name": "אשבל ",
+		"name_en": "NAHAL ESHBAL ",
+		"region": "עכו ",
+		"moaatza": "משגב"
+	},
+	{
+		"id": "70 ",
+		"name": "אשדוד ",
+		"name_en": "ASHDOD ",
+		"region": "אשקלון ",
+		"moaatza": ""
+	},
+	{
+		"id": "199 ",
+		"name": "אשדות יעקב )איחוד( ",
+		"name_en": "ASHDOT YA'AQOV(IHUD) ",
+		"region": "כנרת ",
+		"moaatza": "עמק הירדן"
+	},
+	{
+		"id": "188 ",
+		"name": "אשדות יעקב )מאוחד( ",
+		"name_en": "ASHDOT YA'AQOV(ME'UH ",
+		"region": "כנרת ",
+		"moaatza": "עמק הירדן"
+	},
+	{
+		"id": "1188 ",
+		"name": "אשחר ",
+		"name_en": "ESHHAR ",
+		"region": "עכו ",
+		"moaatza": "משגב"
+	},
+	{
+		"id": "3722 ",
+		"name": "אשכולות ",
+		"name_en": "ESHKOLOT ",
+		"region": "חברון ",
+		"moaatza": "הר חברון"
+	},
+	{
+		"id": "2021 ",
+		"name": "אשל הנשיא ",
+		"name_en": "ESHEL HANASI ",
+		"region": "באר שבע ",
+		"moaatza": "מרחבים"
+	},
+	{
+		"id": "1152 ",
+		"name": "אשלים ",
+		"name_en": "ASHALIM ",
+		"region": "באר שבע ",
+		"moaatza": "רמת נגב"
+	},
+	{
+		"id": "7100 ",
+		"name": "אשקלון ",
+		"name_en": "ASHQELON  ",
+		"region": "אשקלון ",
+		"moaatza": ""
+	},
+	{
+		"id": "1256 ",
+		"name": "אשרת ",
+		"name_en": "ASHERAT ",
+		"region": "עכו ",
+		"moaatza": "מטה אשר"
+	},
+	{
+		"id": "740 ",
+		"name": "אשתאול ",
+		"name_en": "ESHTA'OL ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "1298 ",
+		"name": "אתגר ",
+		"name_en": "ETGAR ",
+		"region": "עכו ",
+		"moaatza": "משגב"
+	},
+	{
+		"id": "21 ",
+		"name": "באר אורה ",
+		"name_en": "BE'ER ORA ",
+		"region": "באר שבע ",
+		"moaatza": "חבל אילות"
+	},
+	{
+		"id": "1376 ",
+		"name": "באר גנים ",
+		"name_en": "BEER GANNIM ",
+		"region": "באר שבע ",
+		"moaatza": "חוף אשקלון"
+	},
+	{
+		"id": "155 ",
+		"name": "באר טוביה ",
+		"name_en": "BE'ER TUVEYA ",
+		"region": "אשקלון ",
+		"moaatza": "באר טוביה"
+	},
+	{
+		"id": "2530 ",
+		"name": "באר יעקב ",
+		"name_en": "BE'ER YA'AQOV ",
+		"region": "רמלה ",
+		"moaatza": ""
+	},
+	{
+		"id": "1278 ",
+		"name": "באר מילכה ",
+		"name_en": "BE'ER MILKA ",
+		"region": "באר שבע ",
+		"moaatza": "רמת נגב"
+	},
+	{
+		"id": "9000 ",
+		"name": "באר שבע ",
+		"name_en": "BE'ER SHEVA ",
+		"region": "באר שבע ",
+		"moaatza": ""
+	},
+	{
+		"id": "450 ",
+		"name": "בארות יצחק ",
+		"name_en": "BE'EROT YIZHAQ ",
+		"region": "פתח תקווה ",
+		"moaatza": "חבל מודיעין"
+	},
+	{
+		"id": "697 ",
+		"name": "בארותיים ",
+		"name_en": "BE'EROTAYIM ",
+		"region": "השרון ",
+		"moaatza": "עמק חפר"
+	},
+	{
+		"id": "399 ",
+		"name": "בארי ",
+		"name_en": "BE'ERI ",
+		"region": "באר שבע ",
+		"moaatza": "אשכול"
+	},
+	{
+		"id": "559 ",
+		"name": "בוסתן הגליל ",
+		"name_en": "BUSTAN HAGALIL ",
+		"region": "עכו ",
+		"moaatza": "מטה אשר"
+	},
+	{
+		"id": "698 ",
+		"name": "בורגתה ",
+		"name_en": "BURGETA ",
+		"region": "השרון ",
+		"moaatza": "עמק חפר"
+	},
+	{
+		"id": "2043 ",
+		"name": "בחן ",
+		"name_en": "BAHAN ",
+		"region": "השרון ",
+		"moaatza": "עמק חפר"
+	},
+	{
+		"id": "762 ",
+		"name": "בטחה ",
+		"name_en": "BITHA ",
+		"region": "באר שבע ",
+		"moaatza": "מרחבים"
+	},
+	{
+		"id": "234 ",
+		"name": "ביצרון ",
+		"name_en": "BIZZARON ",
+		"region": "אשקלון ",
+		"moaatza": "באר טוביה"
+	},
+	{
+		"id": "368 ",
+		"name": "ביריה ",
+		"name_en": "BIRIYYA ",
+		"region": "צפת ",
+		"moaatza": "מרום הגליל"
+	},
+	{
+		"id": "317 ",
+		"name": "בית אורן ",
+		"name_en": "BET OREN ",
+		"region": "חדרה ",
+		"moaatza": "חוף הכרמל"
+	},
+	{
+		"id": "3574 ",
+		"name": "בית אל ",
+		"name_en": "BET EL ",
+		"region": "ראמאללה ",
+		"moaatza": ""
+	},
+	{
+		"id": "562 ",
+		"name": "בית אלעזרי ",
+		"name_en": "BET EL'AZARI ",
+		"region": "רחובות ",
+		"moaatza": "ברנר"
+	},
+	{
+		"id": "95 ",
+		"name": "בית אלפא ",
+		"name_en": "BET ALFA ",
+		"region": "עפולה ",
+		"moaatza": "הגלבוע"
+	},
+	{
+		"id": "3652 ",
+		"name": "בית אריה ",
+		"name_en": "BET ARYE ",
+		"region": "ראמאללה ",
+		"moaatza": ""
+	},
+	{
+		"id": "1076 ",
+		"name": "בית ברל ",
+		"name_en": "BET BERL ",
+		"region": "פתח תקווה ",
+		"moaatza": "דרום השרון"
+	},
+	{
+		"id": "619 ",
+		"name": "בית גוברין ",
+		"name_en": "BET GUVRIN ",
+		"region": "אשקלון ",
+		"moaatza": "יואב"
+	},
+	{
+		"id": "571 ",
+		"name": "בית גמליאל ",
+		"name_en": "BET GAMLI'EL ",
+		"region": "רחובות ",
+		"moaatza": "חבל יבנה"
+	},
+	{
+		"id": "466 ",
+		"name": "בית דגן ",
+		"name_en": "BET DAGAN ",
+		"region": "רמלה ",
+		"moaatza": ""
+	},
+	{
+		"id": "723 ",
+		"name": "בית הגדי ",
+		"name_en": "BET HAGADDI ",
+		"region": "באר שבע ",
+		"moaatza": "שדות נגב"
+	},
+	{
+		"id": "373 ",
+		"name": "בית הלוי ",
+		"name_en": "BET HALEVI ",
+		"region": "השרון ",
+		"moaatza": "עמק חפר"
+	},
+	{
+		"id": "322 ",
+		"name": "בית הלל ",
+		"name_en": "BET HILLEL ",
+		"region": "צפת ",
+		"moaatza": "מבואות החרמון"
+	},
+	{
+		"id": "572 ",
+		"name": "בית העמק ",
+		"name_en": "BET HAEMEQ ",
+		"region": "עכו  ",
+		"moaatza": "מטה אשר"
+	},
+	{
+		"id": "3645 ",
+		"name": "בית הערבה ",
+		"name_en": "BET HAARAVA ",
+		"region": "ירדן )יריחו( ",
+		"moaatza": "מגילות ים המלח"
+	},
+	{
+		"id": "242 ",
+		"name": "בית השיטה ",
+		"name_en": "BET HASHITTA ",
+		"region": "עפולה ",
+		"moaatza": "הגלבוע"
+	},
+	{
+		"id": "710 ",
+		"name": "בית זית ",
+		"name_en": "BET ZAYIT ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "143 ",
+		"name": "בית זרע ",
+		"name_en": "BET ZERA ",
+		"region": "כנרת ",
+		"moaatza": "עמק הירדן"
+	},
+	{
+		"id": "3575 ",
+		"name": "בית חורון ",
+		"name_en": "BET HORON ",
+		"region": "ראמאללה ",
+		"moaatza": "מטה בנימין"
+	},
+	{
+		"id": "877 ",
+		"name": "בית חירות ",
+		"name_en": "BET HERUT ",
+		"region": "השרון ",
+		"moaatza": "עמק חפר"
+	},
+	{
+		"id": "2033 ",
+		"name": "בית חלקיה ",
+		"name_en": "BET HILQIYYA ",
+		"region": "רחובות ",
+		"moaatza": "נחל שורק"
+	},
+	{
+		"id": "159 ",
+		"name": "בית חנן ",
+		"name_en": "BET HANAN ",
+		"region": "רחובות ",
+		"moaatza": "גן רווה"
+	},
+	{
+		"id": "800 ",
+		"name": "בית חנניה ",
+		"name_en": "BET HANANYA ",
+		"region": "חדרה ",
+		"moaatza": "חוף הכרמל"
+	},
+	{
+		"id": "1050 ",
+		"name": "בית חשמונאי ",
+		"name_en": "BET HASHMONAY ",
+		"region": "רמלה ",
+		"moaatza": "גזר"
+	},
+	{
+		"id": "288 ",
+		"name": "בית יהושע ",
+		"name_en": "BET YEHOSHUA ",
+		"region": "השרון ",
+		"moaatza": "חוף השרון"
+	},
+	{
+		"id": "265 ",
+		"name": "בית יוסף ",
+		"name_en": "BET YOSEF ",
+		"region": "עפולה ",
+		"moaatza": "עמק המעיינות"
+	},
+	{
+		"id": "200 ",
+		"name": "בית ינאי ",
+		"name_en": "BET YANNAY ",
+		"region": "השרון ",
+		"moaatza": "עמק חפר"
+	},
+	{
+		"id": "326 ",
+		"name": "בית יצחק-שער חפר ",
+		"name_en": "BET YIZHAQ-SH. HEFER ",
+		"region": "השרון ",
+		"moaatza": "עמק חפר"
+	},
+	{
+		"id": "430 ",
+		"name": "בית לחם הגלילית ",
+		"name_en": "BET LEHEM HAGELILIT ",
+		"region": "עפולה ",
+		"moaatza": "עמק יזרעאל"
+	},
+	{
+		"id": "751 ",
+		"name": "בית מאיר ",
+		"name_en": "BET ME'IR ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "784 ",
+		"name": "בית נחמיה ",
+		"name_en": "BET NEHEMYA ",
+		"region": "רמלה ",
+		"moaatza": "חבל מודיעין"
+	},
+	{
+		"id": "16 ",
+		"name": "בית ניר ",
+		"name_en": "BET NIR ",
+		"region": "אשקלון ",
+		"moaatza": "יואב"
+	},
+	{
+		"id": "672 ",
+		"name": "בית נקופה ",
+		"name_en": "BET NEQOFA ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "202 ",
+		"name": "בית עובד ",
+		"name_en": "BET OVED ",
+		"region": "רחובות ",
+		"moaatza": "גן רווה"
+	},
+	{
+		"id": "301 ",
+		"name": "בית עוזיאל ",
+		"name_en": "BET UZZI'EL ",
+		"region": "רמלה ",
+		"moaatza": "גזר"
+	},
+	{
+		"id": "756 ",
+		"name": "בית עזרא ",
+		"name_en": "BET EZRA ",
+		"region": "אשקלון ",
+		"moaatza": "באר טוביה"
+	},
+	{
+		"id": "604 ",
+		"name": "בית עריף ",
+		"name_en": "BET ARIF ",
+		"region": "רמלה ",
+		"moaatza": "חבל מודיעין"
+	},
+	{
+		"id": "212 ",
+		"name": "בית צבי ",
+		"name_en": "BET ZEVI ",
+		"region": "חדרה ",
+		"moaatza": "חוף הכרמל"
+	},
+	{
+		"id": "598 ",
+		"name": "בית קמה ",
+		"name_en": "BET QAMA ",
+		"region": "באר שבע ",
+		"moaatza": "בני שמעון"
+	},
+	{
+		"id": "365 ",
+		"name": "בית קשת ",
+		"name_en": "BET QESHET ",
+		"region": "כנרת ",
+		"moaatza": "הגליל התחתון"
+	},
+	{
+		"id": "848 ",
+		"name": "בית רבן ",
+		"name_en": "BET RABBAN ",
+		"region": "רחובות ",
+		"moaatza": "חבל יבנה"
+	},
+	{
+		"id": "1162 ",
+		"name": "בית רימון ",
+		"name_en": "BET RIMMON ",
+		"region": "עפולה ",
+		"moaatza": "הגליל התחתון"
+	},
+	{
+		"id": "9200 ",
+		"name": "בית שאן ",
+		"name_en": "BET SHE'AN ",
+		"region": "עפולה ",
+		"moaatza": ""
+	},
+	{
+		"id": "2610 ",
+		"name": "בית שמש ",
+		"name_en": "BET SHEMESH ",
+		"region": "ירושלים ",
+		"moaatza": ""
+	},
+	{
+		"id": "248 ",
+		"name": "בית שערים ",
+		"name_en": "BET SHE'ARIM ",
+		"region": "עפולה ",
+		"moaatza": "עמק יזרעאל"
+	},
+	{
+		"id": "747 ",
+		"name": "בית שקמה ",
+		"name_en": "BET SHIQMA ",
+		"region": "אשקלון ",
+		"moaatza": "חוף אשקלון"
+	},
+	{
+		"id": "252 ",
+		"name": "ביתן אהרן ",
+		"name_en": "BITAN AHARON ",
+		"region": "השרון ",
+		"moaatza": "עמק חפר"
+	},
+	{
+		"id": "3780 ",
+		"name": "ביתר עילית ",
+		"name_en": "BETAR ILLIT ",
+		"region": "בית לחם ",
+		"moaatza": ""
+	},
+	{
+		"id": "760 ",
+		"name": "בן זכאי ",
+		"name_en": "BEN ZAKKAY ",
+		"region": "רחובות ",
+		"moaatza": "חבל יבנה"
+	},
+	{
+		"id": "712 ",
+		"name": "בן עמי ",
+		"name_en": "BEN AMMI ",
+		"region": "עכו ",
+		"moaatza": "מטה אשר"
+	},
+	{
+		"id": "1084 ",
+		"name": "בן שמן )כפר נוער( ",
+		"name_en": "BEN SHEMEN(K.NO'AR) ",
+		"region": "רמלה ",
+		"moaatza": "חבל מודיעין"
+	},
+	{
+		"id": "2013 ",
+		"name": "בן שמן )מושב( ",
+		"name_en": "BEN SHEMEN (MOSHAV) ",
+		"region": "רמלה ",
+		"moaatza": "חבל מודיעין"
+	},
+	{
+		"id": "6100 ",
+		"name": "בני ברק ",
+		"name_en": "BENE BERAQ ",
+		"region": "רמת גן ",
+		"moaatza": ""
+	},
+	{
+		"id": "1368 ",
+		"name": "בני דקלים ",
+		"name_en": "BNE DKALIM ",
+		"region": "אשקלון ",
+		"moaatza": "לכיש"
+	},
+	{
+		"id": "592 ",
+		"name": "בני דרום ",
+		"name_en": "BENE DAROM ",
+		"region": "רחובות ",
+		"moaatza": "חבל יבנה"
+	},
+	{
+		"id": "386 ",
+		"name": "בני דרור ",
+		"name_en": "BENE DEROR ",
+		"region": "השרון ",
+		"moaatza": "לב השרון"
+	},
+	{
+		"id": "4015 ",
+		"name": "בני יהודה ",
+		"name_en": "BENE YEHUDA ",
+		"region": "גולן ",
+		"moaatza": "גולן"
+	},
+	{
+		"id": "1363 ",
+		"name": "בני נצרים ",
+		"name_en": "BENE NEZARIM ",
+		"region": "באר שבע ",
+		"moaatza": "אשכול"
+	},
+	{
+		"id": "448 ",
+		"name": "בני עטרות ",
+		"name_en": "BENE ATAROT ",
+		"region": "פתח תקווה ",
+		"moaatza": "חבל מודיעין"
+	},
+	{
+		"id": "1066 ",
+		"name": "בני עי",
+		"name_en": "BENE AYISH ",
+		"region": "רחובות ",
+		"moaatza": ""
+	},
+	{
+		"id": "418 ",
+		"name": "בני ציון ",
+		"name_en": "BENE ZIYYON ",
+		"region": "השרון ",
+		"moaatza": "חוף השרון"
+	},
+	{
+		"id": "588 ",
+		"name": "בני ראם ",
+		"name_en": "BENE RE'EM ",
+		"region": "רחובות ",
+		"moaatza": "נחל שורק"
+	},
+	{
+		"id": "685 ",
+		"name": "בניה ",
+		"name_en": "BENAYA ",
+		"region": "רחובות ",
+		"moaatza": "ברנר"
+	},
+	{
+		"id": "9800 ",
+		"name": "בנימינה-גבעת עדה ",
+		"name_en": "BINYAMINA ",
+		"region": "חדרה ",
+		"moaatza": ""
+	},
+	{
+		"id": "1326 ",
+		"name": "בסמ",
+		"name_en": "BASMA ",
+		"region": "חדרה ",
+		"moaatza": ""
+	},
+	{
+		"id": "944 ",
+		"name": "בסמת טבעון ",
+		"name_en": "BASMAT TAB'UN ",
+		"region": "עפולה ",
+		"moaatza": ""
+	},
+	{
+		"id": "389 ",
+		"name": "בצרה ",
+		"name_en": "BAZRA ",
+		"region": "השרון ",
+		"moaatza": "חוף השרון"
+	},
+	{
+		"id": "589 ",
+		"name": "בצת ",
+		"name_en": "BEZET ",
+		"region": "עכו ",
+		"moaatza": "מטה אשר"
+	},
+	{
+		"id": "864 ",
+		"name": "בקוע ",
+		"name_en": "BEQOA ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "3612 ",
+		"name": "בקעות ",
+		"name_en": "BEQA'OT ",
+		"region": "ירדן )יריחו( ",
+		"moaatza": "ערבות הירדן"
+	},
+	{
+		"id": "823 ",
+		"name": "בר גיורא ",
+		"name_en": "BAR GIYYORA ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "1191 ",
+		"name": "בר יוחאי ",
+		"name_en": "BAR YOHAY ",
+		"region": "צפת ",
+		"moaatza": "מרום הגליל"
+	},
+	{
+		"id": "3744 ",
+		"name": "ברוכין ",
+		"name_en": "BRUKHIN ",
+		"region": "טול כרם ",
+		"moaatza": "שומרון"
+	},
+	{
+		"id": "428 ",
+		"name": "ברור חיל ",
+		"name_en": "BEROR HAYIL ",
+		"region": "אשקלון ",
+		"moaatza": "שער הנגב"
+	},
+	{
+		"id": "2060 ",
+		"name": "ברוש ",
+		"name_en": "BEROSH ",
+		"region": "באר שבע ",
+		"moaatza": "בני שמעון"
+	},
+	{
+		"id": "3710 ",
+		"name": "ברכה ",
+		"name_en": "BERAKHA ",
+		"region": "שכם ",
+		"moaatza": "שומרון"
+	},
+	{
+		"id": "746 ",
+		"name": "ברכיה ",
+		"name_en": "BEREKHYA ",
+		"region": "אשקלון ",
+		"moaatza": "חוף אשקלון"
+	},
+	{
+		"id": "667 ",
+		"name": "ברעם ",
+		"name_en": "BAR'AM ",
+		"region": "צפת ",
+		"moaatza": "הגליל העליון"
+	},
+	{
+		"id": "141 ",
+		"name": "ברק ",
+		"name_en": "BARAQ ",
+		"region": "עפולה ",
+		"moaatza": "הגלבוע"
+	},
+	{
+		"id": "617 ",
+		"name": "ברקאי ",
+		"name_en": "BARQAY ",
+		"region": "חדרה ",
+		"moaatza": "מנשה"
+	},
+	{
+		"id": "3654 ",
+		"name": "ברקן ",
+		"name_en": "BARQAN ",
+		"region": "טול כרם ",
+		"moaatza": "שומרון"
+	},
+	{
+		"id": "2038 ",
+		"name": "ברקת ",
+		"name_en": "BAREQET ",
+		"region": "פתח תקווה ",
+		"moaatza": "חבל מודיעין"
+	},
+	{
+		"id": "1323 ",
+		"name": "בת הדר ",
+		"name_en": "BAT HADAR ",
+		"region": "אשקלון ",
+		"moaatza": "חוף אשקלון"
+	},
+	{
+		"id": "1361 ",
+		"name": "בת חן ",
+		"name_en": "BAT HEN ",
+		"region": "השרון ",
+		"moaatza": "עמק חפר"
+	},
+	{
+		"id": "1319 ",
+		"name": "בת חפר ",
+		"name_en": "BAT HEFER ",
+		"region": "השרון ",
+		"moaatza": "עמק חפר"
+	},
+	{
+		"id": "1401 ",
+		"name": "בת חצור ",
+		"name_en": "BAT HAZOR ",
+		"region": "אשקלון ",
+		"moaatza": "באר טוביה"
+	},
+	{
+		"id": "6200 ",
+		"name": "בת ים ",
+		"name_en": "BAT YAM ",
+		"region": "חולון ",
+		"moaatza": ""
+	},
+	{
+		"id": "3794 ",
+		"name": "בת עין ",
+		"name_en": "BAT AYIN ",
+		"region": "בית לחם ",
+		"moaatza": "גוש עציון"
+	},
+	{
+		"id": "33 ",
+		"name": "בת שלמה ",
+		"name_en": "BAT SHELOMO ",
+		"region": "חדרה ",
+		"moaatza": "חוף הכרמל"
+	},
+	{
+		"id": "628 ",
+		"name": "ג'ת ",
+		"name_en": "JAAT ",
+		"region": "חדרה ",
+		"moaatza": ""
+	},
+	{
+		"id": "872 ",
+		"name": "גאולי תימן ",
+		"name_en": "GE'ULE TEMAN ",
+		"region": "השרון ",
+		"moaatza": "עמק חפר"
+	},
+	{
+		"id": "379 ",
+		"name": "גאולים ",
+		"name_en": "GE'ULIM ",
+		"region": "השרון ",
+		"moaatza": "לב השרון"
+	},
+	{
+		"id": "853 ",
+		"name": "גאליה ",
+		"name_en": "GE'ALYA ",
+		"region": "רחובות ",
+		"moaatza": "גן רווה"
+	},
+	{
+		"id": "352 ",
+		"name": "גבולות ",
+		"name_en": "GEVULOT ",
+		"region": "באר שבע ",
+		"moaatza": "אשכול"
+	},
+	{
+		"id": "424 ",
+		"name": "גבים ",
+		"name_en": "GEVIM ",
+		"region": "אשקלון ",
+		"moaatza": "שער הנגב"
+	},
+	{
+		"id": "86 ",
+		"name": "גבע ",
+		"name_en": "GEVA ",
+		"region": "עפולה ",
+		"moaatza": "הגלבוע"
+	},
+	{
+		"id": "3763 ",
+		"name": "גבע בנימין ",
+		"name_en": "GEVA BINYAMIN ",
+		"region": "ראמאללה ",
+		"moaatza": "מטה בנימין"
+	},
+	{
+		"id": "683 ",
+		"name": "גבע כרמל ",
+		"name_en": "GEVA KARMEL ",
+		"region": "חדרה ",
+		"moaatza": "חוף הכרמל"
+	},
+	{
+		"id": "2014 ",
+		"name": "גבעולים ",
+		"name_en": "GIV'OLIM ",
+		"region": "באר שבע ",
+		"moaatza": "שדות נגב"
+	},
+	{
+		"id": "3644 ",
+		"name": "גבעון החדשה ",
+		"name_en": "GIV'ON HAHADASHA ",
+		"region": "ראמאללה ",
+		"moaatza": "מטה בנימין"
+	},
+	{
+		"id": "1344 ",
+		"name": "גבעות בר ",
+		"name_en": "GEVA'OT BAR ",
+		"region": "באר שבע ",
+		"moaatza": "בני שמעון"
+	},
+	{
+		"id": "1293 ",
+		"name": "גבעת אבני ",
+		"name_en": "GIV'AT AVNI ",
+		"region": "כנרת ",
+		"moaatza": "הגליל התחתון"
+	},
+	{
+		"id": "1288 ",
+		"name": "גבעת אלה ",
+		"name_en": "GIV'AT ELA ",
+		"region": "עפולה ",
+		"moaatza": "עמק יזרעאל"
+	},
+	{
+		"id": "147 ",
+		"name": "גבעת ברנר ",
+		"name_en": "GIV'AT BRENNER ",
+		"region": "רחובות ",
+		"moaatza": "ברנר"
+	},
+	{
+		"id": "870 ",
+		"name": "גבעת השלושה ",
+		"name_en": "GIV'AT HASHELOSHA ",
+		"region": "פתח תקווה ",
+		"moaatza": "דרום השרון"
+	},
+	{
+		"id": "3730 ",
+		"name": "גבעת זאב ",
+		"name_en": "GIV'AT ZE'EV ",
+		"region": "ראמאללה ",
+		"moaatza": ""
+	},
+	{
+		"id": "207 ",
+		"name": "גבעת ח",
+		"name_en": "GIV'AT HEN ",
+		"region": "פתח תקווה ",
+		"moaatza": "דרום השרון"
+	},
+	{
+		"id": "2018 ",
+		"name": "גבעת חיים )איחוד( ",
+		"name_en": "GIV'AT HAYYIM (IHUD) ",
+		"region": "השרון ",
+		"moaatza": "עמק חפר"
+	},
+	{
+		"id": "173 ",
+		"name": "גבעת חיים )מאוחד( ",
+		"name_en": "GIV'AT HAYYIM(ME'UHA ",
+		"region": "השרון ",
+		"moaatza": "עמק חפר"
+	},
+	{
+		"id": "4021 ",
+		"name": "גבעת יואב ",
+		"name_en": "GIV'AT YO'AV ",
+		"region": "גולן ",
+		"moaatza": "גולן"
+	},
+	{
+		"id": "787 ",
+		"name": "גבעת יערים ",
+		"name_en": "GIV'AT YE'ARIM ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "919 ",
+		"name": "גבעת ישעיהו ",
+		"name_en": "GIV'AT YESHA'YAHU ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "802 ",
+		"name": "גבעת כ",
+		"name_en": "GIV'AT KOAH ",
+		"region": "פתח תקווה ",
+		"moaatza": "חבל מודיעין"
+	},
+	{
+		"id": "360 ",
+		"name": "גבעת ניל",
+		"name_en": "GIV'AT NILI ",
+		"region": "חדרה ",
+		"moaatza": "אלונה"
+	},
+	{
+		"id": "703 ",
+		"name": "גבעת עוז ",
+		"name_en": "GIV'AT OZ ",
+		"region": "עפולה ",
+		"moaatza": "מגידו"
+	},
+	{
+		"id": "681 ",
+		"name": "גבעת שמואל ",
+		"name_en": "GIV'AT SHEMU'EL ",
+		"region": "פתח תקווה ",
+		"moaatza": ""
+	},
+	{
+		"id": "566 ",
+		"name": "גבעת שמש ",
+		"name_en": "GIV'AT SHEMESH ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "1077 ",
+		"name": "גבעת שפירא ",
+		"name_en": "GIV'AT SHAPPIRA ",
+		"region": "השרון ",
+		"moaatza": "עמק חפר"
+	},
+	{
+		"id": "793 ",
+		"name": "גבעתי ",
+		"name_en": "GIV'ATI ",
+		"region": "אשקלון ",
+		"moaatza": "באר טוביה"
+	},
+	{
+		"id": "6300 ",
+		"name": "גבעתיים ",
+		"name_en": "GIV'ATAYIM ",
+		"region": "רמת גן ",
+		"moaatza": ""
+	},
+	{
+		"id": "342 ",
+		"name": "גברעם ",
+		"name_en": "GEVAR'AM ",
+		"region": "אשקלון ",
+		"moaatza": "חוף אשקלון"
+	},
+	{
+		"id": "133 ",
+		"name": "גבת ",
+		"name_en": "GEVAT ",
+		"region": "עפולה ",
+		"moaatza": "עמק יזרעאל"
+	},
+	{
+		"id": "35 ",
+		"name": "גדות ",
+		"name_en": "GADOT ",
+		"region": "צפת ",
+		"moaatza": "הגליל העליון"
+	},
+	{
+		"id": "145 ",
+		"name": "גדיש ",
+		"name_en": "GADISH ",
+		"region": "עפולה ",
+		"moaatza": "הגלבוע"
+	},
+	{
+		"id": "442 ",
+		"name": "גדעונה ",
+		"name_en": "GID'ONA ",
+		"region": "עפולה ",
+		"moaatza": "הגלבוע"
+	},
+	{
+		"id": "2550 ",
+		"name": "גדרה ",
+		"name_en": "GEDERA ",
+		"region": "רחובות ",
+		"moaatza": ""
+	},
+	{
+		"id": "852 ",
+		"name": "גונן ",
+		"name_en": "GONEN ",
+		"region": "צפת ",
+		"moaatza": "הגליל העליון"
+	},
+	{
+		"id": "755 ",
+		"name": "גורן ",
+		"name_en": "GOREN ",
+		"region": "עכו ",
+		"moaatza": "מעלה יוסף"
+	},
+	{
+		"id": "1219 ",
+		"name": "גורנות הגליל ",
+		"name_en": "GORNOT HAGALIL ",
+		"region": "עכו ",
+		"moaatza": "מעלה יוסף"
+	},
+	{
+		"id": "457 ",
+		"name": "גזית ",
+		"name_en": "GAZIT ",
+		"region": "עפולה ",
+		"moaatza": "עמק יזרעאל"
+	},
+	{
+		"id": "370 ",
+		"name": "גזר ",
+		"name_en": "GEZER ",
+		"region": "רמלה ",
+		"moaatza": "גזר"
+	},
+	{
+		"id": "706 ",
+		"name": "גיאה ",
+		"name_en": "GE'A ",
+		"region": "אשקלון ",
+		"moaatza": "חוף אשקלון"
+	},
+	{
+		"id": "196 ",
+		"name": "גיבתון ",
+		"name_en": "GIBBETON ",
+		"region": "רחובות ",
+		"moaatza": "ברנר"
+	},
+	{
+		"id": "1043 ",
+		"name": "גיזו ",
+		"name_en": "GIZO ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "1204 ",
+		"name": "גילון ",
+		"name_en": "GILON ",
+		"region": "עכו ",
+		"moaatza": "משגב"
+	},
+	{
+		"id": "736 ",
+		"name": "גילת ",
+		"name_en": "GILAT ",
+		"region": "באר שבע ",
+		"moaatza": "מרחבים"
+	},
+	{
+		"id": "262 ",
+		"name": "גינוסר ",
+		"name_en": "GINNOSAR ",
+		"region": "כנרת ",
+		"moaatza": "עמק הירדן"
+	},
+	{
+		"id": "92 ",
+		"name": "גיניגר ",
+		"name_en": "GINNEGAR ",
+		"region": "עפולה ",
+		"moaatza": "עמק יזרעאל"
+	},
+	{
+		"id": "863 ",
+		"name": "גינתון ",
+		"name_en": "GINNATON ",
+		"region": "רמלה ",
+		"moaatza": "חבל מודיעין"
+	},
+	{
+		"id": "1206 ",
+		"name": "גיתה ",
+		"name_en": "GITTA ",
+		"region": "עכו ",
+		"moaatza": "מעלה יוסף"
+	},
+	{
+		"id": "3613 ",
+		"name": "גיתית ",
+		"name_en": "GITTIT ",
+		"region": "ירדן )יריחו( ",
+		"moaatza": "ערבות הירדן"
+	},
+	{
+		"id": "393 ",
+		"name": "גלאון ",
+		"name_en": "GAL'ON ",
+		"region": "אשקלון ",
+		"moaatza": "יואב"
+	},
+	{
+		"id": "3606 ",
+		"name": "גלגל ",
+		"name_en": "GILGAL ",
+		"region": "ירדן )יריחו( ",
+		"moaatza": "ערבות הירדן"
+	},
+	{
+		"id": "346 ",
+		"name": "גליל ים ",
+		"name_en": "GELIL YAM ",
+		"region": "תל אביב ",
+		"moaatza": "חוף השרון"
+	},
+	{
+		"id": "369 ",
+		"name": "גלעד )אבן יצחק( ",
+		"name_en": "EVEN YIZHAQ(GAL'ED) ",
+		"region": "עפולה ",
+		"moaatza": "מגידו"
+	},
+	{
+		"id": "745 ",
+		"name": "גמזו ",
+		"name_en": "GIMZO ",
+		"region": "רמלה ",
+		"moaatza": "חבל מודיעין"
+	},
+	{
+		"id": "1072 ",
+		"name": "גן הדרום ",
+		"name_en": "GAN HADAROM ",
+		"region": "רחובות ",
+		"moaatza": "גדרות"
+	},
+	{
+		"id": "225 ",
+		"name": "גן השומרון ",
+		"name_en": "GAN HASHOMERON ",
+		"region": "חדרה ",
+		"moaatza": "מנשה"
+	},
+	{
+		"id": "239 ",
+		"name": "גן חיים ",
+		"name_en": "GAN HAYYIM ",
+		"region": "פתח תקווה ",
+		"moaatza": "דרום השרון"
+	},
+	{
+		"id": "734 ",
+		"name": "גן יאשיה ",
+		"name_en": "GAN YOSHIYYA ",
+		"region": "השרון ",
+		"moaatza": "עמק חפר"
+	},
+	{
+		"id": "166 ",
+		"name": "גן יבנה ",
+		"name_en": "GAN YAVNE ",
+		"region": "רחובות ",
+		"moaatza": ""
+	},
+	{
+		"id": "1274 ",
+		"name": "גן נר ",
+		"name_en": "GAN NER ",
+		"region": "עפולה ",
+		"moaatza": "הגלבוע"
+	},
+	{
+		"id": "311 ",
+		"name": "גן שורק ",
+		"name_en": "GAN SOREQ ",
+		"region": "רחובות ",
+		"moaatza": "גן רווה"
+	},
+	{
+		"id": "144 ",
+		"name": "גן שלמה ",
+		"name_en": "GAN SHELOMO ",
+		"region": "רחובות ",
+		"moaatza": "ברנר"
+	},
+	{
+		"id": "72 ",
+		"name": "גן שמואל ",
+		"name_en": "GAN SHEMU'EL ",
+		"region": "חדרה ",
+		"moaatza": "מנשה"
+	},
+	{
+		"id": "836 ",
+		"name": "גנות ",
+		"name_en": "GANNOT ",
+		"region": "רמלה ",
+		"moaatza": "שדות דן"
+	},
+	{
+		"id": "549 ",
+		"name": "גנות הדר ",
+		"name_en": "GANNOT HADAR ",
+		"region": "השרון ",
+		"moaatza": "לב השרון"
+	},
+	{
+		"id": "1103 ",
+		"name": "גני הדר ",
+		"name_en": "GANNE HADAR ",
+		"region": "רמלה ",
+		"moaatza": "גזר"
+	},
+	{
+		"id": "1371 ",
+		"name": "גני טל ",
+		"name_en": "GANNE TAL ",
+		"region": "רחובות ",
+		"moaatza": "נחל שורק"
+	},
+	{
+		"id": "862 ",
+		"name": "גני יוחנן ",
+		"name_en": "GANNE YOHANAN ",
+		"region": "רחובות ",
+		"moaatza": "גזר"
+	},
+	{
+		"id": "3823 ",
+		"name": "גני מודיעין ",
+		"name_en": "GANNE MODIIN ",
+		"region": "ראמאללה ",
+		"moaatza": "מטה בנימין"
+	},
+	{
+		"id": "218 ",
+		"name": "גני עם ",
+		"name_en": "GANNE AM ",
+		"region": "פתח תקווה ",
+		"moaatza": "דרום השרון"
+	},
+	{
+		"id": "229 ",
+		"name": "גני תקווה ",
+		"name_en": "GANNE TIQWA ",
+		"region": "פתח תקווה ",
+		"moaatza": ""
+	},
+	{
+		"id": "842 ",
+		"name": "געש ",
+		"name_en": "GA'ASH ",
+		"region": "השרון ",
+		"moaatza": "חוף השרון"
+	},
+	{
+		"id": "463 ",
+		"name": "געתון ",
+		"name_en": "GA'TON ",
+		"region": "עכו ",
+		"moaatza": "מטה אשר"
+	},
+	{
+		"id": "39 ",
+		"name": "גפן ",
+		"name_en": "GEFEN ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "1129 ",
+		"name": "גרופית ",
+		"name_en": "GEROFIT ",
+		"region": "באר שבע ",
+		"moaatza": "חבל אילות"
+	},
+	{
+		"id": "4022 ",
+		"name": "גשור ",
+		"name_en": "GESHUR ",
+		"region": "גולן ",
+		"moaatza": "גולן"
+	},
+	{
+		"id": "305 ",
+		"name": "גשר ",
+		"name_en": "GESHER  ",
+		"region": "כנרת ",
+		"moaatza": "עמק המעיינות"
+	},
+	{
+		"id": "574 ",
+		"name": "גשר הזיו ",
+		"name_en": "GESHER HAZIW ",
+		"region": "עכו ",
+		"moaatza": "מטה אשר"
+	},
+	{
+		"id": "340 ",
+		"name": "גת )קיבוץ( ",
+		"name_en": "GAT(QIBBUZ) ",
+		"region": "אשקלון ",
+		"moaatza": "יואב"
+	},
+	{
+		"id": "128 ",
+		"name": "גת רימון ",
+		"name_en": "GAT RIMMON ",
+		"region": "פתח תקווה ",
+		"moaatza": "דרום השרון"
+	},
+	{
+		"id": "146 ",
+		"name": "דבורה ",
+		"name_en": "DEVORA ",
+		"region": "עפולה ",
+		"moaatza": "הגלבוע"
+	},
+	{
+		"id": "489 ",
+		"name": "דבוריה ",
+		"name_en": "DABBURYE ",
+		"region": "עפולה ",
+		"moaatza": ""
+	},
+	{
+		"id": "849 ",
+		"name": "דבירה ",
+		"name_en": "DEVIRA ",
+		"region": "באר שבע ",
+		"moaatza": "בני שמעון"
+	},
+	{
+		"id": "407 ",
+		"name": "דברת ",
+		"name_en": "DAVERAT ",
+		"region": "עפולה ",
+		"moaatza": "עמק יזרעאל"
+	},
+	{
+		"id": "62 ",
+		"name": "דגניה א' ",
+		"name_en": "DEGANYA ALEF ",
+		"region": "כנרת ",
+		"moaatza": "עמק הירדן"
+	},
+	{
+		"id": "79 ",
+		"name": "דגניה ב' ",
+		"name_en": "DEGANYA BET ",
+		"region": "כנרת ",
+		"moaatza": "עמק הירדן"
+	},
+	{
+		"id": "1067 ",
+		"name": "דוב",
+		"name_en": "DOVEV ",
+		"region": "צפת ",
+		"moaatza": "מרום הגליל"
+	},
+	{
+		"id": "3747 ",
+		"name": "דולב ",
+		"name_en": "DOLEV ",
+		"region": "ראמאללה ",
+		"moaatza": "מטה בנימין"
+	},
+	{
+		"id": "738 ",
+		"name": "דור ",
+		"name_en": "DOR ",
+		"region": "חדרה ",
+		"moaatza": "חוף הכרמל"
+	},
+	{
+		"id": "336 ",
+		"name": "דורות ",
+		"name_en": "DOROT ",
+		"region": "אשקלון ",
+		"moaatza": "שער הנגב"
+	},
+	{
+		"id": "475 ",
+		"name": "דחי ",
+		"name_en": "DAHI ",
+		"region": "עפולה ",
+		"moaatza": "בוסתאן אל-מרג'"
+	},
+	{
+		"id": "493 ",
+		"name": "דייר ראפאת ",
+		"name_en": "DEIR RAFAT ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "2200 ",
+		"name": "דימונה ",
+		"name_en": "DIMONA ",
+		"region": "באר שבע ",
+		"moaatza": ""
+	},
+	{
+		"id": "2063 ",
+		"name": "דישון ",
+		"name_en": "DISHON ",
+		"region": "צפת ",
+		"moaatza": "מבואות החרמון"
+	},
+	{
+		"id": "300 ",
+		"name": "דליה ",
+		"name_en": "DALIYYA ",
+		"region": "עפולה ",
+		"moaatza": "מגידו"
+	},
+	{
+		"id": "431 ",
+		"name": "דלתון ",
+		"name_en": "DALTON ",
+		"region": "צפת ",
+		"moaatza": "מרום הגליל"
+	},
+	{
+		"id": "303 ",
+		"name": "דן ",
+		"name_en": "DAN ",
+		"region": "צפת ",
+		"moaatza": "הגליל העליון"
+	},
+	{
+		"id": "302 ",
+		"name": "דפנה ",
+		"name_en": "DAFNA ",
+		"region": "צפת ",
+		"moaatza": "הגליל העליון"
+	},
+	{
+		"id": "1241 ",
+		"name": "דקל ",
+		"name_en": "DEQEL ",
+		"region": "באר שבע ",
+		"moaatza": "אשכול"
+	},
+	{
+		"id": "702 ",
+		"name": "האון ",
+		"name_en": "HAON ",
+		"region": "כנרת ",
+		"moaatza": "עמק הירדן"
+	},
+	{
+		"id": "675 ",
+		"name": "הבונים ",
+		"name_en": "HABONIM ",
+		"region": "חדרה ",
+		"moaatza": "חוף הכרמל"
+	},
+	{
+		"id": "356 ",
+		"name": "הגושרים ",
+		"name_en": "HAGOSHERIM ",
+		"region": "צפת ",
+		"moaatza": "הגליל העליון"
+	},
+	{
+		"id": "191 ",
+		"name": "הדר עם ",
+		"name_en": "HADAR AM ",
+		"region": "השרון ",
+		"moaatza": "עמק חפר"
+	},
+	{
+		"id": "9700 ",
+		"name": "הוד השרון ",
+		"name_en": "HOD HASHARON ",
+		"region": "פתח תקווה ",
+		"moaatza": ""
+	},
+	{
+		"id": "726 ",
+		"name": "הודיה ",
+		"name_en": "HODIYYA ",
+		"region": "אשקלון ",
+		"moaatza": "חוף אשקלון"
+	},
+	{
+		"id": "1322 ",
+		"name": "הודיות ",
+		"name_en": "HODAYOT ",
+		"region": "כנרת ",
+		"moaatza": "הגליל התחתון"
+	},
+	{
+		"id": "1186 ",
+		"name": "הושעיה ",
+		"name_en": "HOSHA'AYA ",
+		"region": "עפולה ",
+		"moaatza": "עמק יזרעאל"
+	},
+	{
+		"id": "250 ",
+		"name": "הזורע ",
+		"name_en": "HAZOREA ",
+		"region": "עפולה ",
+		"moaatza": "מגידו"
+	},
+	{
+		"id": "307 ",
+		"name": "הזורעים ",
+		"name_en": "HAZORE'IM ",
+		"region": "כנרת ",
+		"moaatza": "הגליל התחתון"
+	},
+	{
+		"id": "434 ",
+		"name": "החותרים ",
+		"name_en": "HAHOTERIM ",
+		"region": "חדרה ",
+		"moaatza": "חוף הכרמל"
+	},
+	{
+		"id": "684 ",
+		"name": "היוגב ",
+		"name_en": "HAYOGEV ",
+		"region": "עפולה ",
+		"moaatza": "עמק יזרעאל"
+	},
+	{
+		"id": "1208 ",
+		"name": "הילה ",
+		"name_en": "HILLA ",
+		"region": "עכו ",
+		"moaatza": "מעלה יוסף"
+	},
+	{
+		"id": "377 ",
+		"name": "המעפיל ",
+		"name_en": "HAMA'PIL ",
+		"region": "השרון ",
+		"moaatza": "עמק חפר"
+	},
+	{
+		"id": "677 ",
+		"name": "הסוללים ",
+		"name_en": "HASOLELIM ",
+		"region": "עפולה ",
+		"moaatza": "עמק יזרעאל"
+	},
+	{
+		"id": "423 ",
+		"name": "העוגן ",
+		"name_en": "HAOGEN ",
+		"region": "השרון ",
+		"moaatza": "עמק חפר"
+	},
+	{
+		"id": "3769 ",
+		"name": "הר אדר ",
+		"name_en": "HAR ADAR ",
+		"region": "ראמאללה ",
+		"moaatza": ""
+	},
+	{
+		"id": "3603 ",
+		"name": "הר גילה ",
+		"name_en": "HAR GILLO ",
+		"region": "בית לחם ",
+		"moaatza": "גוש עציון"
+	},
+	{
+		"id": "1261 ",
+		"name": "הר עמשא ",
+		"name_en": "HAR AMASA ",
+		"region": "באר שבע ",
+		"moaatza": "תמר"
+	},
+	{
+		"id": "464 ",
+		"name": "הראל ",
+		"name_en": "HAR'EL ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "1249 ",
+		"name": "הרדוף ",
+		"name_en": "HARDUF ",
+		"region": "עפולה ",
+		"moaatza": "עמק יזרעאל"
+	},
+	{
+		"id": "6400 ",
+		"name": "הרצליה ",
+		"name_en": "HERZELIYYA ",
+		"region": "תל אביב ",
+		"moaatza": ""
+	},
+	{
+		"id": "1203 ",
+		"name": "הררית ",
+		"name_en": "HARARIT ",
+		"region": "עכו ",
+		"moaatza": "משגב"
+	},
+	{
+		"id": "3639 ",
+		"name": "ורד יריחו ",
+		"name_en": "WERED YERIHO ",
+		"region": "ירדן )יריחו( ",
+		"moaatza": "מגילות ים המלח"
+	},
+	{
+		"id": "1133 ",
+		"name": "ורדון ",
+		"name_en": "WARDON ",
+		"region": "אשקלון ",
+		"moaatza": "יואב"
+	},
+	{
+		"id": "815 ",
+		"name": "זבדיאל ",
+		"name_en": "ZAVDI'EL ",
+		"region": "אשקלון ",
+		"moaatza": "שפיר"
+	},
+	{
+		"id": "44 ",
+		"name": "זוהר ",
+		"name_en": "ZOHAR ",
+		"region": "אשקלון ",
+		"moaatza": "לכיש"
+	},
+	{
+		"id": "584 ",
+		"name": "זיקים ",
+		"name_en": "ZIQIM ",
+		"region": "אשקלון ",
+		"moaatza": "חוף אשקלון"
+	},
+	{
+		"id": "788 ",
+		"name": "זיתן ",
+		"name_en": "ZETAN ",
+		"region": "רמלה ",
+		"moaatza": "שדות דן"
+	},
+	{
+		"id": "9300 ",
+		"name": "זכרון יעקב ",
+		"name_en": "ZIKHRON YA'AQOV ",
+		"region": "חדרה ",
+		"moaatza": ""
+	},
+	{
+		"id": "799 ",
+		"name": "זכריה ",
+		"name_en": "ZEKHARYA ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "1290 ",
+		"name": "זמר ",
+		"name_en": "ZEMER ",
+		"region": "השרון ",
+		"moaatza": ""
+	},
+	{
+		"id": "1065 ",
+		"name": "זמרת ",
+		"name_en": "ZIMRAT ",
+		"region": "באר שבע ",
+		"moaatza": "שדות נגב"
+	},
+	{
+		"id": "816 ",
+		"name": "זנוח ",
+		"name_en": "ZANOAH ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "2064 ",
+		"name": "זרועה ",
+		"name_en": "ZERU'A ",
+		"region": "באר שבע ",
+		"moaatza": "שדות נגב"
+	},
+	{
+		"id": "818 ",
+		"name": "זרחיה ",
+		"name_en": "ZERAHYA ",
+		"region": "אשקלון ",
+		"moaatza": "שפיר"
+	},
+	{
+		"id": "235 ",
+		"name": "חבצלת השרון ",
+		"name_en": "HAVAZZELET HASHARON ",
+		"region": "השרון ",
+		"moaatza": "עמק חפר"
+	},
+	{
+		"id": "1110 ",
+		"name": "חבר ",
+		"name_en": "HEVER ",
+		"region": "עפולה ",
+		"moaatza": "הגלבוע"
+	},
+	{
+		"id": "3400 ",
+		"name": "חברון ",
+		"name_en": " ",
+		"region": "חברון ",
+		"moaatza": ""
+	},
+	{
+		"id": "717 ",
+		"name": "חגור ",
+		"name_en": "HAGOR ",
+		"region": "פתח תקווה ",
+		"moaatza": "דרום השרון"
+	},
+	{
+		"id": "3764 ",
+		"name": "חגי ",
+		"name_en": "HAGGAI ",
+		"region": "חברון ",
+		"moaatza": "הר חברון"
+	},
+	{
+		"id": "205 ",
+		"name": "חגלה ",
+		"name_en": "HOGLA ",
+		"region": "השרון ",
+		"moaatza": "עמק חפר"
+	},
+	{
+		"id": "4026 ",
+		"name": "חד-נס ",
+		"name_en": "HAD-NES ",
+		"region": "גולן ",
+		"moaatza": "גולן"
+	},
+	{
+		"id": "618 ",
+		"name": "חדיד ",
+		"name_en": "HADID ",
+		"region": "רמלה ",
+		"moaatza": "חבל מודיעין"
+	},
+	{
+		"id": "6500 ",
+		"name": "חדרה ",
+		"name_en": "HADERA ",
+		"region": "חדרה ",
+		"moaatza": ""
+	},
+	{
+		"id": "160 ",
+		"name": "חולדה ",
+		"name_en": "HULDA ",
+		"region": "רמלה ",
+		"moaatza": "גזר"
+	},
+	{
+		"id": "6600 ",
+		"name": "חולון ",
+		"name_en": "HOLON ",
+		"region": "חולון ",
+		"moaatza": ""
+	},
+	{
+		"id": "1239 ",
+		"name": "חולית ",
+		"name_en": "HOLIT ",
+		"region": "באר שבע ",
+		"moaatza": "אשכול"
+	},
+	{
+		"id": "253 ",
+		"name": "חולתה ",
+		"name_en": "HULATA ",
+		"region": "צפת ",
+		"moaatza": "הגליל העליון"
+	},
+	{
+		"id": "662 ",
+		"name": "חוסן ",
+		"name_en": "HOSEN ",
+		"region": "עכו ",
+		"moaatza": "מעלה יוסף"
+	},
+	{
+		"id": "115 ",
+		"name": "חופית ",
+		"name_en": "HOFIT ",
+		"region": "השרון ",
+		"moaatza": "עמק חפר"
+	},
+	{
+		"id": "374 ",
+		"name": "חוקוק ",
+		"name_en": "HUQOQ ",
+		"region": "כנרת ",
+		"moaatza": "עמק הירדן"
+	},
+	{
+		"id": "1303 ",
+		"name": "חורה ",
+		"name_en": "HURA ",
+		"region": "באר שבע ",
+		"moaatza": ""
+	},
+	{
+		"id": "355 ",
+		"name": "חורשים ",
+		"name_en": "HORESHIM ",
+		"region": "פתח תקווה ",
+		"moaatza": "דרום השרון"
+	},
+	{
+		"id": "1047 ",
+		"name": "חזון ",
+		"name_en": "HAZON ",
+		"region": "כנרת ",
+		"moaatza": "מרום הגליל"
+	},
+	{
+		"id": "219 ",
+		"name": "חיבת ציון ",
+		"name_en": "HIBBAT ZIYYON ",
+		"region": "השרון ",
+		"moaatza": "עמק חפר"
+	},
+	{
+		"id": "3643 ",
+		"name": "חיננית ",
+		"name_en": "HINNANIT ",
+		"region": "ג'נין ",
+		"moaatza": "שומרון"
+	},
+	{
+		"id": "4000 ",
+		"name": "חיפה ",
+		"name_en": "HAIFA ",
+		"region": "חיפה ",
+		"moaatza": ""
+	},
+	{
+		"id": "162 ",
+		"name": "חירות ",
+		"name_en": "HERUT ",
+		"region": "השרון ",
+		"moaatza": "לב השרון"
+	},
+	{
+		"id": "1272 ",
+		"name": "חלוץ ",
+		"name_en": "HALUZ ",
+		"region": "עכו ",
+		"moaatza": "משגב"
+	},
+	{
+		"id": "3573 ",
+		"name": "חלמיש ",
+		"name_en": "HALLAMISH ",
+		"region": "ראמאללה ",
+		"moaatza": "מטה בנימין"
+	},
+	{
+		"id": "820 ",
+		"name": "חלץ ",
+		"name_en": "HELEZ ",
+		"region": "אשקלון ",
+		"moaatza": "חוף אשקלון"
+	},
+	{
+		"id": "993 ",
+		"name": "חמאם ",
+		"name_en": "HAMAM ",
+		"region": "כנרת ",
+		"moaatza": "אל-בטוף"
+	},
+	{
+		"id": "801 ",
+		"name": "חמד ",
+		"name_en": "HEMED ",
+		"region": "רמלה ",
+		"moaatza": "שדות דן"
+	},
+	{
+		"id": "343 ",
+		"name": "חמדיה ",
+		"name_en": "HAMADYA ",
+		"region": "עפולה ",
+		"moaatza": "עמק המעיינות"
+	},
+	{
+		"id": "3646 ",
+		"name": "חמדת ",
+		"name_en": "NAHAL HEMDAT ",
+		"region": "ירדן )יריחו( ",
+		"moaatza": "ערבות הירדן"
+	},
+	{
+		"id": "3609 ",
+		"name": "חמרה ",
+		"name_en": "HAMRA ",
+		"region": "ירדן )יריחו( ",
+		"moaatza": "ערבות הירדן"
+	},
+	{
+		"id": "807 ",
+		"name": "חניאל ",
+		"name_en": "HANNI'EL ",
+		"region": "השרון ",
+		"moaatza": "עמק חפר"
+	},
+	{
+		"id": "280 ",
+		"name": "חניתה ",
+		"name_en": "HANITA ",
+		"region": "עכו ",
+		"moaatza": "מטה אשר"
+	},
+	{
+		"id": "1257 ",
+		"name": "חנתון ",
+		"name_en": "HANNATON ",
+		"region": "עפולה ",
+		"moaatza": "עמק יזרעאל"
+	},
+	{
+		"id": "4005 ",
+		"name": "חספין ",
+		"name_en": "HASPIN ",
+		"region": "גולן ",
+		"moaatza": "גולן"
+	},
+	{
+		"id": "363 ",
+		"name": "חפץ חיים ",
+		"name_en": "HAFEZ HAYYIM ",
+		"region": "רחובות ",
+		"moaatza": "נחל שורק"
+	},
+	{
+		"id": "90 ",
+		"name": "חפצי-בה ",
+		"name_en": "HEFZI-BAH ",
+		"region": "עפולה ",
+		"moaatza": "הגלבוע"
+	},
+	{
+		"id": "700 ",
+		"name": "חצב ",
+		"name_en": "HAZAV ",
+		"region": "אשקלון ",
+		"moaatza": "באר טוביה"
+	},
+	{
+		"id": "13 ",
+		"name": "חצבה ",
+		"name_en": "HAZEVA ",
+		"region": "באר שבע ",
+		"moaatza": "הערבה התיכונה"
+	},
+	{
+		"id": "2034 ",
+		"name": "חצור הגלילית ",
+		"name_en": "HAZOR HAGELILIT ",
+		"region": "צפת ",
+		"moaatza": ""
+	},
+	{
+		"id": "406 ",
+		"name": "חצור-אשדוד ",
+		"name_en": "HAZOR-ASHDOD ",
+		"region": "אשקלון ",
+		"moaatza": "באר טוביה"
+	},
+	{
+		"id": "1409 ",
+		"name": "חצר בארותיים ",
+		"name_en": "HAZAR BE'EROTAYIM ",
+		"region": "השרון ",
+		"moaatza": "עמק חפר"
+	},
+	{
+		"id": "1402 ",
+		"name": "חצרות חולדה ",
+		"name_en": "HAZROT HULDA ",
+		"region": "רמלה ",
+		"moaatza": "גזר"
+	},
+	{
+		"id": "1404 ",
+		"name": "חצרות יסף ",
+		"name_en": "HAZROT YASAF ",
+		"region": "עכו ",
+		"moaatza": "מטה אשר"
+	},
+	{
+		"id": "1405 ",
+		"name": "חצרות כ",
+		"name_en": "HAZROT KOAH ",
+		"region": "פתח תקווה ",
+		"moaatza": "חבל מודיעין"
+	},
+	{
+		"id": "397 ",
+		"name": "חצרים ",
+		"name_en": "HAZERIM ",
+		"region": "באר שבע ",
+		"moaatza": "בני שמעון"
+	},
+	{
+		"id": "422 ",
+		"name": "חרב לאת ",
+		"name_en": "HEREV LE'ET ",
+		"region": "השרון ",
+		"moaatza": "עמק חפר"
+	},
+	{
+		"id": "1024 ",
+		"name": "חרוצים ",
+		"name_en": "HARUZIM ",
+		"region": "השרון ",
+		"moaatza": "חוף השרון"
+	},
+	{
+		"id": "1247 ",
+		"name": "חריש ",
+		"name_en": "HARISH ",
+		"region": "חדרה ",
+		"moaatza": ""
+	},
+	{
+		"id": "3717 ",
+		"name": "חרמש ",
+		"name_en": "HERMESH ",
+		"region": "ג'נין ",
+		"moaatza": "שומרון"
+	},
+	{
+		"id": "1209 ",
+		"name": "חרשים ",
+		"name_en": "HARASHIM ",
+		"region": "עכו ",
+		"moaatza": "משגב"
+	},
+	{
+		"id": "3770 ",
+		"name": "חשמונאים ",
+		"name_en": "HASHMONA'IM ",
+		"region": "ראמאללה ",
+		"moaatza": "מטה בנימין"
+	},
+	{
+		"id": "6700 ",
+		"name": "טבריה ",
+		"name_en": "TIBERIAS ",
+		"region": "כנרת ",
+		"moaatza": ""
+	},
+	{
+		"id": "663 ",
+		"name": "טירת יהודה ",
+		"name_en": "TIRAT YEHUDA ",
+		"region": "פתח תקווה ",
+		"moaatza": "חבל מודיעין"
+	},
+	{
+		"id": "2100 ",
+		"name": "טירת כרמל ",
+		"name_en": "TIRAT KARMEL ",
+		"region": "חיפה ",
+		"moaatza": ""
+	},
+	{
+		"id": "268 ",
+		"name": "טירת צבי ",
+		"name_en": "TIRAT ZEVI ",
+		"region": "עפולה ",
+		"moaatza": "עמק המעיינות"
+	},
+	{
+		"id": "462 ",
+		"name": "טל שחר ",
+		"name_en": "TAL SHAHAR ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "1181 ",
+		"name": "טל-אל ",
+		"name_en": "TAL-EL ",
+		"region": "עכו ",
+		"moaatza": "משגב"
+	},
+	{
+		"id": "1177 ",
+		"name": "טללים ",
+		"name_en": "TELALIM ",
+		"region": "באר שבע ",
+		"moaatza": "רמת נגב"
+	},
+	{
+		"id": "3788 ",
+		"name": "טלמון ",
+		"name_en": "TALMON ",
+		"region": "ראמאללה ",
+		"moaatza": "מטה בנימין"
+	},
+	{
+		"id": "547 ",
+		"name": "טמרה )יזרעאל( ",
+		"name_en": "TAMRA (YIZRE'EL) ",
+		"region": "עפולה ",
+		"moaatza": "הגלבוע"
+	},
+	{
+		"id": "3743 ",
+		"name": "טנא ",
+		"name_en": "TENE ",
+		"region": "חברון ",
+		"moaatza": "הר חברון"
+	},
+	{
+		"id": "1214 ",
+		"name": "טפחות ",
+		"name_en": "TEFAHOT ",
+		"region": "כנרת ",
+		"moaatza": "מרום הגליל"
+	},
+	{
+		"id": "1232 ",
+		"name": "יבול ",
+		"name_en": "YEVUL ",
+		"region": "באר שבע ",
+		"moaatza": "אשכול"
+	},
+	{
+		"id": "46 ",
+		"name": "יבנאל ",
+		"name_en": "YAVNE'EL ",
+		"region": "כנרת ",
+		"moaatza": ""
+	},
+	{
+		"id": "2660 ",
+		"name": "יבנה ",
+		"name_en": "YAVNE ",
+		"region": "רחובות ",
+		"moaatza": ""
+	},
+	{
+		"id": "96 ",
+		"name": "יגור ",
+		"name_en": "YAGUR ",
+		"region": "חיפה ",
+		"moaatza": "זבולון"
+	},
+	{
+		"id": "798 ",
+		"name": "יגל ",
+		"name_en": "YAGEL ",
+		"region": "רמלה ",
+		"moaatza": "שדות דן"
+	},
+	{
+		"id": "577 ",
+		"name": "יד בנימין ",
+		"name_en": "YAD BINYAMIN ",
+		"region": "רחובות ",
+		"moaatza": "נחל שורק"
+	},
+	{
+		"id": "1134 ",
+		"name": "יד השמונה ",
+		"name_en": "YAD HASHEMONA ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "758 ",
+		"name": "יד חנה ",
+		"name_en": "YAD HANNA ",
+		"region": "השרון ",
+		"moaatza": "עמק חפר"
+	},
+	{
+		"id": "358 ",
+		"name": "יד מרדכי ",
+		"name_en": "YAD MORDEKHAY ",
+		"region": "אשקלון ",
+		"moaatza": "חוף אשקלון"
+	},
+	{
+		"id": "775 ",
+		"name": "יד נתן ",
+		"name_en": "YAD NATAN ",
+		"region": "אשקלון ",
+		"moaatza": "לכיש"
+	},
+	{
+		"id": "64 ",
+		"name": "יד רמב",
+		"name_en": "YAD RAMBAM ",
+		"region": "רמלה ",
+		"moaatza": "גזר"
+	},
+	{
+		"id": "1144 ",
+		"name": "ידידה ",
+		"name_en": "YEDIDA ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "9400 ",
+		"name": "יהוד-מונוסון ",
+		"name_en": "YEHUD-MONOSON ",
+		"region": "פתח תקווה ",
+		"moaatza": ""
+	},
+	{
+		"id": "1158 ",
+		"name": "יהל ",
+		"name_en": "YAHEL ",
+		"region": "באר שבע ",
+		"moaatza": "חבל אילות"
+	},
+	{
+		"id": "2009 ",
+		"name": "יובל ",
+		"name_en": "YUVAL ",
+		"region": "צפת ",
+		"moaatza": "מבואות החרמון"
+	},
+	{
+		"id": "1226 ",
+		"name": "יובלים ",
+		"name_en": "YUVALIM ",
+		"region": "עכו ",
+		"moaatza": "משגב"
+	},
+	{
+		"id": "1112 ",
+		"name": "יודפת ",
+		"name_en": "YODEFAT ",
+		"region": "עכו ",
+		"moaatza": "משגב"
+	},
+	{
+		"id": "4007 ",
+		"name": "יונתן ",
+		"name_en": "YONATAN ",
+		"region": "גולן ",
+		"moaatza": "גולן"
+	},
+	{
+		"id": "803 ",
+		"name": "יושיביה ",
+		"name_en": "YOSHIVYA ",
+		"region": "באר שבע  ",
+		"moaatza": "שדות נגב"
+	},
+	{
+		"id": "452 ",
+		"name": "יזרעאל ",
+		"name_en": "YIZRE'EL ",
+		"region": "עפולה ",
+		"moaatza": "הגלבוע"
+	},
+	{
+		"id": "409 ",
+		"name": "יחיעם ",
+		"name_en": "YEHI'AM ",
+		"region": "עכו ",
+		"moaatza": "מטה אשר"
+	},
+	{
+		"id": "866 ",
+		"name": "יטבתה ",
+		"name_en": "YOTVATA ",
+		"region": "באר שבע ",
+		"moaatza": "חבל אילות"
+	},
+	{
+		"id": "3607 ",
+		"name": "ייט",
+		"name_en": "YITAV ",
+		"region": "ירדן )יריחו( ",
+		"moaatza": "ערבות הירדן"
+	},
+	{
+		"id": "811 ",
+		"name": "יכיני ",
+		"name_en": "YAKHINI ",
+		"region": "אשקלון ",
+		"moaatza": "שער הנגב"
+	},
+	{
+		"id": "753 ",
+		"name": "ינוב ",
+		"name_en": "YANUV ",
+		"region": "השרון ",
+		"moaatza": "לב השרון"
+	},
+	{
+		"id": "2011 ",
+		"name": "ינון ",
+		"name_en": "YINNON ",
+		"region": "אשקלון ",
+		"moaatza": "באר טוביה"
+	},
+	{
+		"id": "29 ",
+		"name": "יסוד המעלה ",
+		"name_en": "YESUD HAMA'ALA ",
+		"region": "צפת ",
+		"moaatza": ""
+	},
+	{
+		"id": "440 ",
+		"name": "יסודות ",
+		"name_en": "YESODOT ",
+		"region": "רחובות ",
+		"moaatza": "נחל שורק"
+	},
+	{
+		"id": "575 ",
+		"name": "יסעור ",
+		"name_en": "YAS'UR ",
+		"region": "עכו ",
+		"moaatza": "מטה אשר"
+	},
+	{
+		"id": "1138 ",
+		"name": "יעד ",
+		"name_en": "YA'AD ",
+		"region": "עכו ",
+		"moaatza": "משגב"
+	},
+	{
+		"id": "1117 ",
+		"name": "יעל ",
+		"name_en": "YA'EL ",
+		"region": "עפולה ",
+		"moaatza": "הגלבוע"
+	},
+	{
+		"id": "1044 ",
+		"name": "יעף ",
+		"name_en": "YE'AF ",
+		"region": "השרון ",
+		"moaatza": "לב השרון"
+	},
+	{
+		"id": "795 ",
+		"name": "יערה ",
+		"name_en": "YA'ARA ",
+		"region": "עכו ",
+		"moaatza": "מעלה יוסף"
+	},
+	{
+		"id": "3566 ",
+		"name": "יפית ",
+		"name_en": "YAFIT ",
+		"region": "ירדן )יריחו( ",
+		"moaatza": "ערבות הירדן"
+	},
+	{
+		"id": "134 ",
+		"name": "יפעת  ",
+		"name_en": "YIF'AT ",
+		"region": "עפולה ",
+		"moaatza": "עמק יזרעאל"
+	},
+	{
+		"id": "453 ",
+		"name": "יפתח ",
+		"name_en": "YIFTAH ",
+		"region": "צפת ",
+		"moaatza": "הגליל העליון"
+	},
+	{
+		"id": "3749 ",
+		"name": "יצהר ",
+		"name_en": "YIZHAR ",
+		"region": "שכם ",
+		"moaatza": "שומרון"
+	},
+	{
+		"id": "759 ",
+		"name": "יציץ ",
+		"name_en": "YAZIZ ",
+		"region": "רמלה ",
+		"moaatza": "גזר"
+	},
+	{
+		"id": "417 ",
+		"name": "יקום ",
+		"name_en": "YAQUM ",
+		"region": "השרון ",
+		"moaatza": "חוף השרון"
+	},
+	{
+		"id": "3647 ",
+		"name": "יקיר ",
+		"name_en": "YAQIR ",
+		"region": "טול כרם ",
+		"moaatza": "שומרון"
+	},
+	{
+		"id": "241 ",
+		"name": "יקנעם )מושבה( ",
+		"name_en": "YOQNE'AM(MOSHAVA) ",
+		"region": "עפולה ",
+		"moaatza": "מגידו"
+	},
+	{
+		"id": "240 ",
+		"name": "יקנעם עילית ",
+		"name_en": "YOQNE'AM ILLIT ",
+		"region": "עפולה ",
+		"moaatza": ""
+	},
+	{
+		"id": "623 ",
+		"name": "יראון ",
+		"name_en": "YIR'ON ",
+		"region": "צפת ",
+		"moaatza": "הגליל העליון"
+	},
+	{
+		"id": "2026 ",
+		"name": "ירדנה ",
+		"name_en": "YARDENA ",
+		"region": "עפולה ",
+		"moaatza": "עמק המעיינות"
+	},
+	{
+		"id": "831 ",
+		"name": "ירוחם ",
+		"name_en": "YEROHAM ",
+		"region": "באר שבע ",
+		"moaatza": ""
+	},
+	{
+		"id": "3000 ",
+		"name": "ירושלים ",
+		"name_en": "JERUSALEM ",
+		"region": "ירושלים ",
+		"moaatza": ""
+	},
+	{
+		"id": "718 ",
+		"name": "ירחיב ",
+		"name_en": "YARHIV ",
+		"region": "פתח תקווה ",
+		"moaatza": "דרום השרון"
+	},
+	{
+		"id": "183 ",
+		"name": "ירקונה ",
+		"name_en": "YARQONA ",
+		"region": "פתח תקווה ",
+		"moaatza": "דרום השרון"
+	},
+	{
+		"id": "916 ",
+		"name": "ישע ",
+		"name_en": "YESHA ",
+		"region": "באר שבע ",
+		"moaatza": "אשכול"
+	},
+	{
+		"id": "805 ",
+		"name": "ישעי ",
+		"name_en": "YISH'I ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "828 ",
+		"name": "ישרש ",
+		"name_en": "YASHRESH ",
+		"region": "רמלה ",
+		"moaatza": "גזר"
+	},
+	{
+		"id": "1227 ",
+		"name": "יתד ",
+		"name_en": "YATED ",
+		"region": "באר שבע ",
+		"moaatza": "אשכול"
+	},
+	{
+		"id": "1329 ",
+		"name": "יתיר ",
+		"name_en": " ",
+		"region": "באר שבע ",
+		"moaatza": ""
+	},
+	{
+		"id": "576 ",
+		"name": "כברי ",
+		"name_en": "KABRI ",
+		"region": "עכו ",
+		"moaatza": "מטה אשר"
+	},
+	{
+		"id": "371 ",
+		"name": "כדורי ",
+		"name_en": "KADOORIE ",
+		"region": "כנרת ",
+		"moaatza": "הגליל התחתון"
+	},
+	{
+		"id": "1338 ",
+		"name": "כדיתה ",
+		"name_en": "KADDITA ",
+		"region": "צפת ",
+		"moaatza": "מרום הגליל"
+	},
+	{
+		"id": "3564 ",
+		"name": "כוכב השחר ",
+		"name_en": "KOKHAV HASHAHAR ",
+		"region": "ראמאללה ",
+		"moaatza": "מטה בנימין"
+	},
+	{
+		"id": "1224 ",
+		"name": "כוכב יאיר ",
+		"name_en": "KOKHAV YA'IR ",
+		"region": "פתח תקווה ",
+		"moaatza": ""
+	},
+	{
+		"id": "3779 ",
+		"name": "כוכב יעקב ",
+		"name_en": "KOKHAV YA'AQOV ",
+		"region": "ראמאללה ",
+		"moaatza": "מטה בנימין"
+	},
+	{
+		"id": "824 ",
+		"name": "כוכב מיכאל ",
+		"name_en": "KOKHAV MIKHA'EL ",
+		"region": "אשקלון ",
+		"moaatza": "חוף אשקלון"
+	},
+	{
+		"id": "1252 ",
+		"name": "כורזים ",
+		"name_en": "KORAZIM ",
+		"region": "צפת ",
+		"moaatza": "מבואות החרמון"
+	},
+	{
+		"id": "1210 ",
+		"name": "כחל ",
+		"name_en": "KAHAL ",
+		"region": "צפת ",
+		"moaatza": "מבואות החרמון"
+	},
+	{
+		"id": "1367 ",
+		"name": "כחלה ",
+		"name_en": "KOCHLEA ",
+		"region": "באר שבע ",
+		"moaatza": "אל קסום"
+	},
+	{
+		"id": "840 ",
+		"name": "כיסופים ",
+		"name_en": "KISSUFIM ",
+		"region": "באר שבע ",
+		"moaatza": "אשכול"
+	},
+	{
+		"id": "1153 ",
+		"name": "כישור ",
+		"name_en": "KISHOR ",
+		"region": "עכו ",
+		"moaatza": "משגב"
+	},
+	{
+		"id": "1183 ",
+		"name": "כליל ",
+		"name_en": "KELIL ",
+		"region": "עכו ",
+		"moaatza": "מטה אשר"
+	},
+	{
+		"id": "1229 ",
+		"name": "כלנית ",
+		"name_en": "KALLANIT ",
+		"region": "כנרת ",
+		"moaatza": "מרום הגליל"
+	},
+	{
+		"id": "1291 ",
+		"name": "כמהין ",
+		"name_en": "KEMEHIN ",
+		"region": "באר שבע ",
+		"moaatza": "רמת נגב"
+	},
+	{
+		"id": "1201 ",
+		"name": "כמון ",
+		"name_en": "KAMMON ",
+		"region": "עכו ",
+		"moaatza": "משגב"
+	},
+	{
+		"id": "2006 ",
+		"name": "כנות ",
+		"name_en": "KANNOT ",
+		"region": "אשקלון ",
+		"moaatza": "באר טוביה"
+	},
+	{
+		"id": "4028 ",
+		"name": "כנף ",
+		"name_en": "KANAF ",
+		"region": "גולן ",
+		"moaatza": "גולן"
+	},
+	{
+		"id": "63 ",
+		"name": "כנרת )מושבה( ",
+		"name_en": "KINNERET(MOSHAVA) ",
+		"region": "כנרת ",
+		"moaatza": "עמק הירדן"
+	},
+	{
+		"id": "57 ",
+		"name": "כנרת )קבוצה( ",
+		"name_en": "KINNERET(QEVUZA) ",
+		"region": "כנרת ",
+		"moaatza": "עמק הירדן"
+	},
+	{
+		"id": "859 ",
+		"name": "כסלון ",
+		"name_en": "KESALON ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "857 ",
+		"name": "כפר אביב ",
+		"name_en": "KEFAR AVIV ",
+		"region": "רחובות ",
+		"moaatza": "גדרות"
+	},
+	{
+		"id": "3638 ",
+		"name": "כפר אדומים ",
+		"name_en": "KEFAR ADUMMIM ",
+		"region": "ראמאללה ",
+		"moaatza": "מטה בנימין"
+	},
+	{
+		"id": "364 ",
+		"name": "כפר אוריה ",
+		"name_en": "KEFAR URIYYA ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "690 ",
+		"name": "כפר אחים ",
+		"name_en": "KEFAR AHIM ",
+		"region": "אשקלון ",
+		"moaatza": "באר טוביה"
+	},
+	{
+		"id": "220 ",
+		"name": "כפר ביאליק ",
+		"name_en": "KEFAR BIALIK ",
+		"region": "חיפה ",
+		"moaatza": "זבולון"
+	},
+	{
+		"id": "177 ",
+		"name": "כפר ביל",
+		"name_en": "KEFAR BILU ",
+		"region": "רחובות ",
+		"moaatza": "גזר"
+	},
+	{
+		"id": "357 ",
+		"name": "כפר בלום ",
+		"name_en": "KEFAR BLUM ",
+		"region": "צפת ",
+		"moaatza": "הגליל העליון"
+	},
+	{
+		"id": "2010 ",
+		"name": "כפר בן נון ",
+		"name_en": "KEFAR BIN NUN ",
+		"region": "רמלה ",
+		"moaatza": "גזר"
+	},
+	{
+		"id": "633 ",
+		"name": "כפר ברא ",
+		"name_en": "KAFAR BARA ",
+		"region": "פתח תקווה ",
+		"moaatza": ""
+	},
+	{
+		"id": "132 ",
+		"name": "כפר ברוך ",
+		"name_en": "KEFAR BARUKH ",
+		"region": "עפולה ",
+		"moaatza": "עמק יזרעאל"
+	},
+	{
+		"id": "106 ",
+		"name": "כפר גדעון ",
+		"name_en": "KEFAR GID'ON ",
+		"region": "עפולה ",
+		"moaatza": "עמק יזרעאל"
+	},
+	{
+		"id": "427 ",
+		"name": "כפר גלים ",
+		"name_en": "KEFAR GALLIM ",
+		"region": "חיפה ",
+		"moaatza": "חוף הכרמל"
+	},
+	{
+		"id": "310 ",
+		"name": "כפר גליקסון ",
+		"name_en": "KEFAR GLIKSON ",
+		"region": "חדרה ",
+		"moaatza": "מנשה"
+	},
+	{
+		"id": "76 ",
+		"name": "כפר גלעדי ",
+		"name_en": "KEFAR GIL'ADI ",
+		"region": "צפת ",
+		"moaatza": "הגליל העליון"
+	},
+	{
+		"id": "707 ",
+		"name": "כפר דניאל ",
+		"name_en": "KEFAR DANIYYEL ",
+		"region": "רמלה ",
+		"moaatza": "חבל מודיעין"
+	},
+	{
+		"id": "3796 ",
+		"name": "כפר האורנים ",
+		"name_en": "KEFAR HAORANIM ",
+		"region": "ראמאללה ",
+		"moaatza": "מטה בנימין"
+	},
+	{
+		"id": "192 ",
+		"name": "כפר החורש ",
+		"name_en": "KEFAR HAHORESH ",
+		"region": "עפולה ",
+		"moaatza": "עמק יזרעאל"
+	},
+	{
+		"id": "254 ",
+		"name": "כפר המכבי ",
+		"name_en": "KEFAR HAMAKKABI ",
+		"region": "חיפה ",
+		"moaatza": "זבולון"
+	},
+	{
+		"id": "582 ",
+		"name": "כפר הנגיד ",
+		"name_en": "KEFAR HANAGID ",
+		"region": "רחובות ",
+		"moaatza": "גן רווה"
+	},
+	{
+		"id": "890 ",
+		"name": "כפר הנוער הדתי ",
+		"name_en": "KEFAR HANO'AR HADATI ",
+		"region": "חיפה ",
+		"moaatza": "זבולון"
+	},
+	{
+		"id": "443 ",
+		"name": "כפר הנשיא ",
+		"name_en": "KEFAR HANASI ",
+		"region": "צפת ",
+		"moaatza": "הגליל העליון"
+	},
+	{
+		"id": "187 ",
+		"name": "כפר הס ",
+		"name_en": "KEFAR HESS ",
+		"region": "השרון ",
+		"moaatza": "לב השרון"
+	},
+	{
+		"id": "217 ",
+		"name": "כפר הרא",
+		"name_en": "KEFAR HARO'E ",
+		"region": "השרון ",
+		"moaatza": "עמק חפר"
+	},
+	{
+		"id": "888 ",
+		"name": "כפר הרי",
+		"name_en": "KEFAR HARIF ",
+		"region": "אשקלון ",
+		"moaatza": "יואב"
+	},
+	{
+		"id": "190 ",
+		"name": "כפר ויתקין ",
+		"name_en": "KEFAR VITKIN ",
+		"region": "השרון ",
+		"moaatza": "עמק חפר"
+	},
+	{
+		"id": "320 ",
+		"name": "כפר ורבורג ",
+		"name_en": "KEFAR WARBURG ",
+		"region": "אשקלון ",
+		"moaatza": "באר טוביה"
+	},
+	{
+		"id": "1263 ",
+		"name": "כפר ורדים ",
+		"name_en": "KEFAR WERADIM ",
+		"region": "עכו ",
+		"moaatza": ""
+	},
+	{
+		"id": "1325 ",
+		"name": "כפר זוהרים ",
+		"name_en": "KEFAR ZOHARIM ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "786 ",
+		"name": "כפר זיתים ",
+		"name_en": "KEFAR ZETIM ",
+		"region": "כנרת ",
+		"moaatza": "הגליל התחתון"
+	},
+	{
+		"id": "696 ",
+		"name": "כפר חב",
+		"name_en": "KEFAR HABAD ",
+		"region": "רמלה ",
+		"moaatza": "שדות דן"
+	},
+	{
+		"id": "609 ",
+		"name": "כפר חושן ",
+		"name_en": "KEFAR HOSHEN ",
+		"region": "צפת ",
+		"moaatza": "מרום הגליל"
+	},
+	{
+		"id": "255 ",
+		"name": "כפר חיטים ",
+		"name_en": "KEFAR HITTIM ",
+		"region": "כנרת ",
+		"moaatza": "הגליל התחתון"
+	},
+	{
+		"id": "193 ",
+		"name": "כפר חיים ",
+		"name_en": "KEFAR HAYYIM ",
+		"region": "השרון ",
+		"moaatza": "עמק חפר"
+	},
+	{
+		"id": "1297 ",
+		"name": "כפר חנניה ",
+		"name_en": "KEFAR HANANYA ",
+		"region": "צפת ",
+		"moaatza": "מרום הגליל"
+	},
+	{
+		"id": "112 ",
+		"name": "כפר חסידים א' ",
+		"name_en": "KEFAR HASIDIM ALEF ",
+		"region": "חיפה ",
+		"moaatza": "זבולון"
+	},
+	{
+		"id": "889 ",
+		"name": "כפר חסידים ב' ",
+		"name_en": "KEFAR HASIDIM BET ",
+		"region": "חיפה ",
+		"moaatza": "זבולון"
+	},
+	{
+		"id": "4004 ",
+		"name": "כפר חרוב ",
+		"name_en": "KEFAR HARUV ",
+		"region": "גולן ",
+		"moaatza": "גולן"
+	},
+	{
+		"id": "673 ",
+		"name": "כפר טרומן ",
+		"name_en": "KEFAR TRUMAN ",
+		"region": "רמלה ",
+		"moaatza": "חבל מודיעין"
+	},
+	{
+		"id": "233 ",
+		"name": "כפר ידידיה ",
+		"name_en": "YEDIDYA ",
+		"region": "השרון ",
+		"moaatza": "עמק חפר"
+	},
+	{
+		"id": "140 ",
+		"name": "כפר יהושע ",
+		"name_en": "KEFAR YEHOSHUA ",
+		"region": "עפולה ",
+		"moaatza": "עמק יזרעאל"
+	},
+	{
+		"id": "168 ",
+		"name": "כפר יונה ",
+		"name_en": "KEFAR YONA ",
+		"region": "השרון ",
+		"moaatza": ""
+	},
+	{
+		"id": "85 ",
+		"name": "כפר יחזקאל ",
+		"name_en": "KEFAR YEHEZQEL ",
+		"region": "עפולה ",
+		"moaatza": "הגלבוע"
+	},
+	{
+		"id": "170 ",
+		"name": "כפר יעבץ ",
+		"name_en": "KEFAR YA'BEZ ",
+		"region": "השרון ",
+		"moaatza": "לב השרון"
+	},
+	{
+		"id": "508 ",
+		"name": "כפר כמא ",
+		"name_en": "KAFAR KAMA ",
+		"region": "כנרת ",
+		"moaatza": ""
+	},
+	{
+		"id": "387 ",
+		"name": "כפר מונש ",
+		"name_en": "KEFAR MONASH ",
+		"region": "השרון ",
+		"moaatza": "עמק חפר"
+	},
+	{
+		"id": "1095 ",
+		"name": "כפר מימון ",
+		"name_en": "KEFAR MAYMON ",
+		"region": "באר שבע ",
+		"moaatza": "שדות נגב"
+	},
+	{
+		"id": "98 ",
+		"name": "כפר מל",
+		"name_en": "KEFAR MALAL ",
+		"region": "פתח תקווה ",
+		"moaatza": "דרום השרון"
+	},
+	{
+		"id": "274 ",
+		"name": "כפר מנחם ",
+		"name_en": "KEFAR MENAHEM ",
+		"region": "אשקלון ",
+		"moaatza": "יואב"
+	},
+	{
+		"id": "764 ",
+		"name": "כפר מרדכי ",
+		"name_en": "KEFAR MORDEKHAY ",
+		"region": "רחובות ",
+		"moaatza": "גדרות"
+	},
+	{
+		"id": "316 ",
+		"name": "כפר נטר ",
+		"name_en": "KEFAR NETTER ",
+		"region": "השרון ",
+		"moaatza": "חוף השרון"
+	},
+	{
+		"id": "345 ",
+		"name": "כפר סאלד ",
+		"name_en": "KEFAR SZOLD ",
+		"region": "צפת ",
+		"moaatza": "הגליל העליון"
+	},
+	{
+		"id": "6900 ",
+		"name": "כפר סבא ",
+		"name_en": "KEFAR SAVA ",
+		"region": "פתח תקווה ",
+		"moaatza": ""
+	},
+	{
+		"id": "107 ",
+		"name": "כפר סילבר ",
+		"name_en": "KEFAR SILVER ",
+		"region": "אשקלון ",
+		"moaatza": "חוף אשקלון"
+	},
+	{
+		"id": "249 ",
+		"name": "כפר סירקין ",
+		"name_en": "KEFAR SIRKIN ",
+		"region": "פתח תקווה ",
+		"moaatza": "דרום השרון"
+	},
+	{
+		"id": "875 ",
+		"name": "כפר עבודה ",
+		"name_en": "KEFAR AVODA ",
+		"region": "השרון ",
+		"moaatza": "לב השרון"
+	},
+	{
+		"id": "845 ",
+		"name": "כפר עזה ",
+		"name_en": "KEFAR AZZA ",
+		"region": "אשקלון ",
+		"moaatza": "שער הנגב"
+	},
+	{
+		"id": "3488 ",
+		"name": "כפר עציון ",
+		"name_en": "KEFAR EZYON ",
+		"region": "בית לחם ",
+		"moaatza": "גוש עציון"
+	},
+	{
+		"id": "189 ",
+		"name": "כפר פינס ",
+		"name_en": "KEFAR PINES ",
+		"region": "חדרה ",
+		"moaatza": "מנשה"
+	},
+	{
+		"id": "388 ",
+		"name": "כפר קיש ",
+		"name_en": "KEFAR KISH ",
+		"region": "כנרת ",
+		"moaatza": "הגליל התחתון"
+	},
+	{
+		"id": "579 ",
+		"name": "כפר ראש הנקרה ",
+		"name_en": "KEFAR ROSH HANIQRA ",
+		"region": "עכו ",
+		"moaatza": "מטה אשר"
+	},
+	{
+		"id": "1130 ",
+		"name": "כפר רוזנואלד )זרעית( ",
+		"name_en": "KEFAR ROZENWALD(ZAR. ",
+		"region": "עכו ",
+		"moaatza": "מעלה יוסף"
+	},
+	{
+		"id": "295 ",
+		"name": "כפר רופין ",
+		"name_en": "KEFAR RUPPIN ",
+		"region": "עפולה ",
+		"moaatza": "עמק המעיינות"
+	},
+	{
+		"id": "1166 ",
+		"name": "כפר רות ",
+		"name_en": "KEFAR RUT ",
+		"region": "רמלה ",
+		"moaatza": "חבל מודיעין"
+	},
+	{
+		"id": "605 ",
+		"name": "כפר שמאי ",
+		"name_en": "KEFAR SHAMMAY ",
+		"region": "צפת ",
+		"moaatza": "מרום הגליל"
+	},
+	{
+		"id": "743 ",
+		"name": "כפר שמואל ",
+		"name_en": "KEFAR SHEMU'EL ",
+		"region": "רמלה ",
+		"moaatza": "גזר"
+	},
+	{
+		"id": "267 ",
+		"name": "כפר שמריהו ",
+		"name_en": "KEFAR SHEMARYAHU ",
+		"region": "תל אביב ",
+		"moaatza": ""
+	},
+	{
+		"id": "47 ",
+		"name": "כפר תבור ",
+		"name_en": "KEFAR TAVOR ",
+		"region": "כנרת ",
+		"moaatza": ""
+	},
+	{
+		"id": "3572 ",
+		"name": "כפר תפוח ",
+		"name_en": "KEFAR TAPPUAH ",
+		"region": "טול כרם ",
+		"moaatza": "שומרון"
+	},
+	{
+		"id": "38 ",
+		"name": "כרי דשא ",
+		"name_en": "KARE DESHE ",
+		"region": "כנרת ",
+		"moaatza": "עמק הירדן"
+	},
+	{
+		"id": "1285 ",
+		"name": "כרכום ",
+		"name_en": "KARKOM ",
+		"region": "כנרת ",
+		"moaatza": "מבואות החרמון"
+	},
+	{
+		"id": "664 ",
+		"name": "כרם בן זמרה ",
+		"name_en": "KEREM BEN ZIMRA ",
+		"region": "צפת ",
+		"moaatza": "מרום הגליל"
+	},
+	{
+		"id": "88 ",
+		"name": "כרם בן שמן ",
+		"name_en": "KEREM BEN SHEMEN ",
+		"region": "רמלה ",
+		"moaatza": "חבל מודיעין"
+	},
+	{
+		"id": "1094 ",
+		"name": "כרם יבנה )ישיבה( ",
+		"name_en": "KEREM YAVNE(YESHIVA) ",
+		"region": "רחובות ",
+		"moaatza": "חבל יבנה"
+	},
+	{
+		"id": "580 ",
+		"name": "כרם מהר",
+		"name_en": "KEREM MAHARAL ",
+		"region": "חדרה ",
+		"moaatza": "חוף הכרמל"
+	},
+	{
+		"id": "1085 ",
+		"name": "כרם שלום ",
+		"name_en": "KEREM SHALOM ",
+		"region": "באר שבע ",
+		"moaatza": "אשכול"
+	},
+	{
+		"id": "1264 ",
+		"name": "כרמי יוסף ",
+		"name_en": "KARME YOSEF ",
+		"region": "רמלה ",
+		"moaatza": "גזר"
+	},
+	{
+		"id": "3766 ",
+		"name": "כרמי צור ",
+		"name_en": "KARME ZUR ",
+		"region": "חברון ",
+		"moaatza": "גוש עציון"
+	},
+	{
+		"id": "1374 ",
+		"name": "כרמי קטיף ",
+		"name_en": "KARME QATIF ",
+		"region": "אשקלון ",
+		"moaatza": "לכיש"
+	},
+	{
+		"id": "1139 ",
+		"name": "כרמיאל ",
+		"name_en": "KARMI'EL ",
+		"region": "עכו ",
+		"moaatza": ""
+	},
+	{
+		"id": "768 ",
+		"name": "כרמיה ",
+		"name_en": "KARMIYYA ",
+		"region": "אשקלון ",
+		"moaatza": "חוף אשקלון"
+	},
+	{
+		"id": "1198 ",
+		"name": "כרמים ",
+		"name_en": "KERAMIM ",
+		"region": "באר שבע ",
+		"moaatza": "בני שמעון"
+	},
+	{
+		"id": "3656 ",
+		"name": "כרמל ",
+		"name_en": "KARMEL ",
+		"region": "חברון ",
+		"moaatza": "הר חברון"
+	},
+	{
+		"id": "1207 ",
+		"name": "לבון ",
+		"name_en": "LAVON ",
+		"region": "עכו ",
+		"moaatza": "משגב"
+	},
+	{
+		"id": "585 ",
+		"name": "לביא ",
+		"name_en": "LAVI ",
+		"region": "כנרת ",
+		"moaatza": "הגליל התחתון"
+	},
+	{
+		"id": "1230 ",
+		"name": "לבנים ",
+		"name_en": "LIVNIM ",
+		"region": "כנרת ",
+		"moaatza": "מרום הגליל"
+	},
+	{
+		"id": "2023 ",
+		"name": "להב ",
+		"name_en": "LAHAV ",
+		"region": "באר שבע ",
+		"moaatza": "בני שמעון"
+	},
+	{
+		"id": "380 ",
+		"name": "להבות הבשן ",
+		"name_en": "LAHAVOT HABASHAN ",
+		"region": "צפת ",
+		"moaatza": "הגליל העליון"
+	},
+	{
+		"id": "715 ",
+		"name": "להבות חביבה ",
+		"name_en": "LAHAVOT HAVIVA ",
+		"region": "חדרה ",
+		"moaatza": "מנשה"
+	},
+	{
+		"id": "1271 ",
+		"name": "להבים ",
+		"name_en": "LEHAVIM ",
+		"region": "באר שבע ",
+		"moaatza": ""
+	},
+	{
+		"id": "7000 ",
+		"name": "לוד ",
+		"name_en": "LOD ",
+		"region": "רמלה ",
+		"moaatza": ""
+	},
+	{
+		"id": "52 ",
+		"name": "לוזית ",
+		"name_en": "LUZIT ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "595 ",
+		"name": "לוחמי הגיטאות ",
+		"name_en": "LOHAME HAGETA'OT ",
+		"region": "עכו ",
+		"moaatza": "מטה אשר"
+	},
+	{
+		"id": "1171 ",
+		"name": "לוטם ",
+		"name_en": "LOTEM ",
+		"region": "עכו ",
+		"moaatza": "משגב"
+	},
+	{
+		"id": "1255 ",
+		"name": "לוטן ",
+		"name_en": "LOTAN ",
+		"region": "באר שבע ",
+		"moaatza": "חבל אילות"
+	},
+	{
+		"id": "674 ",
+		"name": "לימן ",
+		"name_en": "LIMAN ",
+		"region": "עכו ",
+		"moaatza": "מטה אשר"
+	},
+	{
+		"id": "24 ",
+		"name": "לכיש ",
+		"name_en": "LAKHISH ",
+		"region": "אשקלון ",
+		"moaatza": "לכיש"
+	},
+	{
+		"id": "1310 ",
+		"name": "לפיד ",
+		"name_en": "LAPPID ",
+		"region": "רמלה ",
+		"moaatza": "חבל מודיעין"
+	},
+	{
+		"id": "1173 ",
+		"name": "לפידות ",
+		"name_en": "LAPPIDOT ",
+		"region": "עכו ",
+		"moaatza": "מעלה יוסף"
+	},
+	{
+		"id": "2055 ",
+		"name": "מאור ",
+		"name_en": "MA'OR ",
+		"region": "חדרה ",
+		"moaatza": "מנשה"
+	},
+	{
+		"id": "102 ",
+		"name": "מאיר שפיה ",
+		"name_en": "ME'IR SHEFEYA ",
+		"region": "חדרה  ",
+		"moaatza": "חוף הכרמל"
+	},
+	{
+		"id": "771 ",
+		"name": "מבוא ביתר ",
+		"name_en": "MEVO BETAR ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "3569 ",
+		"name": "מבוא דותן ",
+		"name_en": "MEVO DOTAN ",
+		"region": "ג'נין ",
+		"moaatza": "שומרון"
+	},
+	{
+		"id": "3709 ",
+		"name": "מבוא חורון ",
+		"name_en": "MEVO HORON ",
+		"region": "ראמאללה ",
+		"moaatza": "מטה בנימין"
+	},
+	{
+		"id": "4204 ",
+		"name": "מבוא חמה ",
+		"name_en": "MEVO HAMMA ",
+		"region": "גולן ",
+		"moaatza": "גולן"
+	},
+	{
+		"id": "1141 ",
+		"name": "מבוא מודיעים ",
+		"name_en": "MEVO MODI'IM ",
+		"region": "רמלה ",
+		"moaatza": "חבל מודיעין"
+	},
+	{
+		"id": "1318 ",
+		"name": "מבואות ים ",
+		"name_en": "MEVO'OT YAM ",
+		"region": "השרון ",
+		"moaatza": "עמק חפר"
+	},
+	{
+		"id": "1080 ",
+		"name": "מבועים ",
+		"name_en": "MABBU'IM ",
+		"region": "באר שבע ",
+		"moaatza": "מרחבים"
+	},
+	{
+		"id": "829 ",
+		"name": "מבטחים ",
+		"name_en": "MIVTAHIM ",
+		"region": "באר שבע ",
+		"moaatza": "אשכול"
+	},
+	{
+		"id": "573 ",
+		"name": "מבקיעים ",
+		"name_en": "MAVQI'IM ",
+		"region": "אשקלון ",
+		"moaatza": "חוף אשקלון"
+	},
+	{
+		"id": "1015 ",
+		"name": "מבשרת ציון ",
+		"name_en": "MEVASSERET ZIYYON ",
+		"region": "ירושלים ",
+		"moaatza": ""
+	},
+	{
+		"id": "481 ",
+		"name": "מגאר ",
+		"name_en": "MUGHAR ",
+		"region": "כנרת ",
+		"moaatza": ""
+	},
+	{
+		"id": "689 ",
+		"name": "מגדים ",
+		"name_en": "MEGADIM ",
+		"region": "חדרה ",
+		"moaatza": "חוף הכרמל"
+	},
+	{
+		"id": "65 ",
+		"name": "מגדל ",
+		"name_en": "MIGDAL ",
+		"region": "כנרת ",
+		"moaatza": ""
+	},
+	{
+		"id": "874 ",
+		"name": "מגדל העמק ",
+		"name_en": "MIGDAL HAEMEQ ",
+		"region": "עפולה ",
+		"moaatza": ""
+	},
+	{
+		"id": "3561 ",
+		"name": "מגדל עוז ",
+		"name_en": "MIGDAL OZ ",
+		"region": "בית לחם ",
+		"moaatza": "גוש עציון"
+	},
+	{
+		"id": "3751 ",
+		"name": "מגדלים  ",
+		"name_en": "MIGDALIM ",
+		"region": "שכם ",
+		"moaatza": "שומרון"
+	},
+	{
+		"id": "586 ",
+		"name": "מגידו ",
+		"name_en": "MEGIDDO ",
+		"region": "עפולה ",
+		"moaatza": "מגידו"
+	},
+	{
+		"id": "375 ",
+		"name": "מגל ",
+		"name_en": "MAGGAL ",
+		"region": "חדרה ",
+		"moaatza": "מנשה"
+	},
+	{
+		"id": "695 ",
+		"name": "מגן ",
+		"name_en": "MAGEN ",
+		"region": "באר שבע ",
+		"moaatza": "אשכול"
+	},
+	{
+		"id": "1155 ",
+		"name": "מגן שאול ",
+		"name_en": "MAGEN SHA'UL ",
+		"region": "עפולה ",
+		"moaatza": "הגלבוע"
+	},
+	{
+		"id": "722 ",
+		"name": "מגשימים ",
+		"name_en": "MAGSHIMIM ",
+		"region": "פתח תקווה ",
+		"moaatza": "דרום השרון"
+	},
+	{
+		"id": "2029 ",
+		"name": "מדרך עוז ",
+		"name_en": "MIDRAKH OZ ",
+		"region": "עפולה ",
+		"moaatza": "מגידו"
+	},
+	{
+		"id": "1140 ",
+		"name": "מדרשת בן גוריון ",
+		"name_en": "MIDRESHET BEN GURION ",
+		"region": "באר שבע ",
+		"moaatza": "רמת נגב"
+	},
+	{
+		"id": "897 ",
+		"name": "מדרשת רופין ",
+		"name_en": "MIDRESHET RUPPIN ",
+		"region": "השרון ",
+		"moaatza": "עמק חפר"
+	},
+	{
+		"id": "3797 ",
+		"name": "מודיעין עילית ",
+		"name_en": "MODI'IN ILLIT ",
+		"region": "ראמאללה ",
+		"moaatza": ""
+	},
+	{
+		"id": "1200 ",
+		"name": "מודיעין-מכבים-רעות ",
+		"name_en": "MODI'IN-MAKKABBIM-RE ",
+		"region": "רמלה ",
+		"moaatza": ""
+	},
+	{
+		"id": "269 ",
+		"name": "מולדת ",
+		"name_en": "MOLEDET ",
+		"region": "עפולה ",
+		"moaatza": "הגלבוע"
+	},
+	{
+		"id": "208 ",
+		"name": "מוצא עילית ",
+		"name_en": "MOZA ILLIT ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "1163 ",
+		"name": "מורן ",
+		"name_en": "MORAN ",
+		"region": "עכו ",
+		"moaatza": "משגב"
+	},
+	{
+		"id": "1178 ",
+		"name": "מורשת ",
+		"name_en": "MORESHET ",
+		"region": "עכו ",
+		"moaatza": "משגב"
+	},
+	{
+		"id": "606 ",
+		"name": "מזור ",
+		"name_en": "MAZOR ",
+		"region": "פתח תקווה ",
+		"moaatza": "חבל מודיעין"
+	},
+	{
+		"id": "28 ",
+		"name": "מזכרת בתיה ",
+		"name_en": "MAZKERET BATYA ",
+		"region": "רחובות ",
+		"moaatza": ""
+	},
+	{
+		"id": "104 ",
+		"name": "מזרע ",
+		"name_en": "MIZRA ",
+		"region": "עפולה ",
+		"moaatza": "עמק יזרעאל"
+	},
+	{
+		"id": "3599 ",
+		"name": "מחולה ",
+		"name_en": "MEHOLA ",
+		"region": "ירדן )יריחו( ",
+		"moaatza": "ערבות הירדן"
+	},
+	{
+		"id": "1411 ",
+		"name": "מחנה הילה ",
+		"name_en": "MAHANE HILLA ",
+		"region": "רחובות ",
+		"moaatza": "גן רווה"
+	},
+	{
+		"id": "1418 ",
+		"name": "מחנה טלי ",
+		"name_en": "MAHANE TALI ",
+		"region": "באר שבע ",
+		"moaatza": "רמת נגב"
+	},
+	{
+		"id": "1413 ",
+		"name": "מחנה יהודית ",
+		"name_en": "MAHANE YEHUDIT ",
+		"region": "עפולה ",
+		"moaatza": "עמק יזרעאל"
+	},
+	{
+		"id": "1416 ",
+		"name": "מחנה יוכבד ",
+		"name_en": "MAHANE YOKHVED ",
+		"region": "באר שבע ",
+		"moaatza": "חבל אילות"
+	},
+	{
+		"id": "1415 ",
+		"name": "מחנה יפה ",
+		"name_en": "MAHANE YAFA ",
+		"region": "באר שבע ",
+		"moaatza": "מרחבים"
+	},
+	{
+		"id": "1196 ",
+		"name": "מחנה יתיר ",
+		"name_en": "MAHANE YATTIR ",
+		"region": "באר שבע ",
+		"moaatza": ""
+	},
+	{
+		"id": "1414 ",
+		"name": "מחנה מרים ",
+		"name_en": "MAHANE MIRYAM ",
+		"region": "אשקלון ",
+		"moaatza": "באר טוביה"
+	},
+	{
+		"id": "1412 ",
+		"name": "מחנה תל נוף ",
+		"name_en": "MAHANE TEL NOF ",
+		"region": "רחובות ",
+		"moaatza": "ברנר"
+	},
+	{
+		"id": "308 ",
+		"name": "מחניים ",
+		"name_en": "MAHANAYIM ",
+		"region": "צפת ",
+		"moaatza": "הגליל העליון"
+	},
+	{
+		"id": "776 ",
+		"name": "מחסיה ",
+		"name_en": "MAHSEYA ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "43 ",
+		"name": "מטולה ",
+		"name_en": "METULA ",
+		"region": "צפת ",
+		"moaatza": ""
+	},
+	{
+		"id": "822 ",
+		"name": "מטע ",
+		"name_en": "MATTA ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "1128 ",
+		"name": "מי עמי ",
+		"name_en": "ME AMMI ",
+		"region": "חדרה ",
+		"moaatza": "מנשה"
+	},
+	{
+		"id": "2054 ",
+		"name": "מיטב ",
+		"name_en": "METAV ",
+		"region": "עפולה ",
+		"moaatza": "הגלבוע"
+	},
+	{
+		"id": "649 ",
+		"name": "מייסר ",
+		"name_en": "MEISER ",
+		"region": "חדרה ",
+		"moaatza": "מנשה"
+	},
+	{
+		"id": "4019 ",
+		"name": "מיצר ",
+		"name_en": "MEZAR ",
+		"region": "גולן ",
+		"moaatza": "גולן"
+	},
+	{
+		"id": "1282 ",
+		"name": "מירב ",
+		"name_en": "MERAV ",
+		"region": "עפולה ",
+		"moaatza": "עמק המעיינות"
+	},
+	{
+		"id": "607 ",
+		"name": "מירון ",
+		"name_en": "MERON ",
+		"region": "צפת ",
+		"moaatza": "מרום הגליל"
+	},
+	{
+		"id": "731 ",
+		"name": "מישר ",
+		"name_en": "MESHAR ",
+		"region": "רחובות ",
+		"moaatza": "גדרות"
+	},
+	{
+		"id": "1268 ",
+		"name": "מיתר ",
+		"name_en": "METAR ",
+		"region": "באר שבע ",
+		"moaatza": ""
+	},
+	{
+		"id": "3614 ",
+		"name": "מכורה ",
+		"name_en": "MEKHORA ",
+		"region": "ירדן )יריחו( ",
+		"moaatza": "ערבות הירדן"
+	},
+	{
+		"id": "1343 ",
+		"name": "מכחול ",
+		"name_en": "MAKCHUL ",
+		"region": "באר שבע ",
+		"moaatza": "אל קסום"
+	},
+	{
+		"id": "382 ",
+		"name": "מכמורת ",
+		"name_en": "MIKHMORET ",
+		"region": "השרון ",
+		"moaatza": "עמק חפר"
+	},
+	{
+		"id": "1202 ",
+		"name": "מכמנים ",
+		"name_en": "MIKHMANNIM ",
+		"region": "עכו ",
+		"moaatza": "משגב"
+	},
+	{
+		"id": "164 ",
+		"name": "מלאה ",
+		"name_en": "MELE'A ",
+		"region": "עפולה ",
+		"moaatza": "הגלבוע"
+	},
+	{
+		"id": "2044 ",
+		"name": "מלילות ",
+		"name_en": "MELILOT ",
+		"region": "באר שבע ",
+		"moaatza": "שדות נגב"
+	},
+	{
+		"id": "596 ",
+		"name": "מלכיה ",
+		"name_en": "MALKIYYA ",
+		"region": "צפת ",
+		"moaatza": "הגליל העליון"
+	},
+	{
+		"id": "1154 ",
+		"name": "מלכישוע ",
+		"name_en": "MALKISHUA ",
+		"region": "עפולה ",
+		"moaatza": "עמק המעיינות"
+	},
+	{
+		"id": "2030 ",
+		"name": "מנוחה ",
+		"name_en": "MENUHA ",
+		"region": "אשקלון ",
+		"moaatza": "לכיש"
+	},
+	{
+		"id": "1174 ",
+		"name": "מנוף ",
+		"name_en": "MANOF ",
+		"region": "עכו ",
+		"moaatza": "משגב"
+	},
+	{
+		"id": "1205 ",
+		"name": "מנות ",
+		"name_en": "MANOT ",
+		"region": "עכו ",
+		"moaatza": "מעלה יוסף"
+	},
+	{
+		"id": "48 ",
+		"name": "מנחמיה ",
+		"name_en": "MENAHEMYA ",
+		"region": "כנרת ",
+		"moaatza": "עמק המעיינות"
+	},
+	{
+		"id": "347 ",
+		"name": "מנרה ",
+		"name_en": "MENNARA ",
+		"region": "צפת ",
+		"moaatza": "הגליל העליון"
+	},
+	{
+		"id": "1258 ",
+		"name": "מסד ",
+		"name_en": "MASSAD ",
+		"region": "כנרת ",
+		"moaatza": "הגליל התחתון"
+	},
+	{
+		"id": "263 ",
+		"name": "מסדה ",
+		"name_en": "MASSADA ",
+		"region": "כנרת ",
+		"moaatza": "עמק הירדן"
+	},
+	{
+		"id": "298 ",
+		"name": "מסילות ",
+		"name_en": "MESILLOT ",
+		"region": "עפולה ",
+		"moaatza": "עמק המעיינות"
+	},
+	{
+		"id": "742 ",
+		"name": "מסילת ציון ",
+		"name_en": "MESILLAT ZIYYON ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "748 ",
+		"name": "מסלול ",
+		"name_en": "MASLUL ",
+		"region": "באר שבע ",
+		"moaatza": "מרחבים"
+	},
+	{
+		"id": "197 ",
+		"name": "מעברות ",
+		"name_en": "MA'BAROT ",
+		"region": "השרון ",
+		"moaatza": "עמק חפר"
+	},
+	{
+		"id": "1082 ",
+		"name": "מעגלים ",
+		"name_en": "MA'GALIM ",
+		"region": "באר שבע ",
+		"moaatza": "שדות נגב"
+	},
+	{
+		"id": "678 ",
+		"name": "מעגן ",
+		"name_en": "MA'AGAN ",
+		"region": "כנרת ",
+		"moaatza": "עמק הירדן"
+	},
+	{
+		"id": "694 ",
+		"name": "מעגן מיכאל ",
+		"name_en": "MA'AGAN MIKHA'EL ",
+		"region": "חדרה ",
+		"moaatza": "חוף הכרמל"
+	},
+	{
+		"id": "272 ",
+		"name": "מעוז חיים ",
+		"name_en": "MA'OZ HAYYIM ",
+		"region": "עפולה ",
+		"moaatza": "עמק המעיינות"
+	},
+	{
+		"id": "3657 ",
+		"name": "מעון ",
+		"name_en": "MA'ON ",
+		"region": "חברון ",
+		"moaatza": "הר חברון"
+	},
+	{
+		"id": "570 ",
+		"name": "מעונה ",
+		"name_en": "ME'ONA ",
+		"region": "עכו ",
+		"moaatza": "מעלה יוסף"
+	},
+	{
+		"id": "416 ",
+		"name": "מעין ברוך ",
+		"name_en": "MA'YAN BARUKH ",
+		"region": "צפת ",
+		"moaatza": "הגליל העליון"
+	},
+	{
+		"id": "290 ",
+		"name": "מעין צבי ",
+		"name_en": "MA'YAN ZEVI ",
+		"region": "חדרה ",
+		"moaatza": "חוף הכרמל"
+	},
+	{
+		"id": "3616 ",
+		"name": "מעלה אדומים ",
+		"name_en": "MA'ALE ADUMMIM ",
+		"region": "בית לחם ",
+		"moaatza": ""
+	},
+	{
+		"id": "3608 ",
+		"name": "מעלה אפרים ",
+		"name_en": "MA'ALE EFRAYIM ",
+		"region": "ירדן )יריחו( ",
+		"moaatza": ""
+	},
+	{
+		"id": "1127 ",
+		"name": "מעלה גלבוע ",
+		"name_en": "MA'ALE GILBOA ",
+		"region": "עפולה ",
+		"moaatza": "עמק המעיינות"
+	},
+	{
+		"id": "4008 ",
+		"name": "מעלה גמלא ",
+		"name_en": "MA'ALE GAMLA ",
+		"region": "גולן ",
+		"moaatza": "גולן"
+	},
+	{
+		"id": "286 ",
+		"name": "מעלה החמישה ",
+		"name_en": "MA'ALE HAHAMISHA ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "3752 ",
+		"name": "מעלה לבונה ",
+		"name_en": "MA'ALE LEVONA ",
+		"region": "ראמאללה ",
+		"moaatza": "מטה בנימין"
+	},
+	{
+		"id": "3651 ",
+		"name": "מעלה מכמש ",
+		"name_en": "MA'ALE MIKHMAS ",
+		"region": "ראמאללה ",
+		"moaatza": "מטה בנימין"
+	},
+	{
+		"id": "1327 ",
+		"name": "מעלה עירון ",
+		"name_en": "MA'ALE IRON ",
+		"region": "חדרה ",
+		"moaatza": ""
+	},
+	{
+		"id": "3653 ",
+		"name": "מעלה עמוס ",
+		"name_en": "MA'ALE AMOS ",
+		"region": "בית לחם ",
+		"moaatza": "גוש עציון"
+	},
+	{
+		"id": "3637 ",
+		"name": "מעלה שומרון ",
+		"name_en": "MA'ALE SHOMERON ",
+		"region": "טול כרם ",
+		"moaatza": "שומרון"
+	},
+	{
+		"id": "1063 ",
+		"name": "מעלות-תרשיחא ",
+		"name_en": "MA'ALOT-TARSHIHA ",
+		"region": "עכו ",
+		"moaatza": ""
+	},
+	{
+		"id": "344 ",
+		"name": "מענית ",
+		"name_en": "MA'ANIT ",
+		"region": "חדרה ",
+		"moaatza": "מנשה"
+	},
+	{
+		"id": "230 ",
+		"name": "מעש ",
+		"name_en": "MA'AS ",
+		"region": "פתח תקווה ",
+		"moaatza": "דרום השרון"
+	},
+	{
+		"id": "668 ",
+		"name": "מפלסים ",
+		"name_en": "MEFALLESIM ",
+		"region": "אשקלון ",
+		"moaatza": "שער הנגב"
+	},
+	{
+		"id": "3745 ",
+		"name": "מצדות יהודה ",
+		"name_en": "MEZADOT YEHUDA ",
+		"region": "חברון ",
+		"moaatza": "הר חברון"
+	},
+	{
+		"id": "325 ",
+		"name": "מצובה ",
+		"name_en": "MAZZUVA ",
+		"region": "עכו ",
+		"moaatza": "מטה אשר"
+	},
+	{
+		"id": "757 ",
+		"name": "מצליח ",
+		"name_en": "MAZLIAH ",
+		"region": "רמלה ",
+		"moaatza": "גזר"
+	},
+	{
+		"id": "58 ",
+		"name": "מצפה ",
+		"name_en": "MIZPA ",
+		"region": "כנרת ",
+		"moaatza": "הגליל התחתון"
+	},
+	{
+		"id": "1222 ",
+		"name": "מצפה אבי",
+		"name_en": "MIZPE AVIV ",
+		"region": "עכו ",
+		"moaatza": "משגב"
+	},
+	{
+		"id": "1370 ",
+		"name": "מצפה אילן ",
+		"name_en": "MITSPE ILAN ",
+		"region": "חדרה ",
+		"moaatza": "מנשה"
+	},
+	{
+		"id": "3576 ",
+		"name": "מצפה יריחו ",
+		"name_en": "MIZPE YERIHO ",
+		"region": "ירדן )יריחו( ",
+		"moaatza": "מטה בנימין"
+	},
+	{
+		"id": "1190 ",
+		"name": "מצפה נטופה ",
+		"name_en": "MIZPE NETOFA ",
+		"region": "עפולה ",
+		"moaatza": "הגליל התחתון"
+	},
+	{
+		"id": "99 ",
+		"name": "מצפה רמון ",
+		"name_en": "MIZPE RAMON ",
+		"region": "באר שבע ",
+		"moaatza": ""
+	},
+	{
+		"id": "3610 ",
+		"name": "מצפה שלם ",
+		"name_en": "MIZPE SHALEM ",
+		"region": "ירדן )יריחו( ",
+		"moaatza": "מגילות ים המלח"
+	},
+	{
+		"id": "648 ",
+		"name": "מצר ",
+		"name_en": "MEZER ",
+		"region": "חדרה ",
+		"moaatza": "מנשה"
+	},
+	{
+		"id": "22 ",
+		"name": "מקווה ישראל ",
+		"name_en": "MIQWE YISRA'EL ",
+		"region": "חולון ",
+		"moaatza": ""
+	},
+	{
+		"id": "843 ",
+		"name": "מרגליות ",
+		"name_en": "MARGALIYYOT ",
+		"region": "צפת ",
+		"moaatza": "מבואות החרמון"
+	},
+	{
+		"id": "4101 ",
+		"name": "מרום גולן ",
+		"name_en": "MEROM GOLAN ",
+		"region": "גולן ",
+		"moaatza": "גולן"
+	},
+	{
+		"id": "1340 ",
+		"name": "מרחב עם ",
+		"name_en": "MERHAV AM ",
+		"region": "באר שבע ",
+		"moaatza": "רמת נגב"
+	},
+	{
+		"id": "97 ",
+		"name": "מרחביה )מושב( ",
+		"name_en": "MERHAVYA(MOSHAV) ",
+		"region": "עפולה ",
+		"moaatza": "עמק יזרעאל"
+	},
+	{
+		"id": "66 ",
+		"name": "מרחביה )קיבוץ( ",
+		"name_en": "MERHAVYA(QIBBUZ) ",
+		"region": "עפולה ",
+		"moaatza": "עמק יזרעאל"
+	},
+	{
+		"id": "1098 ",
+		"name": "מרכז שפירא ",
+		"name_en": "MERKAZ SHAPPIRA ",
+		"region": "אשקלון ",
+		"moaatza": "שפיר"
+	},
+	{
+		"id": "421 ",
+		"name": "משאבי שדה ",
+		"name_en": "MASH'ABBE SADE ",
+		"region": "באר שבע ",
+		"moaatza": "רמת נגב"
+	},
+	{
+		"id": "765 ",
+		"name": "משגב דב ",
+		"name_en": "MISGAV DOV ",
+		"region": "רחובות ",
+		"moaatza": "גדרות"
+	},
+	{
+		"id": "378 ",
+		"name": "משגב עם ",
+		"name_en": "MISGAV AM ",
+		"region": "צפת ",
+		"moaatza": "הגליל העליון"
+	},
+	{
+		"id": "3605 ",
+		"name": "משואה ",
+		"name_en": "MASSU'A ",
+		"region": "ירדן )יריחו( ",
+		"moaatza": "ערבות הירדן"
+	},
+	{
+		"id": "620 ",
+		"name": "משואות יצחק ",
+		"name_en": "MASSUOT YIZHAQ ",
+		"region": "אשקלון ",
+		"moaatza": "שפיר"
+	},
+	{
+		"id": "3785 ",
+		"name": "משכיות ",
+		"name_en": "MASKIYYOT ",
+		"region": "ירדן )יריחו( ",
+		"moaatza": "ערבות הירדן"
+	},
+	{
+		"id": "670 ",
+		"name": "משמר איילון ",
+		"name_en": "MISHMAR AYYALON ",
+		"region": "רמלה ",
+		"moaatza": "גזר"
+	},
+	{
+		"id": "563 ",
+		"name": "משמר דוד ",
+		"name_en": "MISHMAR DAWID ",
+		"region": "רמלה ",
+		"moaatza": "גזר"
+	},
+	{
+		"id": "732 ",
+		"name": "משמר הירדן ",
+		"name_en": "MISHMAR HAYARDEN ",
+		"region": "צפת ",
+		"moaatza": "מבואות החרמון"
+	},
+	{
+		"id": "395 ",
+		"name": "משמר הנגב ",
+		"name_en": "MISHMAR HANEGEV ",
+		"region": "באר שבע ",
+		"moaatza": "בני שמעון"
+	},
+	{
+		"id": "130 ",
+		"name": "משמר העמק ",
+		"name_en": "MISHMAR HAEMEQ ",
+		"region": "עפולה ",
+		"moaatza": "מגידו"
+	},
+	{
+		"id": "729 ",
+		"name": "משמר השבעה ",
+		"name_en": "MISHMAR HASHIV'A ",
+		"region": "רמלה ",
+		"moaatza": "שדות דן"
+	},
+	{
+		"id": "194 ",
+		"name": "משמר השרון ",
+		"name_en": "MISHMAR HASHARON ",
+		"region": "השרון ",
+		"moaatza": "עמק חפר"
+	},
+	{
+		"id": "213 ",
+		"name": "משמרות ",
+		"name_en": "MISHMAROT ",
+		"region": "חדרה ",
+		"moaatza": "מנשה"
+	},
+	{
+		"id": "425 ",
+		"name": "משמרת ",
+		"name_en": "MISHMERET ",
+		"region": "השרון ",
+		"moaatza": "לב השרון"
+	},
+	{
+		"id": "791 ",
+		"name": "משען ",
+		"name_en": "MASH'EN ",
+		"region": "אשקלון ",
+		"moaatza": "חוף אשקלון"
+	},
+	{
+		"id": "1315 ",
+		"name": "מתן ",
+		"name_en": "MATTAN ",
+		"region": "פתח תקווה ",
+		"moaatza": "דרום השרון"
+	},
+	{
+		"id": "1184 ",
+		"name": "מתת ",
+		"name_en": "MATTAT ",
+		"region": "עכו ",
+		"moaatza": "מעלה יוסף"
+	},
+	{
+		"id": "3648 ",
+		"name": "מתתיהו ",
+		"name_en": "MATTITYAHU ",
+		"region": "ראמאללה ",
+		"moaatza": "מטה בנימין"
+	},
+	{
+		"id": "4551 ",
+		"name": "נאות גולן ",
+		"name_en": "NE'OT GOLAN ",
+		"region": "גולן ",
+		"moaatza": "גולן"
+	},
+	{
+		"id": "1124 ",
+		"name": "נאות הכיכר ",
+		"name_en": "NE'OT HAKIKKAR ",
+		"region": "באר שבע ",
+		"moaatza": "תמר"
+	},
+	{
+		"id": "408 ",
+		"name": "נאות מרדכי ",
+		"name_en": "NE'OT MORDEKHAY ",
+		"region": "צפת ",
+		"moaatza": "הגליל העליון"
+	},
+	{
+		"id": "1197 ",
+		"name": "נאות סמדר ",
+		"name_en": "SHIZZAFON ",
+		"region": "באר שבע ",
+		"moaatza": "חבל אילות"
+	},
+	{
+		"id": "524 ",
+		"name": "נאעורה ",
+		"name_en": "NA'URA ",
+		"region": "עפולה ",
+		"moaatza": "הגלבוע"
+	},
+	{
+		"id": "396 ",
+		"name": "נבטים ",
+		"name_en": "NEVATIM ",
+		"region": "באר שבע ",
+		"moaatza": "בני שמעון"
+	},
+	{
+		"id": "315 ",
+		"name": "נגבה ",
+		"name_en": "NEGBA ",
+		"region": "אשקלון ",
+		"moaatza": "יואב"
+	},
+	{
+		"id": "3724 ",
+		"name": "נגוהות ",
+		"name_en": "NEGOHOT ",
+		"region": "חברון ",
+		"moaatza": "הר חברון"
+	},
+	{
+		"id": "309 ",
+		"name": "נהורה ",
+		"name_en": "NEHORA ",
+		"region": "אשקלון ",
+		"moaatza": "לכיש"
+	},
+	{
+		"id": "80 ",
+		"name": "נהלל ",
+		"name_en": "NAHALAL ",
+		"region": "עפולה ",
+		"moaatza": "עמק יזרעאל"
+	},
+	{
+		"id": "9100 ",
+		"name": "נהריה ",
+		"name_en": "NAHARIYYA ",
+		"region": "עכו ",
+		"moaatza": ""
+	},
+	{
+		"id": "4304 ",
+		"name": "נוב ",
+		"name_en": "NOV ",
+		"region": "גולן ",
+		"moaatza": "גולן"
+	},
+	{
+		"id": "55 ",
+		"name": "נוגה ",
+		"name_en": "NOGAH ",
+		"region": "אשקלון ",
+		"moaatza": "לכיש"
+	},
+	{
+		"id": "1366 ",
+		"name": "נווה ",
+		"name_en": "NAVE ",
+		"region": "באר שבע ",
+		"moaatza": "אשכול"
+	},
+	{
+		"id": "926 ",
+		"name": "נווה אבות ",
+		"name_en": "NEWE AVOT ",
+		"region": "חדרה ",
+		"moaatza": ""
+	},
+	{
+		"id": "590 ",
+		"name": "נווה אור ",
+		"name_en": "NEWE UR ",
+		"region": "עפולה ",
+		"moaatza": "עמק המעיינות"
+	},
+	{
+		"id": "4303 ",
+		"name": "נווה אטי",
+		"name_en": "NEWE ATIV ",
+		"region": "גולן ",
+		"moaatza": "גולן"
+	},
+	{
+		"id": "405 ",
+		"name": "נווה אילן ",
+		"name_en": "NEWE ILAN  ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "296 ",
+		"name": "נווה איתן ",
+		"name_en": "NEWE ETAN ",
+		"region": "עפולה ",
+		"moaatza": "עמק המעיינות"
+	},
+	{
+		"id": "3725 ",
+		"name": "נווה דניאל ",
+		"name_en": "NEWE DANIYYEL ",
+		"region": "בית לחם ",
+		"moaatza": "גוש עציון"
+	},
+	{
+		"id": "1057 ",
+		"name": "נווה זוהר ",
+		"name_en": "NEWE ZOHAR ",
+		"region": "באר שבע ",
+		"moaatza": "תמר"
+	},
+	{
+		"id": "1314 ",
+		"name": "נווה זיו ",
+		"name_en": "NEWE ZIV ",
+		"region": "עכו ",
+		"moaatza": "מעלה יוסף"
+	},
+	{
+		"id": "1279 ",
+		"name": "נווה חריף ",
+		"name_en": "NEWE HARIF ",
+		"region": "באר שבע ",
+		"moaatza": "חבל אילות"
+	},
+	{
+		"id": "312 ",
+		"name": "נווה ים ",
+		"name_en": "NEWE YAM ",
+		"region": "חדרה ",
+		"moaatza": "חוף הכרמל"
+	},
+	{
+		"id": "686 ",
+		"name": "נווה ימין ",
+		"name_en": "NEWE YAMIN ",
+		"region": "פתח תקווה ",
+		"moaatza": "דרום השרון"
+	},
+	{
+		"id": "858 ",
+		"name": "נווה ירק ",
+		"name_en": "NEWE YARAQ ",
+		"region": "פתח תקווה ",
+		"moaatza": "דרום השרון"
+	},
+	{
+		"id": "827 ",
+		"name": "נווה מבטח ",
+		"name_en": "NEWE MIVTAH ",
+		"region": "אשקלון ",
+		"moaatza": "באר טוביה"
+	},
+	{
+		"id": "1071 ",
+		"name": "נווה מיכאל ",
+		"name_en": "NEWE MIKHA'EL ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "1259 ",
+		"name": "נווה שלום ",
+		"name_en": "NEWE SHALOM ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "15 ",
+		"name": "נועם ",
+		"name_en": "NO'AM ",
+		"region": "אשקלון ",
+		"moaatza": "שפיר"
+	},
+	{
+		"id": "1333 ",
+		"name": "נוף איילון ",
+		"name_en": "NOF AYYALON ",
+		"region": "רמלה ",
+		"moaatza": "גזר"
+	},
+	{
+		"id": "3790 ",
+		"name": "נופים ",
+		"name_en": "NOFIM ",
+		"region": "טול כרם ",
+		"moaatza": "שומרון"
+	},
+	{
+		"id": "1284 ",
+		"name": "נופית ",
+		"name_en": "NOFIT ",
+		"region": "חיפה ",
+		"moaatza": "זבולון"
+	},
+	{
+		"id": "257 ",
+		"name": "נופך ",
+		"name_en": "NOFEKH ",
+		"region": "פתח תקווה ",
+		"moaatza": "חבל מודיעין"
+	},
+	{
+		"id": "3726 ",
+		"name": "נוקדים ",
+		"name_en": "NOQEDIM ",
+		"region": "בית לחם ",
+		"moaatza": "גוש עציון"
+	},
+	{
+		"id": "447 ",
+		"name": "נורדיה ",
+		"name_en": "NORDIYYA ",
+		"region": "השרון ",
+		"moaatza": "לב השרון"
+	},
+	{
+		"id": "833 ",
+		"name": "נורית ",
+		"name_en": "NURIT ",
+		"region": "עפולה ",
+		"moaatza": "הגלבוע"
+	},
+	{
+		"id": "59 ",
+		"name": "נחושה ",
+		"name_en": "NEHUSHA ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "844 ",
+		"name": "נחל עוז ",
+		"name_en": "NAHAL OZ ",
+		"region": "אשקלון ",
+		"moaatza": "שער הנגב"
+	},
+	{
+		"id": "2045 ",
+		"name": "נחלה ",
+		"name_en": "NAHALA ",
+		"region": "אשקלון ",
+		"moaatza": "יואב"
+	},
+	{
+		"id": "3767 ",
+		"name": "נחליאל ",
+		"name_en": "NAHALI'EL ",
+		"region": "ראמאללה ",
+		"moaatza": "מטה בנימין"
+	},
+	{
+		"id": "449 ",
+		"name": "נחלים ",
+		"name_en": "NEHALIM ",
+		"region": "פתח תקווה ",
+		"moaatza": "חבל מודיעין"
+	},
+	{
+		"id": "809 ",
+		"name": "נחם ",
+		"name_en": "NAHAM ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "433 ",
+		"name": "נחשולים ",
+		"name_en": "NAHSHOLIM ",
+		"region": "חדרה ",
+		"moaatza": "חוף הכרמל"
+	},
+	{
+		"id": "777 ",
+		"name": "נחשון ",
+		"name_en": "NAHSHON ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "705 ",
+		"name": "נחשונים ",
+		"name_en": "NAHSHONIM ",
+		"region": "פתח תקווה ",
+		"moaatza": "דרום השרון"
+	},
+	{
+		"id": "1147 ",
+		"name": "נטועה ",
+		"name_en": "NETU'A ",
+		"region": "עכו ",
+		"moaatza": "מעלה יוסף"
+	},
+	{
+		"id": "4014 ",
+		"name": "נטור ",
+		"name_en": "NATUR ",
+		"region": "גולן ",
+		"moaatza": "גולן"
+	},
+	{
+		"id": "1369 ",
+		"name": "נטע  ",
+		"name_en": "NETA ",
+		"region": "אשקלון ",
+		"moaatza": "לכיש"
+	},
+	{
+		"id": "174 ",
+		"name": "נטעים ",
+		"name_en": "NETA'IM ",
+		"region": "רחובות ",
+		"moaatza": "גן רווה"
+	},
+	{
+		"id": "1254 ",
+		"name": "נטף ",
+		"name_en": "NATAF ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "3655 ",
+		"name": "ניל",
+		"name_en": "NILI ",
+		"region": "ראמאללה ",
+		"moaatza": "מטה בנימין"
+	},
+	{
+		"id": "351 ",
+		"name": "ניצן ",
+		"name_en": "NIZZAN ",
+		"region": "אשקלון ",
+		"moaatza": "חוף אשקלון"
+	},
+	{
+		"id": "1419 ",
+		"name": "ניצן ב' ",
+		"name_en": "NIZZAN B ",
+		"region": "אשקלון ",
+		"moaatza": "חוף אשקלון"
+	},
+	{
+		"id": "1195 ",
+		"name": "ניצנה )קהילת חינוך( ",
+		"name_en": "NIZZANA (QEHILAT HIN ",
+		"region": "באר שבע ",
+		"moaatza": "רמת נגב"
+	},
+	{
+		"id": "1280 ",
+		"name": "ניצני סיני ",
+		"name_en": "NIZZANE SINAY ",
+		"region": "באר שבע ",
+		"moaatza": "רמת נגב"
+	},
+	{
+		"id": "851 ",
+		"name": "ניצני עוז ",
+		"name_en": "NIZZANE OZ ",
+		"region": "השרון ",
+		"moaatza": "לב השרון"
+	},
+	{
+		"id": "359 ",
+		"name": "ניצנים ",
+		"name_en": "NIZZANIM ",
+		"region": "אשקלון ",
+		"moaatza": "חוף אשקלון"
+	},
+	{
+		"id": "808 ",
+		"name": "ניר אליהו ",
+		"name_en": "NIR ELIYYAHU ",
+		"region": "פתח תקווה ",
+		"moaatza": "דרום השרון"
+	},
+	{
+		"id": "553 ",
+		"name": "ניר בנים ",
+		"name_en": "NIR BANIM ",
+		"region": "אשקלון ",
+		"moaatza": "באר טוביה"
+	},
+	{
+		"id": "720 ",
+		"name": "ניר גלים ",
+		"name_en": "NIR GALLIM ",
+		"region": "רחובות ",
+		"moaatza": "חבל יבנה"
+	},
+	{
+		"id": "256 ",
+		"name": "ניר דוד )תל עמל( ",
+		"name_en": "NIR DAWID (TEL AMAL) ",
+		"region": "עפולה ",
+		"moaatza": "עמק המעיינות"
+	},
+	{
+		"id": "11 ",
+		"name": "ניר ח",
+		"name_en": "NIR HEN ",
+		"region": "אשקלון ",
+		"moaatza": "לכיש"
+	},
+	{
+		"id": "165 ",
+		"name": "ניר יפה ",
+		"name_en": "NIR YAFE ",
+		"region": "עפולה ",
+		"moaatza": "הגלבוע"
+	},
+	{
+		"id": "402 ",
+		"name": "ניר יצחק ",
+		"name_en": "NIR YIZHAQ ",
+		"region": "באר שבע ",
+		"moaatza": "אשכול"
+	},
+	{
+		"id": "699 ",
+		"name": "ניר ישראל ",
+		"name_en": "NIR YISRA'EL ",
+		"region": "אשקלון ",
+		"moaatza": "חוף אשקלון"
+	},
+	{
+		"id": "2047 ",
+		"name": "ניר משה ",
+		"name_en": "NIR MOSHE ",
+		"region": "באר שבע ",
+		"moaatza": "מרחבים"
+	},
+	{
+		"id": "69 ",
+		"name": "ניר עוז ",
+		"name_en": "NIR OZ ",
+		"region": "באר שבע ",
+		"moaatza": "אשכול"
+	},
+	{
+		"id": "348 ",
+		"name": "ניר עם ",
+		"name_en": "NIR AM ",
+		"region": "אשקלון ",
+		"moaatza": "שער הנגב"
+	},
+	{
+		"id": "769 ",
+		"name": "ניר עציון ",
+		"name_en": "NIR EZYON ",
+		"region": "חדרה ",
+		"moaatza": "חוף הכרמל"
+	},
+	{
+		"id": "2048 ",
+		"name": "ניר עקיבא ",
+		"name_en": "NIR AQIVA ",
+		"region": "באר שבע ",
+		"moaatza": "מרחבים"
+	},
+	{
+		"id": "331 ",
+		"name": "ניר צבי ",
+		"name_en": "NIR ZEVI ",
+		"region": "רמלה ",
+		"moaatza": "שדות דן"
+	},
+	{
+		"id": "602 ",
+		"name": "נירים ",
+		"name_en": "NIRIM ",
+		"region": "באר שבע ",
+		"moaatza": "אשכול"
+	},
+	{
+		"id": "1236 ",
+		"name": "נירית ",
+		"name_en": "NIRIT ",
+		"region": "פתח תקווה ",
+		"moaatza": "דרום השרון"
+	},
+	{
+		"id": "3620 ",
+		"name": "נירן ",
+		"name_en": "NIRAN ",
+		"region": "ירדן )יריחו( ",
+		"moaatza": "ערבות הירדן"
+	},
+	{
+		"id": "4035 ",
+		"name": "נמרוד ",
+		"name_en": "NIMROD ",
+		"region": "גולן ",
+		"moaatza": "גולן"
+	},
+	{
+		"id": "825 ",
+		"name": "נס הרים ",
+		"name_en": "NES HARIM ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "1143 ",
+		"name": "נס עמים ",
+		"name_en": "NES AMMIM ",
+		"region": "עכו ",
+		"moaatza": "מטה אשר"
+	},
+	{
+		"id": "7200 ",
+		"name": "נס ציונה ",
+		"name_en": "NES ZIYYONA ",
+		"region": "רחובות ",
+		"moaatza": ""
+	},
+	{
+		"id": "186  ",
+		"name": "נעורים ",
+		"name_en": "NE'URIM ",
+		"region": "השרון ",
+		"moaatza": "עמק חפר"
+	},
+	{
+		"id": "3787 ",
+		"name": "נעלה ",
+		"name_en": "NA'ALE ",
+		"region": "ראמאללה ",
+		"moaatza": "מטה בנימין"
+	},
+	{
+		"id": "3713 ",
+		"name": "נעמ",
+		"name_en": "NAAMA ",
+		"region": "ירדן )יריחו( ",
+		"moaatza": "ערבות הירדן"
+	},
+	{
+		"id": "158 ",
+		"name": "נען ",
+		"name_en": "NA'AN ",
+		"region": "רמלה ",
+		"moaatza": "גזר"
+	},
+	{
+		"id": "1372 ",
+		"name": "נצר חזני ",
+		"name_en": "NEZER HAZZANI ",
+		"region": "רחובות ",
+		"moaatza": "נחל שורק"
+	},
+	{
+		"id": "435 ",
+		"name": "נצר סרני ",
+		"name_en": "NEZER SERENI ",
+		"region": "רמלה ",
+		"moaatza": "גזר"
+	},
+	{
+		"id": "1061 ",
+		"name": "נצרת עילית-נוף הגליל",
+		"name_en": "NAZERAT ILLIT ",
+		"region": "נצרת ",
+		"moaatza": ""
+	},
+	{
+		"id": "2500 ",
+		"name": "נשר ",
+		"name_en": "NESHER ",
+		"region": "חיפה ",
+		"moaatza": ""
+	},
+	{
+		"id": "3555 ",
+		"name": "נתיב הגדוד ",
+		"name_en": "NETIV HAGEDUD ",
+		"region": "ירדן )יריחו( ",
+		"moaatza": "ערבות הירדן"
+	},
+	{
+		"id": "693 ",
+		"name": "נתיב הל",
+		"name_en": "NETIV HALAMED-HE ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "1242 ",
+		"name": "נתיב העשרה ",
+		"name_en": "NETIV HAASARA ",
+		"region": "אשקלון ",
+		"moaatza": "חוף אשקלון"
+	},
+	{
+		"id": "792 ",
+		"name": "נתיב השיירה ",
+		"name_en": "NETIV HASHAYYARA ",
+		"region": "עכו ",
+		"moaatza": "מטה אשר"
+	},
+	{
+		"id": "246 ",
+		"name": "נתיבות ",
+		"name_en": "NETIVOT ",
+		"region": "באר שבע ",
+		"moaatza": ""
+	},
+	{
+		"id": "7400 ",
+		"name": "נתניה ",
+		"name_en": "NETANYA ",
+		"region": "השרון ",
+		"moaatza": ""
+	},
+	{
+		"id": "578 ",
+		"name": "סאסא ",
+		"name_en": "SASA ",
+		"region": "צפת ",
+		"moaatza": "הגליל העליון"
+	},
+	{
+		"id": "587 ",
+		"name": "סביון ",
+		"name_en": "SAVYON ",
+		"region": "פתח תקווה ",
+		"moaatza": ""
+	},
+	{
+		"id": "2046 ",
+		"name": "סגולה ",
+		"name_en": "SEGULA ",
+		"region": "אשקלון ",
+		"moaatza": "יואב"
+	},
+	{
+		"id": "526 ",
+		"name": "סולם ",
+		"name_en": "SULAM ",
+		"region": "עפולה ",
+		"moaatza": "בוסתאן אל-מרג'"
+	},
+	{
+		"id": "3756 ",
+		"name": "סוסיה ",
+		"name_en": "SUSEYA ",
+		"region": "חברון ",
+		"moaatza": "הר חברון"
+	},
+	{
+		"id": "1238 ",
+		"name": "סופה ",
+		"name_en": "SUFA ",
+		"region": "באר שבע ",
+		"moaatza": "אשכול"
+	},
+	{
+		"id": "3567 ",
+		"name": "סלעית ",
+		"name_en": "SAL'IT ",
+		"region": "טול כרם ",
+		"moaatza": "שומרון"
+	},
+	{
+		"id": "3777 ",
+		"name": "סנסנה ",
+		"name_en": " ",
+		"region": "חברון ",
+		"moaatza": "הר חברון"
+	},
+	{
+		"id": "419 ",
+		"name": "סעד ",
+		"name_en": "SA'AD ",
+		"region": "באר שבע ",
+		"moaatza": "שדות נגב"
+	},
+	{
+		"id": "454 ",
+		"name": "סער ",
+		"name_en": "SA'AR ",
+		"region": "עכו ",
+		"moaatza": "מטה אשר"
+	},
+	{
+		"id": "1176 ",
+		"name": "ספיר ",
+		"name_en": "SAPPIR ",
+		"region": "באר שבע ",
+		"moaatza": "הערבה התיכונה"
+	},
+	{
+		"id": "610 ",
+		"name": "סתריה ",
+		"name_en": "SITRIYYA ",
+		"region": "רמלה ",
+		"moaatza": "גזר"
+	},
+	{
+		"id": "892 ",
+		"name": "עבדון ",
+		"name_en": "AVDON ",
+		"region": "עכו ",
+		"moaatza": "מעלה יוסף"
+	},
+	{
+		"id": "376 ",
+		"name": "עברון ",
+		"name_en": "EVRON ",
+		"region": "עכו ",
+		"moaatza": "מטה אשר"
+	},
+	{
+		"id": "794 ",
+		"name": "עגור ",
+		"name_en": "AGUR ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "1199 ",
+		"name": "עדי ",
+		"name_en": "ADI ",
+		"region": "עכו ",
+		"moaatza": "עמק יזרעאל"
+	},
+	{
+		"id": "2035 ",
+		"name": "עדנים ",
+		"name_en": "ADANIM ",
+		"region": "פתח תקווה ",
+		"moaatza": "דרום השרון"
+	},
+	{
+		"id": "826 ",
+		"name": "עוזה  ",
+		"name_en": "UZA ",
+		"region": "אשקלון ",
+		"moaatza": "שפיר"
+	},
+	{
+		"id": "737 ",
+		"name": "עולש ",
+		"name_en": "OLESH ",
+		"region": "השרון ",
+		"moaatza": "עמק חפר"
+	},
+	{
+		"id": "666 ",
+		"name": "עומר ",
+		"name_en": "OMER ",
+		"region": "באר שבע ",
+		"moaatza": ""
+	},
+	{
+		"id": "810 ",
+		"name": "עופר ",
+		"name_en": "OFER ",
+		"region": "חדרה ",
+		"moaatza": "חוף הכרמל"
+	},
+	{
+		"id": "3617 ",
+		"name": "עופרה ",
+		"name_en": "OFRA ",
+		"region": "ראמאללה ",
+		"moaatza": "מטה בנימין"
+	},
+	{
+		"id": "32 ",
+		"name": "עוצם ",
+		"name_en": "OZEM ",
+		"region": "אשקלון ",
+		"moaatza": "לכיש"
+	},
+	{
+		"id": "328 ",
+		"name": "עזוז ",
+		"name_en": "EZUZ ",
+		"region": "באר שבע ",
+		"moaatza": "רמת נגב"
+	},
+	{
+		"id": "1149 ",
+		"name": "עזר ",
+		"name_en": "EZER ",
+		"region": "אשקלון ",
+		"moaatza": "באר טוביה"
+	},
+	{
+		"id": "837 ",
+		"name": "עזריאל ",
+		"name_en": "AZRI'EL ",
+		"region": "השרון ",
+		"moaatza": "לב השרון"
+	},
+	{
+		"id": "711 ",
+		"name": "עזריה ",
+		"name_en": "AZARYA ",
+		"region": "רמלה ",
+		"moaatza": "גזר"
+	},
+	{
+		"id": "817 ",
+		"name": "עזריקם ",
+		"name_en": "AZRIQAM ",
+		"region": "אשקלון ",
+		"moaatza": "באר טוביה"
+	},
+	{
+		"id": "3658 ",
+		"name": "עטרת ",
+		"name_en": "ATERET ",
+		"region": "ראמאללה ",
+		"moaatza": "מטה בנימין"
+	},
+	{
+		"id": "1175 ",
+		"name": "עידן ",
+		"name_en": "IDDAN ",
+		"region": "באר שבע ",
+		"moaatza": "הערבה התיכונה"
+	},
+	{
+		"id": "530 ",
+		"name": "עיילבון ",
+		"name_en": "EILABUN ",
+		"region": "כנרת ",
+		"moaatza": ""
+	},
+	{
+		"id": "156 ",
+		"name": "עיינות ",
+		"name_en": "AYANOT ",
+		"region": "רחובות ",
+		"moaatza": "גן רווה"
+	},
+	{
+		"id": "687 ",
+		"name": "עין איילה ",
+		"name_en": "EN AYYALA ",
+		"region": "חדרה ",
+		"moaatza": "חוף הכרמל"
+	},
+	{
+		"id": "273 ",
+		"name": "עין גב ",
+		"name_en": "EN GEV ",
+		"region": "כנרת ",
+		"moaatza": "עמק הירדן"
+	},
+	{
+		"id": "2042 ",
+		"name": "עין גדי ",
+		"name_en": "EN GEDI ",
+		"region": "באר שבע ",
+		"moaatza": "תמר"
+	},
+	{
+		"id": "436 ",
+		"name": "עין דור ",
+		"name_en": "EN DOR ",
+		"region": "עפולה ",
+		"moaatza": "עמק יזרעאל"
+	},
+	{
+		"id": "1240 ",
+		"name": "עין הבשור ",
+		"name_en": "EN HABESOR ",
+		"region": "באר שבע ",
+		"moaatza": "אשכול"
+	},
+	{
+		"id": "74 ",
+		"name": "עין הוד ",
+		"name_en": "EN HOD ",
+		"region": "חדרה ",
+		"moaatza": "חוף הכרמל"
+	},
+	{
+		"id": "167 ",
+		"name": "עין החורש ",
+		"name_en": "EN HAHORESH ",
+		"region": "השרון ",
+		"moaatza": "עמק חפר"
+	},
+	{
+		"id": "289 ",
+		"name": "עין המפרץ ",
+		"name_en": "EN HAMIFRAZ ",
+		"region": "עכו ",
+		"moaatza": "מטה אשר"
+	},
+	{
+		"id": "383 ",
+		"name": "עין הנצי",
+		"name_en": "EN HANAZIV ",
+		"region": "עפולה ",
+		"moaatza": "עמק המעיינות"
+	},
+	{
+		"id": "367 ",
+		"name": "עין העמק ",
+		"name_en": "EN HAEMEQ ",
+		"region": "עפולה ",
+		"moaatza": "מגידו"
+	},
+	{
+		"id": "270 ",
+		"name": "עין השופט ",
+		"name_en": "EN HASHOFET ",
+		"region": "עפולה ",
+		"moaatza": "מגידו"
+	},
+	{
+		"id": "676 ",
+		"name": "עין השלושה ",
+		"name_en": "EN HASHELOSHA ",
+		"region": "באר שבע ",
+		"moaatza": "אשכול"
+	},
+	{
+		"id": "157 ",
+		"name": "עין ורד ",
+		"name_en": "EN WERED ",
+		"region": "השרון ",
+		"moaatza": "לב השרון"
+	},
+	{
+		"id": "4503 ",
+		"name": "עין זיוון ",
+		"name_en": "EN ZIWAN ",
+		"region": "גולן ",
+		"moaatza": "גולן"
+	},
+	{
+		"id": "1320 ",
+		"name": "עין חוד ",
+		"name_en": "EIN HOD ",
+		"region": "חדרה ",
+		"moaatza": "חוף הכרמל"
+	},
+	{
+		"id": "1053 ",
+		"name": "עין חצבה ",
+		"name_en": "EN HAZEVA ",
+		"region": "באר שבע ",
+		"moaatza": "תמר"
+	},
+	{
+		"id": "89 ",
+		"name": "עין חרוד )איחוד( ",
+		"name_en": "EN HAROD (IHUD) ",
+		"region": "עפולה ",
+		"moaatza": "הגלבוע"
+	},
+	{
+		"id": "82 ",
+		"name": "עין חרוד )מאוחד( ",
+		"name_en": "EN HAROD(ME'UHAD) ",
+		"region": "עפולה ",
+		"moaatza": "הגלבוע"
+	},
+	{
+		"id": "806 ",
+		"name": "עין יהב ",
+		"name_en": "EN YAHAV ",
+		"region": "באר שבע ",
+		"moaatza": "הערבה התיכונה"
+	},
+	{
+		"id": "813 ",
+		"name": "עין יעקב ",
+		"name_en": "EN YA'AQOV ",
+		"region": "עכו ",
+		"moaatza": "מעלה יוסף"
+	},
+	{
+		"id": "1056 ",
+		"name": "עין כרם-בי",
+		"name_en": "EN KAREM-B.S.HAQLA'I ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "426 ",
+		"name": "עין כרמל ",
+		"name_en": "EN KARMEL ",
+		"region": "חדרה ",
+		"moaatza": "חוף הכרמל"
+	},
+	{
+		"id": "521 ",
+		"name": "עין נקובא ",
+		"name_en": "EIN NAQQUBA ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "223 ",
+		"name": "עין עירון ",
+		"name_en": "EN IRON ",
+		"region": "חדרה ",
+		"moaatza": "מנשה"
+	},
+	{
+		"id": "622 ",
+		"name": "עין צורים ",
+		"name_en": "EN ZURIM ",
+		"region": "אשקלון ",
+		"moaatza": "שפיר"
+	},
+	{
+		"id": "514 ",
+		"name": "עין ראפה ",
+		"name_en": "EIN RAFA ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "139 ",
+		"name": "עין שמר ",
+		"name_en": "EN SHEMER ",
+		"region": "חדרה ",
+		"moaatza": "מנשה"
+	},
+	{
+		"id": "880 ",
+		"name": "עין שריד ",
+		"name_en": "EN SARID ",
+		"region": "השרון ",
+		"moaatza": "לב השרון"
+	},
+	{
+		"id": "1251 ",
+		"name": "עין תמר ",
+		"name_en": "EN TAMAR ",
+		"region": "באר שבע ",
+		"moaatza": "תמר"
+	},
+	{
+		"id": "871 ",
+		"name": "עינת ",
+		"name_en": "ENAT ",
+		"region": "פתח תקווה ",
+		"moaatza": "דרום השרון"
+	},
+	{
+		"id": "1187 ",
+		"name": "עיר אובות ",
+		"name_en": "IR OVOT ",
+		"region": "באר שבע ",
+		"moaatza": "הערבה התיכונה"
+	},
+	{
+		"id": "7600 ",
+		"name": "עכו ",
+		"name_en": "AKKO ",
+		"region": "עכו ",
+		"moaatza": ""
+	},
+	{
+		"id": "1146 ",
+		"name": "עלומים ",
+		"name_en": "ALUMIM ",
+		"region": "באר שבע ",
+		"moaatza": "שדות נגב"
+	},
+	{
+		"id": "3765 ",
+		"name": "עלי ",
+		"name_en": "ELI ",
+		"region": "שכם ",
+		"moaatza": "מטה בנימין"
+	},
+	{
+		"id": "3727 ",
+		"name": "עלי זהב ",
+		"name_en": "ALE ZAHAV ",
+		"region": "טול כרם ",
+		"moaatza": "שומרון"
+	},
+	{
+		"id": "688 ",
+		"name": "עלמה ",
+		"name_en": "ALMA ",
+		"region": "צפת ",
+		"moaatza": "מרום הגליל"
+	},
+	{
+		"id": "3715 ",
+		"name": "עלמון ",
+		"name_en": "ALMON ",
+		"region": "ראמאללה ",
+		"moaatza": "מטה בנימין"
+	},
+	{
+		"id": "1212 ",
+		"name": "עמוקה ",
+		"name_en": "AMUQQA ",
+		"region": "צפת ",
+		"moaatza": "מרום הגליל"
+	},
+	{
+		"id": "3824 ",
+		"name": "עמיחי ",
+		"name_en": "AMMIHAY ",
+		"region": "ראמאללה ",
+		"moaatza": "מטה בנימין"
+	},
+	{
+		"id": "779 ",
+		"name": "עמינדב ",
+		"name_en": "AMMINADAV ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "385 ",
+		"name": "עמיעד ",
+		"name_en": "AMMI'AD ",
+		"region": "צפת ",
+		"moaatza": "הגליל העליון"
+	},
+	{
+		"id": "318 ",
+		"name": "עמיעוז ",
+		"name_en": "AMMI'OZ ",
+		"region": "באר שבע ",
+		"moaatza": "אשכול"
+	},
+	{
+		"id": "773 ",
+		"name": "עמיקם ",
+		"name_en": "AMMIQAM ",
+		"region": "חדרה ",
+		"moaatza": "אלונה"
+	},
+	{
+		"id": "319 ",
+		"name": "עמיר ",
+		"name_en": "AMIR ",
+		"region": "צפת ",
+		"moaatza": "הגליל העליון"
+	},
+	{
+		"id": "3660 ",
+		"name": "עמנואל ",
+		"name_en": "IMMANU'EL ",
+		"region": "טול כרם ",
+		"moaatza": ""
+	},
+	{
+		"id": "708 ",
+		"name": "עמקה ",
+		"name_en": "AMQA ",
+		"region": "עכו ",
+		"moaatza": "מטה אשר"
+	},
+	{
+		"id": "3712 ",
+		"name": "ענב ",
+		"name_en": "ENAV ",
+		"region": "טול כרם ",
+		"moaatza": "שומרון"
+	},
+	{
+		"id": "7700 ",
+		"name": "עפולה  ",
+		"name_en": "AFULA ",
+		"region": "עפולה ",
+		"moaatza": ""
+	},
+	{
+		"id": "3778 ",
+		"name": "עץ אפרים ",
+		"name_en": "EZ EFRAYIM ",
+		"region": "טול כרם ",
+		"moaatza": "שומרון"
+	},
+	{
+		"id": "917 ",
+		"name": "עצמון שגב ",
+		"name_en": "ATSMON-SEGEV ",
+		"region": "עכו ",
+		"moaatza": "משגב"
+	},
+	{
+		"id": "2560 ",
+		"name": "ערד ",
+		"name_en": "ARAD ",
+		"region": "באר שבע ",
+		"moaatza": ""
+	},
+	{
+		"id": "593 ",
+		"name": "ערוגות ",
+		"name_en": "ARUGOT ",
+		"region": "אשקלון ",
+		"moaatza": "באר טוביה"
+	},
+	{
+		"id": "1192 ",
+		"name": "ערערה-בנגב ",
+		"name_en": "AR'ARA-BANEGEV ",
+		"region": "באר שבע ",
+		"moaatza": ""
+	},
+	{
+		"id": "591 ",
+		"name": "עשרת ",
+		"name_en": "ASERET ",
+		"region": "רחובות ",
+		"moaatza": "גדרות"
+	},
+	{
+		"id": "53 ",
+		"name": "עתלית ",
+		"name_en": "ATLIT ",
+		"region": "חדרה ",
+		"moaatza": "חוף הכרמל"
+	},
+	{
+		"id": "3748 ",
+		"name": "עתניאל ",
+		"name_en": "OTNI'EL ",
+		"region": "חברון ",
+		"moaatza": "הר חברון"
+	},
+	{
+		"id": "1151 ",
+		"name": "פארן ",
+		"name_en": "PARAN ",
+		"region": "באר שבע ",
+		"moaatza": "הערבה התיכונה"
+	},
+	{
+		"id": "3768 ",
+		"name": "פדואל ",
+		"name_en": "PEDU'EL ",
+		"region": "טול כרם ",
+		"moaatza": "שומרון"
+	},
+	{
+		"id": "750 ",
+		"name": "פדויים ",
+		"name_en": "PEDUYIM ",
+		"region": "באר שבע ",
+		"moaatza": "מרחבים"
+	},
+	{
+		"id": "838 ",
+		"name": "פדיה ",
+		"name_en": "PEDAYA ",
+		"region": "רמלה ",
+		"moaatza": "גזר"
+	},
+	{
+		"id": "1104 ",
+		"name": "פוריה - כפר עבודה ",
+		"name_en": "PORIYYA-KEFAR AVODA ",
+		"region": "כנרת ",
+		"moaatza": "עמק הירדן"
+	},
+	{
+		"id": "1105 ",
+		"name": "פוריה - נווה עובד ",
+		"name_en": "PORIYYA-NEWE OVED ",
+		"region": "כנרת ",
+		"moaatza": "עמק הירדן"
+	},
+	{
+		"id": "1313 ",
+		"name": "פוריה עילית ",
+		"name_en": "PORIYYA ILLIT ",
+		"region": "כנרת ",
+		"moaatza": "עמק הירדן"
+	},
+	{
+		"id": "767 ",
+		"name": "פורת ",
+		"name_en": "PORAT ",
+		"region": "השרון ",
+		"moaatza": "לב השרון"
+	},
+	{
+		"id": "749 ",
+		"name": "פטיש ",
+		"name_en": "PATTISH ",
+		"region": "באר שבע ",
+		"moaatza": "מרחבים"
+	},
+	{
+		"id": "1185 ",
+		"name": "פלך ",
+		"name_en": "PELEKH ",
+		"region": "עכו ",
+		"moaatza": "משגב"
+	},
+	{
+		"id": "597 ",
+		"name": "פלמחים ",
+		"name_en": "PALMAHIM ",
+		"region": "רחובות ",
+		"moaatza": "גן רווה"
+	},
+	{
+		"id": "3723 ",
+		"name": "פני חבר ",
+		"name_en": "PENE HEVER ",
+		"region": "חברון ",
+		"moaatza": "הר חברון"
+	},
+	{
+		"id": "3659 ",
+		"name": "פסגות ",
+		"name_en": "PESAGOT ",
+		"region": "ראמאללה ",
+		"moaatza": "מטה בנימין"
+	},
+	{
+		"id": "535 ",
+		"name": "פסוטה ",
+		"name_en": "FASSUTA ",
+		"region": "עכו ",
+		"moaatza": ""
+	},
+	{
+		"id": "2059 ",
+		"name": "פעמי תש",
+		"name_en": "PA'AME TASHAZ ",
+		"region": "באר שבע ",
+		"moaatza": "מרחבים"
+	},
+	{
+		"id": "3615 ",
+		"name": "פצאל ",
+		"name_en": "PEZA'EL ",
+		"region": "ירדן )יריחו( ",
+		"moaatza": "ערבות הירדן"
+	},
+	{
+		"id": "281 ",
+		"name": "פקיעין חדשה ",
+		"name_en": "PEQI'IN HADASHA ",
+		"region": "עכו ",
+		"moaatza": "מעלה יוסף"
+	},
+	{
+		"id": "7800 ",
+		"name": "פרדס חנה-כרכור ",
+		"name_en": "PARDES HANNA-KARKUR ",
+		"region": "חדרה ",
+		"moaatza": ""
+	},
+	{
+		"id": "171 ",
+		"name": "פרדסיה ",
+		"name_en": "PARDESIYYA ",
+		"region": "השרון ",
+		"moaatza": ""
+	},
+	{
+		"id": "599 ",
+		"name": "פרוד ",
+		"name_en": "PAROD ",
+		"region": "צפת ",
+		"moaatza": "מרום הגליל"
+	},
+	{
+		"id": "2053 ",
+		"name": "פרזון ",
+		"name_en": "PERAZON ",
+		"region": "עפולה ",
+		"moaatza": "הגלבוע"
+	},
+	{
+		"id": "1231 ",
+		"name": "פרי גן ",
+		"name_en": "PERI GAN ",
+		"region": "באר שבע ",
+		"moaatza": "אשכול"
+	},
+	{
+		"id": "7900 ",
+		"name": "פתח תקווה ",
+		"name_en": "PETAH TIQWA ",
+		"region": "פתח תקווה ",
+		"moaatza": ""
+	},
+	{
+		"id": "839 ",
+		"name": "פתחיה ",
+		"name_en": "PETAHYA ",
+		"region": "רמלה ",
+		"moaatza": "גזר"
+	},
+	{
+		"id": "413 ",
+		"name": "צאלים ",
+		"name_en": "ZE'ELIM ",
+		"region": "באר שבע ",
+		"moaatza": "אשכול"
+	},
+	{
+		"id": "1180 ",
+		"name": "צביה ",
+		"name_en": "ZVIYYA ",
+		"region": "עכו ",
+		"moaatza": "משגב"
+	},
+	{
+		"id": "1213 ",
+		"name": "צבעון ",
+		"name_en": "ZIV'ON ",
+		"region": "צפת ",
+		"moaatza": "הגליל העליון"
+	},
+	{
+		"id": "465 ",
+		"name": "צובה ",
+		"name_en": "ZOVA ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "1136 ",
+		"name": "צוחר ",
+		"name_en": "ZOHAR ",
+		"region": "באר שבע ",
+		"moaatza": "אשכול"
+	},
+	{
+		"id": "1111 ",
+		"name": "צופיה ",
+		"name_en": "ZOFIYYA ",
+		"region": "רחובות ",
+		"moaatza": "חבל יבנה"
+	},
+	{
+		"id": "3791 ",
+		"name": "צופים ",
+		"name_en": "ZUFIN ",
+		"region": "טול כרם ",
+		"moaatza": "שומרון"
+	},
+	{
+		"id": "198 ",
+		"name": "צופית ",
+		"name_en": "ZOFIT ",
+		"region": "פתח תקווה ",
+		"moaatza": "דרום השרון"
+	},
+	{
+		"id": "1150 ",
+		"name": "צופר ",
+		"name_en": "ZOFAR ",
+		"region": "באר שבע ",
+		"moaatza": "הערבה התיכונה"
+	},
+	{
+		"id": "1102 ",
+		"name": "צוקי ים ",
+		"name_en": "SHOSHANNAT HAAMAQIM( ",
+		"region": "השרון ",
+		"moaatza": "עמק חפר"
+	},
+	{
+		"id": "1262 ",
+		"name": "צוקים ",
+		"name_en": "MAHANE BILDAD ",
+		"region": "באר שבע ",
+		"moaatza": "הערבה התיכונה"
+	},
+	{
+		"id": "1113 ",
+		"name": "צור הדסה ",
+		"name_en": "ZUR HADASSA ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "1345 ",
+		"name": "צור יצחק ",
+		"name_en": "ZUR YIZHAQ ",
+		"region": "פתח תקווה ",
+		"moaatza": "דרום השרון"
+	},
+	{
+		"id": "276 ",
+		"name": "צור משה ",
+		"name_en": "ZUR MOSHE ",
+		"region": "השרון ",
+		"moaatza": "לב השרון"
+	},
+	{
+		"id": "1148 ",
+		"name": "צור נתן ",
+		"name_en": "ZUR NATAN ",
+		"region": "פתח תקווה ",
+		"moaatza": "דרום השרון"
+	},
+	{
+		"id": "774 ",
+		"name": "צוריאל ",
+		"name_en": "ZURI'EL ",
+		"region": "עכו ",
+		"moaatza": "מעלה יוסף"
+	},
+	{
+		"id": "1221 ",
+		"name": "צורית ",
+		"name_en": "ZURIT ",
+		"region": "עכו ",
+		"moaatza": "משגב"
+	},
+	{
+		"id": "613 ",
+		"name": "ציפורי ",
+		"name_en": "ZIPPORI ",
+		"region": "עפולה ",
+		"moaatza": "עמק יזרעאל"
+	},
+	{
+		"id": "796 ",
+		"name": "צלפון ",
+		"name_en": "ZELAFON ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "594 ",
+		"name": "צפריה ",
+		"name_en": "ZAFRIYYA ",
+		"region": "רמלה ",
+		"moaatza": "שדות דן"
+	},
+	{
+		"id": "1079 ",
+		"name": "צפרירים ",
+		"name_en": "ZAFRIRIM ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "8000 ",
+		"name": "צפת ",
+		"name_en": "ZEFAT ",
+		"region": "צפת ",
+		"moaatza": ""
+	},
+	{
+		"id": "612 ",
+		"name": "צרופה ",
+		"name_en": "ZERUFA ",
+		"region": "חדרה ",
+		"moaatza": "חוף הכרמל"
+	},
+	{
+		"id": "567 ",
+		"name": "צרעה ",
+		"name_en": "ZOR'A ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "334 ",
+		"name": "קבוצת יבנה ",
+		"name_en": "QEVUZAT YAVNE ",
+		"region": "רחובות ",
+		"moaatza": "חבל יבנה"
+	},
+	{
+		"id": "3557 ",
+		"name": "קדומים ",
+		"name_en": "QEDUMIM ",
+		"region": "טול כרם ",
+		"moaatza": ""
+	},
+	{
+		"id": "195 ",
+		"name": "קדימה-צורן ",
+		"name_en": "QADIMA-ZORAN ",
+		"region": "השרון ",
+		"moaatza": ""
+	},
+	{
+		"id": "392 ",
+		"name": "קדמה ",
+		"name_en": "QEDMA ",
+		"region": "אשקלון ",
+		"moaatza": "יואב"
+	},
+	{
+		"id": "4025 ",
+		"name": "קדמת צבי ",
+		"name_en": "QIDMAT ZEVI ",
+		"region": "גולן ",
+		"moaatza": "גולן"
+	},
+	{
+		"id": "3781 ",
+		"name": "קדר ",
+		"name_en": "QEDAR ",
+		"region": "בית לחם  ",
+		"moaatza": "גוש עציון"
+	},
+	{
+		"id": "615 ",
+		"name": "קדרון ",
+		"name_en": "QIDRON ",
+		"region": "רחובות ",
+		"moaatza": "ברנר"
+	},
+	{
+		"id": "1211 ",
+		"name": "קדרים ",
+		"name_en": "QADDARIM ",
+		"region": "כנרת ",
+		"moaatza": "הגליל העליון"
+	},
+	{
+		"id": "766 ",
+		"name": "קוממיות ",
+		"name_en": "QOMEMIYYUT ",
+		"region": "אשקלון ",
+		"moaatza": "שפיר"
+	},
+	{
+		"id": "1179 ",
+		"name": "קורנית ",
+		"name_en": "QORANIT ",
+		"region": "עכו ",
+		"moaatza": "משגב"
+	},
+	{
+		"id": "1052 ",
+		"name": "קטורה ",
+		"name_en": "QETURA ",
+		"region": "באר שבע ",
+		"moaatza": "חבל אילות"
+	},
+	{
+		"id": "1167 ",
+		"name": "קיסריה ",
+		"name_en": "QESARIYYA ",
+		"region": "חדרה ",
+		"moaatza": "חוף הכרמל"
+	},
+	{
+		"id": "414 ",
+		"name": "קלחים ",
+		"name_en": "QELAHIM ",
+		"region": "באר שבע ",
+		"moaatza": "מרחבים"
+	},
+	{
+		"id": "3601 ",
+		"name": "קליה ",
+		"name_en": "QALYA ",
+		"region": "ירדן )יריחו( ",
+		"moaatza": "מגילות ים המלח"
+	},
+	{
+		"id": "4024 ",
+		"name": "קלע ",
+		"name_en": "QELA ",
+		"region": "גולן ",
+		"moaatza": "גולן"
+	},
+	{
+		"id": "1243 ",
+		"name": "קציר ",
+		"name_en": "QAZIR ",
+		"region": "חדרה ",
+		"moaatza": "מנשה"
+	},
+	{
+		"id": "4100 ",
+		"name": "קצרין ",
+		"name_en": "QAZRIN ",
+		"region": "גולן ",
+		"moaatza": ""
+	},
+	{
+		"id": "2620 ",
+		"name": "קרית אונו ",
+		"name_en": "QIRYAT ONO ",
+		"region": "רמת גן ",
+		"moaatza": ""
+	},
+	{
+		"id": "3611 ",
+		"name": "קרית ארבע ",
+		"name_en": "QIRYAT ARBA ",
+		"region": "חברון ",
+		"moaatza": ""
+	},
+	{
+		"id": "6800 ",
+		"name": "קרית אתא ",
+		"name_en": "QIRYAT ATTA ",
+		"region": "חיפה ",
+		"moaatza": ""
+	},
+	{
+		"id": "9500 ",
+		"name": "קרית ביאליק ",
+		"name_en": "QIRYAT BIALIK ",
+		"region": "חיפה ",
+		"moaatza": ""
+	},
+	{
+		"id": "2630 ",
+		"name": "קרית גת ",
+		"name_en": "QIRYAT GAT  ",
+		"region": "אשקלון ",
+		"moaatza": ""
+	},
+	{
+		"id": "2300 ",
+		"name": "קרית טבעון ",
+		"name_en": "QIRYAT TIV'ON ",
+		"region": "חיפה ",
+		"moaatza": ""
+	},
+	{
+		"id": "9600 ",
+		"name": "קרית ים ",
+		"name_en": "QIRYAT YAM ",
+		"region": "חיפה ",
+		"moaatza": ""
+	},
+	{
+		"id": "1137 ",
+		"name": "קרית יערים ",
+		"name_en": "QIRYAT YE'ARIM ",
+		"region": "ירושלים ",
+		"moaatza": ""
+	},
+	{
+		"id": "2039 ",
+		"name": "קרית יערים)מוסד( ",
+		"name_en": "QIRYAT YE'ARIM(INSTI ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "8200 ",
+		"name": "קרית מוצקין ",
+		"name_en": "QIRYAT MOTZKIN ",
+		"region": "חיפה ",
+		"moaatza": ""
+	},
+	{
+		"id": "1034 ",
+		"name": "קרית מלאכי ",
+		"name_en": "QIRYAT MAL'AKHI ",
+		"region": "אשקלון ",
+		"moaatza": ""
+	},
+	{
+		"id": "3746 ",
+		"name": "קרית נטפים ",
+		"name_en": "QIRYAT NETAFIM ",
+		"region": "טול כרם ",
+		"moaatza": "שומרון"
+	},
+	{
+		"id": "78 ",
+		"name": "קרית ענבים ",
+		"name_en": "QIRYAT ANAVIM ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "469 ",
+		"name": "קרית עקרון ",
+		"name_en": "QIRYAT EQRON ",
+		"region": "רחובות ",
+		"moaatza": ""
+	},
+	{
+		"id": "412 ",
+		"name": "קרית שלמה ",
+		"name_en": "QIRYAT SHELOMO ",
+		"region": "השרון ",
+		"moaatza": "חוף השרון"
+	},
+	{
+		"id": "2800 ",
+		"name": "קרית שמונה ",
+		"name_en": "QIRYAT SHEMONA ",
+		"region": "צפת ",
+		"moaatza": ""
+	},
+	{
+		"id": "3640 ",
+		"name": "קרני שומרון ",
+		"name_en": "QARNE SHOMERON ",
+		"region": "טול כרם ",
+		"moaatza": ""
+	},
+	{
+		"id": "4006 ",
+		"name": "קשת ",
+		"name_en": "QESHET ",
+		"region": "גולן ",
+		"moaatza": "גולן"
+	},
+	{
+		"id": "2640 ",
+		"name": "ראש העין ",
+		"name_en": "ROSH HAAYIN ",
+		"region": "פתח תקווה ",
+		"moaatza": ""
+	},
+	{
+		"id": "26 ",
+		"name": "ראש פינה ",
+		"name_en": "ROSH PINNA ",
+		"region": "צפת ",
+		"moaatza": ""
+	},
+	{
+		"id": "3602 ",
+		"name": "ראש צורים ",
+		"name_en": "ROSH ZURIM ",
+		"region": "בית לחם ",
+		"moaatza": "גוש עציון"
+	},
+	{
+		"id": "8300 ",
+		"name": "ראשון לציון ",
+		"name_en": "RISHON LEZIYYON ",
+		"region": "רחובות ",
+		"moaatza": ""
+	},
+	{
+		"id": "3795 ",
+		"name": "רבבה ",
+		"name_en": "REVAVA ",
+		"region": "שכם ",
+		"moaatza": "שומרון"
+	},
+	{
+		"id": "564 ",
+		"name": "רבדים ",
+		"name_en": "REVADIM ",
+		"region": "אשקלון ",
+		"moaatza": "יואב"
+	},
+	{
+		"id": "354 ",
+		"name": "רביבים ",
+		"name_en": "REVIVIM ",
+		"region": "באר שבע ",
+		"moaatza": "רמת נגב"
+	},
+	{
+		"id": "1225 ",
+		"name": "רביד ",
+		"name_en": "RAVID ",
+		"region": "כנרת ",
+		"moaatza": "עמק הירדן"
+	},
+	{
+		"id": "390 ",
+		"name": "רגבה ",
+		"name_en": "REGBA ",
+		"region": "עכו ",
+		"moaatza": "מטה אשר"
+	},
+	{
+		"id": "444 ",
+		"name": "רגבים ",
+		"name_en": "REGAVIM ",
+		"region": "חדרה ",
+		"moaatza": "מנשה"
+	},
+	{
+		"id": "2051 ",
+		"name": "רווחה ",
+		"name_en": "REWAHA ",
+		"region": "אשקלון ",
+		"moaatza": "שפיר"
+	},
+	{
+		"id": "2016 ",
+		"name": "רוויה ",
+		"name_en": "REWAYA ",
+		"region": "עפולה ",
+		"moaatza": "עמק המעיינות"
+	},
+	{
+		"id": "1341 ",
+		"name": "רוח מדבר ",
+		"name_en": "RUAH MIDBAR ",
+		"region": "באר שבע ",
+		"moaatza": "רמת נגב"
+	},
+	{
+		"id": "362 ",
+		"name": "רוחמה ",
+		"name_en": "RUHAMA ",
+		"region": "אשקלון ",
+		"moaatza": "שער הנגב"
+	},
+	{
+		"id": "3619 ",
+		"name": "רועי ",
+		"name_en": "RO'I ",
+		"region": "ירדן )יריחו( ",
+		"moaatza": "ערבות הירדן"
+	},
+	{
+		"id": "3782 ",
+		"name": "רותם ",
+		"name_en": "ROTEM ",
+		"region": "ירדן )יריחו( ",
+		"moaatza": "ערבות הירדן"
+	},
+	{
+		"id": "854 ",
+		"name": "רחוב ",
+		"name_en": "REHOV ",
+		"region": "עפולה ",
+		"moaatza": "עמק המעיינות"
+	},
+	{
+		"id": "8400 ",
+		"name": "רחובות ",
+		"name_en": "REHOVOT ",
+		"region": "רחובות ",
+		"moaatza": ""
+	},
+	{
+		"id": "3822 ",
+		"name": "רחלים ",
+		"name_en": "REHELIM ",
+		"region": "שכם ",
+		"moaatza": "שומרון"
+	},
+	{
+		"id": "3568 ",
+		"name": "ריחן ",
+		"name_en": "REHAN ",
+		"region": "ג'נין ",
+		"moaatza": "שומרון"
+	},
+	{
+		"id": "3565 ",
+		"name": "רימונים ",
+		"name_en": "RIMMONIM ",
+		"region": "ראמאללה ",
+		"moaatza": "מטה בנימין"
+	},
+	{
+		"id": "616 ",
+		"name": "רינתיה ",
+		"name_en": "RINNATYA ",
+		"region": "פתח תקווה ",
+		"moaatza": "חבל מודיעין"
+	},
+	{
+		"id": "922 ",
+		"name": "רכסים ",
+		"name_en": "REKHASIM ",
+		"region": "חיפה ",
+		"moaatza": ""
+	},
+	{
+		"id": "1069 ",
+		"name": "רם-און ",
+		"name_en": "RAM-ON ",
+		"region": "עפולה ",
+		"moaatza": "הגלבוע"
+	},
+	{
+		"id": "4702 ",
+		"name": "רמות ",
+		"name_en": "RAMOT ",
+		"region": "גולן ",
+		"moaatza": "גולן"
+	},
+	{
+		"id": "206 ",
+		"name": "רמות השבים ",
+		"name_en": "RAMOT HASHAVIM ",
+		"region": "פתח תקווה ",
+		"moaatza": "דרום השרון"
+	},
+	{
+		"id": "735 ",
+		"name": "רמות מאיר ",
+		"name_en": "RAMOT ME'IR ",
+		"region": "רמלה ",
+		"moaatza": "גזר"
+	},
+	{
+		"id": "445 ",
+		"name": "רמות מנשה ",
+		"name_en": "RAMOT MENASHE ",
+		"region": "עפולה ",
+		"moaatza": "מגידו"
+	},
+	{
+		"id": "372 ",
+		"name": "רמות נפתלי ",
+		"name_en": "RAMOT NAFTALI ",
+		"region": "צפת ",
+		"moaatza": "מבואות החרמון"
+	},
+	{
+		"id": "8500 ",
+		"name": "רמלה ",
+		"name_en": "RAMLA ",
+		"region": "רמלה ",
+		"moaatza": ""
+	},
+	{
+		"id": "8600 ",
+		"name": "רמת גן ",
+		"name_en": "RAMAT GAN ",
+		"region": "רמת גן ",
+		"moaatza": ""
+	},
+	{
+		"id": "135 ",
+		"name": "רמת דוד ",
+		"name_en": "RAMAT DAWID ",
+		"region": "עפולה ",
+		"moaatza": "עמק יזרעאל"
+	},
+	{
+		"id": "184 ",
+		"name": "רמת הכובש ",
+		"name_en": "RAMAT HAKOVESH ",
+		"region": "פתח תקווה ",
+		"moaatza": "דרום השרון"
+	},
+	{
+		"id": "335 ",
+		"name": "רמת השופט ",
+		"name_en": "RAMAT HASHOFET ",
+		"region": "עפולה ",
+		"moaatza": "מגידו"
+	},
+	{
+		"id": "2650 ",
+		"name": "רמת השרון ",
+		"name_en": "RAMAT HASHARON ",
+		"region": "תל אביב ",
+		"moaatza": ""
+	},
+	{
+		"id": "178 ",
+		"name": "רמת יוחנן ",
+		"name_en": "RAMAT YOHANAN ",
+		"region": "חיפה ",
+		"moaatza": "זבולון"
+	},
+	{
+		"id": "122 ",
+		"name": "רמת ישי ",
+		"name_en": "RAMAT YISHAY ",
+		"region": "עפולה ",
+		"moaatza": ""
+	},
+	{
+		"id": "4701 ",
+		"name": "רמת מגשימים ",
+		"name_en": "RAMAT MAGSHIMIM ",
+		"region": "גולן ",
+		"moaatza": "גולן"
+	},
+	{
+		"id": "339 ",
+		"name": "רמת צבי ",
+		"name_en": "RAMAT ZEVI ",
+		"region": "עפולה ",
+		"moaatza": "הגלבוע"
+	},
+	{
+		"id": "460 ",
+		"name": "רמת רזיאל ",
+		"name_en": "RAMAT RAZI'EL ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "127 ",
+		"name": "רמת רחל ",
+		"name_en": "RAMAT RAHEL ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "789 ",
+		"name": "רנן ",
+		"name_en": "RANNEN ",
+		"region": "באר שבע ",
+		"moaatza": "מרחבים"
+	},
+	{
+		"id": "713 ",
+		"name": "רעים ",
+		"name_en": "RE'IM ",
+		"region": "באר שבע ",
+		"moaatza": "אשכול"
+	},
+	{
+		"id": "8700 ",
+		"name": "רעננה ",
+		"name_en": "RA'ANANA ",
+		"region": "פתח תקווה ",
+		"moaatza": ""
+	},
+	{
+		"id": "1228 ",
+		"name": "רקפת ",
+		"name_en": "RAQEFET ",
+		"region": "עכו ",
+		"moaatza": "משגב"
+	},
+	{
+		"id": "247 ",
+		"name": "רשפון ",
+		"name_en": "RISHPON ",
+		"region": "השרון ",
+		"moaatza": "חוף השרון"
+	},
+	{
+		"id": "437 ",
+		"name": "רשפים ",
+		"name_en": "RESHAFIM ",
+		"region": "עפולה ",
+		"moaatza": "עמק המעיינות"
+	},
+	{
+		"id": "1260 ",
+		"name": "רתמים ",
+		"name_en": "RETAMIM ",
+		"region": "באר שבע ",
+		"moaatza": "רמת נגב"
+	},
+	{
+		"id": "324 ",
+		"name": "שאר ישוב ",
+		"name_en": "SHE'AR YASHUV ",
+		"region": "צפת ",
+		"moaatza": "מבואות החרמון"
+	},
+	{
+		"id": "1377 ",
+		"name": "שבי דרום ",
+		"name_en": "SHAVE DAROM ",
+		"region": "באר שבע ",
+		"moaatza": "מרחבים"
+	},
+	{
+		"id": "282 ",
+		"name": "שבי ציון ",
+		"name_en": "SHAVE ZIYYON ",
+		"region": "עכו ",
+		"moaatza": "מטה אשר"
+	},
+	{
+		"id": "3571 ",
+		"name": "שבי שומרון ",
+		"name_en": "SHAVE SHOMERON ",
+		"region": "שכם ",
+		"moaatza": "שומרון"
+	},
+	{
+		"id": "1286 ",
+		"name": "שגב-שלום ",
+		"name_en": "SEGEV-SHALOM ",
+		"region": "באר שבע ",
+		"moaatza": ""
+	},
+	{
+		"id": "721 ",
+		"name": "שדה אילן ",
+		"name_en": "SEDE ILAN ",
+		"region": "כנרת ",
+		"moaatza": "הגליל התחתון"
+	},
+	{
+		"id": "304 ",
+		"name": "שדה אליהו ",
+		"name_en": "SEDE ELIYYAHU ",
+		"region": "עפולה ",
+		"moaatza": "עמק המעיינות"
+	},
+	{
+		"id": "861 ",
+		"name": "שדה אליעזר ",
+		"name_en": "SEDE ELI'EZER ",
+		"region": "צפת ",
+		"moaatza": "מבואות החרמון"
+	},
+	{
+		"id": "885 ",
+		"name": "שדה בוקר ",
+		"name_en": "SEDE BOQER ",
+		"region": "באר שבע ",
+		"moaatza": "רמת נגב"
+	},
+	{
+		"id": "36 ",
+		"name": "שדה דוד ",
+		"name_en": "SEDE DAWID ",
+		"region": "אשקלון ",
+		"moaatza": "לכיש"
+	},
+	{
+		"id": "284 ",
+		"name": "שדה ורבורג ",
+		"name_en": "SEDE WARBURG ",
+		"region": "פתח תקווה ",
+		"moaatza": "דרום השרון"
+	},
+	{
+		"id": "293 ",
+		"name": "שדה יואב ",
+		"name_en": "SEDE YO'AV ",
+		"region": "אשקלון ",
+		"moaatza": "יואב"
+	},
+	{
+		"id": "142 ",
+		"name": "שדה יעקב ",
+		"name_en": "SEDE YA'AQOV ",
+		"region": "עפולה ",
+		"moaatza": "עמק יזרעאל"
+	},
+	{
+		"id": "2008 ",
+		"name": "שדה יצחק ",
+		"name_en": "SEDE YIZHAQ ",
+		"region": "חדרה ",
+		"moaatza": "מנשה"
+	},
+	{
+		"id": "18 ",
+		"name": "שדה משה ",
+		"name_en": "SEDE MOSHE ",
+		"region": "אשקלון ",
+		"moaatza": "לכיש"
+	},
+	{
+		"id": "259 ",
+		"name": "שדה נחום ",
+		"name_en": "SEDE NAHUM ",
+		"region": "עפולה ",
+		"moaatza": "עמק המעיינות"
+	},
+	{
+		"id": "329 ",
+		"name": "שדה נחמיה ",
+		"name_en": "SEDE NEHEMYA ",
+		"region": "צפת ",
+		"moaatza": "הגליל העליון"
+	},
+	{
+		"id": "1058 ",
+		"name": "שדה ניצן ",
+		"name_en": "SEDE NIZZAN ",
+		"region": "באר שבע ",
+		"moaatza": "אשכול"
+	},
+	{
+		"id": "739 ",
+		"name": "שדה עוזיהו ",
+		"name_en": "SEDE UZZIYYAHU ",
+		"region": "אשקלון ",
+		"moaatza": "באר טוביה"
+	},
+	{
+		"id": "2049 ",
+		"name": "שדה צבי ",
+		"name_en": "SEDE ZEVI ",
+		"region": "באר שבע ",
+		"moaatza": "מרחבים"
+	},
+	{
+		"id": "327 ",
+		"name": "שדות ים ",
+		"name_en": "SEDOT YAM ",
+		"region": "חדרה ",
+		"moaatza": "חוף הכרמל"
+	},
+	{
+		"id": "27 ",
+		"name": "שדות מיכה ",
+		"name_en": "SEDOT MIKHA ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "1223 ",
+		"name": "שדי אברהם ",
+		"name_en": "SEDE AVRAHAM ",
+		"region": "באר שבע ",
+		"moaatza": "אשכול"
+	},
+	{
+		"id": "2015 ",
+		"name": "שדי חמד ",
+		"name_en": "SEDE HEMED ",
+		"region": "פתח תקווה ",
+		"moaatza": "דרום השרון"
+	},
+	{
+		"id": "2057 ",
+		"name": "שדי תרומות ",
+		"name_en": "SEDE TERUMOT ",
+		"region": "עפולה ",
+		"moaatza": "עמק המעיינות"
+	},
+	{
+		"id": "555 ",
+		"name": "שדמה ",
+		"name_en": "SHEDEMA ",
+		"region": "רחובות ",
+		"moaatza": "גדרות"
+	},
+	{
+		"id": "306 ",
+		"name": "שדמות דבורה ",
+		"name_en": "SHADMOT DEVORA ",
+		"region": "כנרת ",
+		"moaatza": "הגליל התחתון"
+	},
+	{
+		"id": "3578 ",
+		"name": "שדמות מחולה ",
+		"name_en": "SHADMOT MEHOLA ",
+		"region": "ירדן )יריחו( ",
+		"moaatza": "ערבות הירדן"
+	},
+	{
+		"id": "1031 ",
+		"name": "שדרות ",
+		"name_en": "SEDEROT ",
+		"region": "אשקלון ",
+		"moaatza": ""
+	},
+	{
+		"id": "741 ",
+		"name": "שואבה ",
+		"name_en": "SHO'EVA ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "761 ",
+		"name": "שובה ",
+		"name_en": "SHUVA ",
+		"region": "באר שבע ",
+		"moaatza": "שדות נגב"
+	},
+	{
+		"id": "394 ",
+		"name": "שובל ",
+		"name_en": "SHOVAL ",
+		"region": "באר שבע ",
+		"moaatza": "בני שמעון"
+	},
+	{
+		"id": "1304 ",
+		"name": "שוהם ",
+		"name_en": "SHOHAM ",
+		"region": "רמלה ",
+		"moaatza": ""
+	},
+	{
+		"id": "614 ",
+		"name": "שומרה ",
+		"name_en": "SHOMERA ",
+		"region": "עכו ",
+		"moaatza": "מעלה יוסף"
+	},
+	{
+		"id": "1265 ",
+		"name": "שומריה ",
+		"name_en": "SHOMERIYYA ",
+		"region": "באר שבע ",
+		"moaatza": "בני שמעון"
+	},
+	{
+		"id": "415 ",
+		"name": "שוקדה ",
+		"name_en": "SHOQEDA ",
+		"region": "באר שבע ",
+		"moaatza": "שדות נגב"
+	},
+	{
+		"id": "456 ",
+		"name": "שורש ",
+		"name_en": "SHORESH ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "1235 ",
+		"name": "שורשים ",
+		"name_en": "SHORASHIM ",
+		"region": "עכו ",
+		"moaatza": "משגב"
+	},
+	{
+		"id": "224 ",
+		"name": "שושנת העמקים ",
+		"name_en": "SHOSHANNAT HAAMAQIM ",
+		"region": "השרון ",
+		"moaatza": "עמק חפר"
+	},
+	{
+		"id": "527 ",
+		"name": "שזור ",
+		"name_en": "SHEZOR ",
+		"region": "עכו ",
+		"moaatza": "מרום הגליל"
+	},
+	{
+		"id": "7 ",
+		"name": "שחר ",
+		"name_en": "SHAHAR ",
+		"region": "אשקלון ",
+		"moaatza": "לכיש"
+	},
+	{
+		"id": "1266 ",
+		"name": "שחרות ",
+		"name_en": "SHAHARUT ",
+		"region": "באר שבע ",
+		"moaatza": "חבל אילות"
+	},
+	{
+		"id": "865 ",
+		"name": "שיבולים ",
+		"name_en": "SHIBBOLIM ",
+		"region": "באר שבע ",
+		"moaatza": "שדות נגב"
+	},
+	{
+		"id": "1267 ",
+		"name": "שיטים ",
+		"name_en": "NAHAL SHITTIM ",
+		"region": "באר שבע ",
+		"moaatza": "חבל אילות"
+	},
+	{
+		"id": "3641 ",
+		"name": "שילה ",
+		"name_en": "SHILO ",
+		"region": "ראמאללה ",
+		"moaatza": "מטה בנימין"
+	},
+	{
+		"id": "1165 ",
+		"name": "שילת ",
+		"name_en": "SHILAT ",
+		"region": "רמלה ",
+		"moaatza": "חבל מודיעין"
+	},
+	{
+		"id": "1160 ",
+		"name": "שכניה ",
+		"name_en": "SHEKHANYA ",
+		"region": "עכו ",
+		"moaatza": "משגב"
+	},
+	{
+		"id": "873 ",
+		"name": "שלווה ",
+		"name_en": "SHALWA  ",
+		"region": "אשקלון ",
+		"moaatza": "שפיר"
+	},
+	{
+		"id": "1373 ",
+		"name": "שלווה במדבר ",
+		"name_en": "SHALVA BAMIDBAR ",
+		"region": "באר שבע ",
+		"moaatza": "רמת נגב"
+	},
+	{
+		"id": "439 ",
+		"name": "שלוחות ",
+		"name_en": "SHELUHOT ",
+		"region": "עפולה ",
+		"moaatza": "עמק המעיינות"
+	},
+	{
+		"id": "812 ",
+		"name": "שלומי ",
+		"name_en": "SHELOMI ",
+		"region": "עכו ",
+		"moaatza": ""
+	},
+	{
+		"id": "1364 ",
+		"name": "שלומית ",
+		"name_en": "SHLOMIT ",
+		"region": "באר שבע ",
+		"moaatza": "אשכול"
+	},
+	{
+		"id": "366 ",
+		"name": "שמיר ",
+		"name_en": "SHAMIR ",
+		"region": "צפת ",
+		"moaatza": "הגליל העליון"
+	},
+	{
+		"id": "3784 ",
+		"name": "שמעה ",
+		"name_en": "SHIM'A ",
+		"region": "חברון ",
+		"moaatza": "הר חברון"
+	},
+	{
+		"id": "432 ",
+		"name": "שמרת ",
+		"name_en": "SHAMERAT ",
+		"region": "עכו ",
+		"moaatza": "מטה אשר"
+	},
+	{
+		"id": "1337 ",
+		"name": "שמשית ",
+		"name_en": "SHIMSHIT ",
+		"region": "עפולה ",
+		"moaatza": "עמק יזרעאל"
+	},
+	{
+		"id": "1287 ",
+		"name": "שני ",
+		"name_en": "SHANI ",
+		"region": "באר שבע ",
+		"moaatza": "הר חברון"
+	},
+	{
+		"id": "1132 ",
+		"name": "שניר ",
+		"name_en": "SENIR ",
+		"region": "צפת ",
+		"moaatza": "הגליל העליון"
+	},
+	{
+		"id": "1299 ",
+		"name": "שעורים ",
+		"name_en": "SE'ORIM ",
+		"region": "כנרת ",
+		"moaatza": "הגליל התחתון"
+	},
+	{
+		"id": "4009 ",
+		"name": "שעל ",
+		"name_en": "SHA'AL ",
+		"region": "גולן ",
+		"moaatza": "גולן"
+	},
+	{
+		"id": "856 ",
+		"name": "שעלבים ",
+		"name_en": "SHA'ALVIM ",
+		"region": "רמלה ",
+		"moaatza": "גזר"
+	},
+	{
+		"id": "661 ",
+		"name": "שער אפרים ",
+		"name_en": "SHA'AR EFRAYIM ",
+		"region": "השרון ",
+		"moaatza": "לב השרון"
+	},
+	{
+		"id": "264 ",
+		"name": "שער הגולן ",
+		"name_en": "SHA'AR HAGOLAN ",
+		"region": "כנרת ",
+		"moaatza": "עמק הירדן"
+	},
+	{
+		"id": "237  ",
+		"name": "שער העמקים ",
+		"name_en": "SHA'AR HAAMAQIM ",
+		"region": "חיפה ",
+		"moaatza": "זבולון"
+	},
+	{
+		"id": "921 ",
+		"name": "שער מנשה ",
+		"name_en": "SHA'AR MENASHE ",
+		"region": "חדרה ",
+		"moaatza": "מנשה"
+	},
+	{
+		"id": "3720 ",
+		"name": "שערי תקווה ",
+		"name_en": "SHA'ARE TIQWA ",
+		"region": "טול כרם ",
+		"moaatza": "שומרון"
+	},
+	{
+		"id": "232 ",
+		"name": "שפיים ",
+		"name_en": "SHEFAYIM ",
+		"region": "השרון ",
+		"moaatza": "חוף השרון"
+	},
+	{
+		"id": "692 ",
+		"name": "שפיר ",
+		"name_en": "SHAFIR ",
+		"region": "אשקלון ",
+		"moaatza": "שפיר"
+	},
+	{
+		"id": "846 ",
+		"name": "שפר ",
+		"name_en": "SHEFER ",
+		"region": "צפת ",
+		"moaatza": "מרום הגליל"
+	},
+	{
+		"id": "3649 ",
+		"name": "שקד ",
+		"name_en": "SHAQED ",
+		"region": "ג'נין ",
+		"moaatza": "שומרון"
+	},
+	{
+		"id": "1233 ",
+		"name": "שקף ",
+		"name_en": "SHEQEF ",
+		"region": "אשקלון ",
+		"moaatza": "לכיש"
+	},
+	{
+		"id": "292 ",
+		"name": "שרונה ",
+		"name_en": "SHARONA ",
+		"region": "כנרת ",
+		"moaatza": "הגליל התחתון"
+	},
+	{
+		"id": "1114 ",
+		"name": "שריגים )לי-און( ",
+		"name_en": "LI-ON ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "126 ",
+		"name": "שריד ",
+		"name_en": "SARID ",
+		"region": "עפולה ",
+		"moaatza": "עמק יזרעאל"
+	},
+	{
+		"id": "398 ",
+		"name": "שרשרת ",
+		"name_en": "SHARSHERET ",
+		"region": "באר שבע ",
+		"moaatza": "שדות נגב"
+	},
+	{
+		"id": "1045 ",
+		"name": "שתולה ",
+		"name_en": "SHETULA ",
+		"region": "עכו ",
+		"moaatza": "מעלה יוסף"
+	},
+	{
+		"id": "763 ",
+		"name": "שתולים ",
+		"name_en": "SHETULIM ",
+		"region": "אשקלון ",
+		"moaatza": "באר טוביה"
+	},
+	{
+		"id": "2062 ",
+		"name": "תאשור ",
+		"name_en": "TE'ASHUR ",
+		"region": "באר שבע ",
+		"moaatza": "בני שמעון"
+	},
+	{
+		"id": "2061 ",
+		"name": "תדהר ",
+		"name_en": "TIDHAR ",
+		"region": "באר שבע ",
+		"moaatza": "בני שמעון"
+	},
+	{
+		"id": "1172 ",
+		"name": "תובל ",
+		"name_en": "TUVAL ",
+		"region": "עכו ",
+		"moaatza": "משגב"
+	},
+	{
+		"id": "3558 ",
+		"name": "תומר ",
+		"name_en": "TOMER ",
+		"region": "ירדן )יריחו( ",
+		"moaatza": "ערבות הירדן"
+	},
+	{
+		"id": "1083 ",
+		"name": "תושיה ",
+		"name_en": "TUSHIYYA ",
+		"region": "באר שבע ",
+		"moaatza": "שדות נגב"
+	},
+	{
+		"id": "163 ",
+		"name": "תימורים ",
+		"name_en": "TIMMORIM ",
+		"region": "אשקלון ",
+		"moaatza": "באר טוביה"
+	},
+	{
+		"id": "10 ",
+		"name": "תירוש ",
+		"name_en": "TIROSH ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "5000 ",
+		"name": "תל אביב - יפו ",
+		"name_en": "TEL AVIV - YAFO ",
+		"region": "תל אביב ",
+		"moaatza": ""
+	},
+	{
+		"id": "84 ",
+		"name": "תל יוסף ",
+		"name_en": "TEL YOSEF ",
+		"region": "עפולה ",
+		"moaatza": "הגלבוע"
+	},
+	{
+		"id": "287 ",
+		"name": "תל יצחק ",
+		"name_en": "TEL YIZHAQ ",
+		"region": "השרון ",
+		"moaatza": "חוף השרון"
+	},
+	{
+		"id": "154 ",
+		"name": "תל מונד ",
+		"name_en": "TEL MOND ",
+		"region": "השרון ",
+		"moaatza": ""
+	},
+	{
+		"id": "103 ",
+		"name": "תל עדשים ",
+		"name_en": "TEL ADASHIM ",
+		"region": "עפולה ",
+		"moaatza": "עמק יזרעאל"
+	},
+	{
+		"id": "719 ",
+		"name": "תל קציר ",
+		"name_en": "TEL QAZIR ",
+		"region": "כנרת ",
+		"moaatza": "עמק הירדן"
+	},
+	{
+		"id": "1054 ",
+		"name": "תל שבע ",
+		"name_en": "TEL SHEVA ",
+		"region": "באר שבע ",
+		"moaatza": ""
+	},
+	{
+		"id": "1283 ",
+		"name": "תל תאומים ",
+		"name_en": "TEL TE'OMIM ",
+		"region": "עפולה ",
+		"moaatza": "עמק המעיינות"
+	},
+	{
+		"id": "3719 ",
+		"name": "תלם ",
+		"name_en": "TELEM ",
+		"region": "חברון ",
+		"moaatza": "הר חברון"
+	},
+	{
+		"id": "1051 ",
+		"name": "תלמי אליהו ",
+		"name_en": "TALME ELIYYAHU ",
+		"region": "באר שבע ",
+		"moaatza": "אשכול"
+	},
+	{
+		"id": "2003 ",
+		"name": "תלמי אלעזר ",
+		"name_en": "TALME EL'AZAR ",
+		"region": "חדרה ",
+		"moaatza": "מנשה"
+	},
+	{
+		"id": "2050 ",
+		"name": "תלמי ביל",
+		"name_en": "TALME BILU ",
+		"region": "באר שבע ",
+		"moaatza": "מרחבים"
+	},
+	{
+		"id": "1237 ",
+		"name": "תלמי יוסף ",
+		"name_en": "TALME YOSEF ",
+		"region": "באר שבע ",
+		"moaatza": "אשכול"
+	},
+	{
+		"id": "727 ",
+		"name": "תלמי יחיאל ",
+		"name_en": "TALME YEHI'EL ",
+		"region": "אשקלון ",
+		"moaatza": "באר טוביה"
+	},
+	{
+		"id": "744 ",
+		"name": "תלמי יפה ",
+		"name_en": "TALME YAFE ",
+		"region": "אשקלון ",
+		"moaatza": "חוף אשקלון"
+	},
+	{
+		"id": "814 ",
+		"name": "תלמים ",
+		"name_en": "TELAMIM ",
+		"region": "אשקלון ",
+		"moaatza": "לכיש"
+	},
+	{
+		"id": "1244 ",
+		"name": "תמרת ",
+		"name_en": "TIMRAT ",
+		"region": "עפולה ",
+		"moaatza": "עמק יזרעאל"
+	},
+	{
+		"id": "2002 ",
+		"name": "תנובות ",
+		"name_en": "TENUVOT ",
+		"region": "השרון ",
+		"moaatza": "לב השרון"
+	},
+	{
+		"id": "752 ",
+		"name": "תעוז ",
+		"name_en": "TA'OZ ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	},
+	{
+		"id": "709 ",
+		"name": "תפרח ",
+		"name_en": "TIFRAH ",
+		"region": "באר שבע ",
+		"moaatza": "מרחבים"
+	},
+	{
+		"id": "665 ",
+		"name": "תקומה ",
+		"name_en": "TEQUMA ",
+		"region": "באר שבע ",
+		"moaatza": "שדות נגב"
+	},
+	{
+		"id": "3563 ",
+		"name": "תקוע ",
+		"name_en": "TEQOA ",
+		"region": "בית לחם ",
+		"moaatza": "גוש עציון"
+	},
+	{
+		"id": "778 ",
+		"name": "תרום ",
+		"name_en": "TARUM ",
+		"region": "ירושלים ",
+		"moaatza": "מטה יהודה"
+	}
+]
+}

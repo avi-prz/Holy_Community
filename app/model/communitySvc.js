@@ -76,7 +76,7 @@ app.factory("communitySvc", function ($http, $q) {
         return async.promise;
     }
 
-    function getPreyaers(comId) {
+    function getPrayers(comId) {
         var async = $q.defer();
         prayers = [];
         const prayer = Parse.Object.extend("Prayers");
@@ -398,7 +398,7 @@ app.factory("communitySvc", function ($http, $q) {
         return async.promise;
     }
 
-    function editEvent(id,title,description,date,time) {
+    function editEvent(id,title,date,time,description) {
         var async = $q.defer();
         const Mdl = Parse.Object.extend("Events");
         const qry = new Parse.Query(Mdl);
@@ -441,7 +441,7 @@ app.factory("communitySvc", function ($http, $q) {
 
     return {
         getCommunities:init,
-        getPreyaers: getPreyaers,
+        getPrayers: getPrayers,
         getLectures: getLectures,
         getEvents:getEvents,
         getCommunitiesByLocation: getCommunitiesByLocation,

@@ -37,7 +37,7 @@
                         <span class="text-center font-weight-bold lsn-title">{{event.title}}</span>
                     </p>
                     <p>
-                        <span>{{'האירוע יתקיים בתאריך ' + (event.date | date: "dd-MMM-yyyy") + ' בשעה ' + (event.time | date: "HH:mm")}}</span>
+                        <span>{{'האירוע יתקיים בתאריך ' + (event.date | date: "dd-MM-yyyy") + ' בשעה ' + (event.time | date: "HH:mm")}}</span>
                     </p>
                     <p>
                         <span>{{event.description}}</span>
@@ -125,27 +125,37 @@
                     <h5 class="modal-title ml-auto" id="eventModalLabel">{{modalHeader}}</h5>            
                 </div>
                 <div class="modal-body">
-                    <div class="form-group row mr-3 ml-3">
-                        <label for="txEvntTitle">נושא</label>
-                        <input type="text" class="form-control" name="txEvntTitle" id="txEvntTitle" placeholder="כותרת" ng-model="eventTitle" required>                       
-                    </div>
-                    <div class="form-group row mr-3 ml-3">
-                        <label for="txEvntDate">תאריך</label>
-                        <input type="text" class="form-control" name="txEvntDate" id="txEvntDate" placeholder="תאריך" ng-model="eventDate" required><!-- should be lookup -->
-                        <label for="txEvntTime">שעה</label>
-                        <input type="text" class="form-control" name="txEvntTime" id="txEvntTime" placeholder="שעה" ng-model="eventTime" required>
-                    </div>                    
-                    <div class="form-group row mr-3 ml-3">
-                        <label for="txEvntDesc">תוכן האירוע</label>
-                        <input type="textarea" class="form-control" name="txEvntDesc" id="txEvntDesc" placeholder="תוכן" ng-model="eventDesc" required>                       
-                    </div>
-                    <div class="form-group" ng-show="errorMsg.length>0">
-                        <span class="text-danger float-right">{{errorMsg}}</span>
-                    </div>
+                    <form name="frmModalEvent">
+                        <div class="form-group row mr-3 ml-3">
+                            <label for="txEvntTitle" ng-class="{'text-danger' : frmModalEvent.txEvntTitle.$untouched || ((frmModalEvent.txEvntTitle.$touched || frmModalEvent.txEvntTitle.$dirty) && frmModalEvent.txEvntTitle.$invalid)}">נושא</label>
+                            <input type="text" class="form-control" name="txEvntTitle" id="txEvntTitle" placeholder="כותרת" ng-model="eventTitle" required>                       
+                        </div>
+                        <div class="form-group row mr-3 ml-3">
+                            <label class="col-auto" for="txEvntDate"><span>{{'תאריך האירוע: ' + (eventDate | date:'yyyy-MM-dd')}}</span></label>
+                            <div style="min-height:290px;" class="col-auto">
+                                <div uib-datepicker ng-model="eventDate" class="card" datepicker-options="options" id="txEvntDate" name="txEvntDate" required></div>
+                            </div>                    
+                            <div class="col-auto">
+                                <button type="button" class="btn btn-sm btn-danger" ng-click="clear()">אפס</button>
+                                <button type="button" class="btn btn-sm btn-secondary" ng-click="today()">היום</button>
+                            </div>          
+                        </div>
+                        <div class="form-group row mr-3 ml-3">
+                            <label for="txEvntTime">שעה</label>
+                            <input type="text" class="form-control" name="txEvntTime" id="txEvntTime" placeholder="שעה" ng-model="eventTime" required>                    
+                        </div>
+                        <div class="form-group row mr-3 ml-3">
+                            <label for="txEvntDesc">תוכן האירוע</label>
+                            <input type="textarea" class="form-control" name="txEvntDesc" id="txEvntDesc" placeholder="תוכן" ng-model="eventDesc" required>                       
+                        </div>
+                        <div class="form-group" ng-show="errorMsg.length>0">
+                            <span class="text-danger float-right">{{errorMsg}}</span>
+                        </div>
+                    </form>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-danger mx-1" data-dismiss="modal">בטל</button>
-                    <button class="btn btn-info mx-1" ng-click="modalEventClick(mode,eventId)">{{modalButton}}</button>
+                    <button class="btn btn-info mx-1" ng-click="modalEventClick(mode,eventId)" ng-disabled="!(eventDate!=null) || frmModalEvent.$pristine || frmModalEvent.$invalid">{{modalButton}}</button>
                 </div>
             </div>
         </div>

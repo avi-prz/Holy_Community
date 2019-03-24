@@ -4,6 +4,7 @@ app.controller('communityCtrl', function ($scope,$routeParams,$log,$location,log
     $scope.events = [];
     $scope.modalHeader = "";
     $scope.modalButton = "";
+    $scope.errorMsg = "";
 
     $scope.current = loginSvc.current() ? loginSvc.current() : null;    
 
@@ -23,7 +24,7 @@ app.controller('communityCtrl', function ($scope,$routeParams,$log,$location,log
         $log.error(error.message);
     });
     
-    communitySvc.getPreyaers($routeParams.id).then(function (result) {
+    communitySvc.getPrayers($routeParams.id).then(function (result) {
         $scope.prayers = result;
     });
     
@@ -35,7 +36,7 @@ app.controller('communityCtrl', function ($scope,$routeParams,$log,$location,log
         $scope.events = result;
     });
 
-    $scope.hasPreyers = function () {
+    $scope.hasPrayers = function () {
         return ($scope.prayers.length > 0);
     };
     
@@ -72,7 +73,7 @@ app.controller('communityCtrl', function ($scope,$routeParams,$log,$location,log
         communitySvc.addPrayer($scope.prayName, $scope.prayTime, $scope.community).then(function (data) {            
             $scope.errorMsg = "";
             angular.element("#prayerModal").modal('hide');
-            communitySvc.getPreyaers($routeParams.id).then(function (result) {
+            communitySvc.getPayers($routeParams.id).then(function (result) {
                 $scope.prayers = result;
             });
         },
@@ -84,7 +85,8 @@ app.controller('communityCtrl', function ($scope,$routeParams,$log,$location,log
 
     $scope.delPrayer = function (prayId) {
         communitySvc.delPrayer(prayId).then(function (data) {
-            communitySvc.getPreyaers($routeParams.id).then(function (result) {
+            communitySvc.getPrayers($routeParams.id).then(function (result) {
+                $scope.errorMsg = "";
                 $scope.prayers = result;
             });
         },
@@ -98,7 +100,7 @@ app.controller('communityCtrl', function ($scope,$routeParams,$log,$location,log
         communitySvc.editPrayer(prayId, $scope.prayName, $scope.prayTime).then(function (data) {
             $scope.errorMsg = "";
             angular.element("#prayerModal").modal('hide');
-            communitySvc.getPreyaers($routeParams.id).then(function (result) {
+            communitySvc.getPrayers($routeParams.id).then(function (result) {
                 $scope.prayers = result;
             });
         },
@@ -152,6 +154,7 @@ app.controller('communityCtrl', function ($scope,$routeParams,$log,$location,log
     $scope.delLesson = function (lessonId) {
         communitySvc.delLesson(lessonId).then(function (data) {
             communitySvc.getLectures($routeParams.id).then(function (result) {
+                $scope.errorMsg = "";
                 $scope.lectures = result;
             });
         },
@@ -207,7 +210,7 @@ app.controller('communityCtrl', function ($scope,$routeParams,$log,$location,log
         $scope.mode = "add";
         $scope.eventId = "";
         $scope.eventTitle = "";
-        $scope.eventDate = "";
+        $scope.eventDate = new Date();
         $scope.eventTime = "";
         $scope.eventDesc = "";
         angular.element("#eventModal").modal('show');
@@ -219,7 +222,7 @@ app.controller('communityCtrl', function ($scope,$routeParams,$log,$location,log
         $scope.mode = "edit";
         var evnt = $scope.events[$scope.events.findIndex(ev => ev.id === id)];
         $scope.eventTitle = evnt.title;
-        $scope.eventDate = evnt.date;
+        $scope.eventDate = new Date(evnt.date);
         $scope.eventTime = evnt.time;
         $scope.eventDesc = evnt.description;
         $scope.eventId = id;
@@ -243,6 +246,7 @@ app.controller('communityCtrl', function ($scope,$routeParams,$log,$location,log
     $scope.delEvent = function (eventId) {
         communitySvc.delEvent(eventId).then(function (data) {
             communitySvc.getEvents($routeParams.id).then(function (result) {
+                $scope.errorMsg = "";
                 $scope.events = result;
             });
         },
@@ -278,4 +282,67 @@ app.controller('communityCtrl', function ($scope,$routeParams,$log,$location,log
                 break;
         }
     };
+
+    //all code from here is related to the operation of the datepicker control
+  $scope.today = function() {
+    $scope.eventDate = new Date();
+  };
+
+  $scope.formats = ["dd-MM-yyyy","dd-MMMM-yyyy","yyyy/MM/dd","dd.MM.yyyy","shortDate"];
+  $scope.format = $scope.formats[0];
+  $scope.altInputFormats = ["M!/d!/yyyy"];
+
+  $scope.clear = function() {
+    $scope.eventDate = null;
+  };
+
+  $scope.options = {
+    customClass: getDayClass,
+    minDate: null,
+    showWeeks: true
+  };
+
+  $scope.setDate = function(year, month, day) {
+    $scope.eventDate = new Date(year, month, day);
+  };
+
+  var tomorrow = new Date();
+  tomorrow.setDate(tomorrow.getDate() + 1);
+  var afterTomorrow = new Date(tomorrow);
+  afterTomorrow.setDate(tomorrow.getDate() + 1);
+
+  $scope.events = [
+    {
+      date: tomorrow,
+      status: "full"
+    },
+    {
+      date: afterTomorrow,
+      status: "partially"
+    }
+  ];
+
+  function getDayClass(data) {
+    var date = data.date,
+      mode = data.mode;
+    if (mode === "day") {
+      var dayToCheck = new Date(date).setHours(0, 0, 0, 0);
+
+      for (var i = 0; i < $scope.events.length; i++) {
+        var currentDay = new Date($scope.events[i].date).setHours(0, 0, 0, 0);
+
+        if (dayToCheck === currentDay) {
+          return $scope.events[i].status;
+        }
+      }
+    }
+
+    return "";
+  };
+
+  $scope.toggleMin = function() {
+    $scope.options.minDate = $scope.options.minDate ? null : new Date();
+  };
+
+  $scope.toggleMin();
  });
