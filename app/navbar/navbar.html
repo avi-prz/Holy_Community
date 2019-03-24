@@ -25,7 +25,7 @@
                     <hr>
                     <div ng-show="getCurrentCommunityId().length>0">
                         <a class="dropdown-item" href="javascript:void(0)" ng-click="showCommunity()">קהילה</a>
-                        <a class="dropdown-item" href="javascript:void(0)" ng-click="messages()">הודעות</a>
+                        <!-- <a class="dropdown-item" href="javascript:void(0)" ng-click="messages()">הודעות</a> -->
                         <hr> 
                     </div>                    
                     <div ng-show="isCommunityAdmin() || canAddCommunity()">                        
@@ -47,29 +47,31 @@
     <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-                <h5 class="modal-title ml-auto" id="loginModalLabel">כניסת משתמש קיים</h5>            
-            </div>
-            <div class="modal-body">
-                <div class="form-group row mr-3 ml-3">
-                    <label for="txUsername">שם משתמש</label>
-                    <input type="text" class="form-control" name="txUsername" id="txUsername" placeholder="שם משתמש" ng-model="username" ng-required>                       
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h5 class="modal-title ml-auto" id="loginModalLabel">כניסת משתמש קיים</h5>            
                 </div>
-                <div class="form-group row mr-3 ml-3">
-                    <label for="txUserPass">סיסמה</label>
-                    <input type="password" class="form-control" name="txUserPass" id="txUserPass" placeholder="סיסמה" ng-model="password" ng-required>
-                </div>
-                <div class="form-group" ng-show="errorMsg.length>0">
-                    <span class="text-danger float-right">{{errorMsg}}</span>
-                </div>
-            </div>
-            <div class="modal-footer ml-auto">
-                <button type="button" class="btn btn-danger mx-1" data-dismiss="modal">בטל</button>
-                <button class="btn btn-info mx-1" ng-click="login()">כניסה</button>
-            </div>
+                <form ng-submit="login()">
+                    <div class="modal-body">
+                        <div class="form-group row mr-3 ml-3">
+                            <label for="txUsername">שם משתמש</label>
+                            <input type="text" class="form-control" name="txUsername" id="txUsername" placeholder="שם משתמש" ng-model="username" ng-required>                       
+                        </div>
+                        <div class="form-group row mr-3 ml-3">
+                            <label for="txUserPass">סיסמה</label>
+                            <input type="password" class="form-control" name="txUserPass" id="txUserPass" placeholder="סיסמה" ng-model="password" ng-required>
+                        </div>
+                        <div class="form-group" ng-show="errorMsg.length>0">
+                            <span class="text-danger float-right">{{errorMsg}}</span>
+                        </div>
+                    </div>
+                    <div class="modal-footer ml-auto">
+                        <button type="button" class="btn btn-danger mx-1" data-dismiss="modal">בטל</button>
+                        <button type="submit" class="btn btn-info mx-1">כניסה</button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
