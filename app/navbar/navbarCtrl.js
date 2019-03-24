@@ -33,6 +33,7 @@ app.controller('navbarCtrl', function ($scope,$location,loginSvc,$routeParams) {
         if ($scope.username.length > 0 && $scope.password.length > 0) {
             loginSvc.login($scope.username, $scope.password).then(function (userData) {
                 $scope.current = new User(userData);
+                
                 $scope.errorMsg = "";
                 $scope.username = "";
                 $scope.password = "";
