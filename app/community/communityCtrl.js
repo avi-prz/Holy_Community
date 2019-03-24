@@ -26,6 +26,7 @@ app.controller('communityCtrl', function ($scope,$routeParams,$log,$location,log
     
     communitySvc.getPrayers($routeParams.id).then(function (result) {
         $scope.prayers = result;
+        //angular.element('#prayersScroll').start();
     });
     
     communitySvc.getLectures($routeParams.id).then(function (result) {

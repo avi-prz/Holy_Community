@@ -9,6 +9,20 @@
                     </ul>            
                 </div>
             </marquee>
+            <script>
+                $(function() {
+                    $("#prayersScroll")[0].stop();
+                });
+                // $(function () {
+                //     $(".marquee").marquee({
+                //         duration: 10000,
+                //         duplicated: false,
+                //         pauseOnHover: true,
+                //         direction: 'left',
+                //         startVisible: true
+                //     });            
+                // });
+            </script>
         </div>
         <div class="col-sm-12" ng-hide="hasPrayers()">
             <h3 class="text-center text-info">לא הוזנו זמני תפילות</h3>
@@ -38,17 +52,5 @@
                 <h3 class="text-center text-info" ng-hide="hasEvents()">אין אירועים קרובים</h3>
             </div>                
         </div>
-    </div>    
-    <script>
-        $(function () {
-            // $(".marquee").marquee({
-            //     duration: 10000,
-            //     duplicated: false,
-            //     pauseOnHover: true,
-            //     direction: 'left',
-            //     startVisible: true
-            // });
-            document.getElementById('prayersScroll').start();
-        });
-    </script>
+    </div>
 </div>
